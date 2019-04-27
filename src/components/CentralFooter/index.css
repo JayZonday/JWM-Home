@@ -1,0 +1,23 @@
+.title#footer{
+  background-color: seagreen;
+  text-align: right;
+  font-size: 24px;
+  padding-right: 1%;
+}
+.footer-section{
+  height: 100px;
+  background: black;
+}
+.signature{
+  color: whitesmoke;
+  padding-right: 1%;
+  text-align: right;
+}
+#signname{
+  font-family: 'Satisfy', sans-serif;
+  padding-left: .5%;
+  color: gold;
+}
+#club{
+  color: gold;
+}

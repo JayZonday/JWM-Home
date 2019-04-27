@@ -1,0 +1,63 @@
+.carousel-section{
+  background: whitesmoke;
+  height: 700px;
+  clip-path: polygon(30% 0, 100% 10%, 100% 100%, 30% 100%, 0 100%, 0 10%);
+  width: 100%;
+  margin-top: 0%;
+}
+.title#highlights{
+  color: seagreen;
+  text-align: left;
+  padding-top: 8%;
+  margin-left: 20%;
+  font-weight: bolder;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 58px;
+}
+.carousel-container{
+  background: whitesmoke !important;
+}
+.carousel-indicators{
+  position: absolute !important;
+  margin: -30% auto !important;
+  color: seagreen !important;
+  width: 100%;
+}
+.carousel-inner{
+  font-size: 20px;
+  text-align: center;
+  margin: 8% auto;
+  position: absolute;
+}
+.carousel-indicators li{
+  background: seagreen;
+  width: 12%;
+  height: 1%;
+ }
+ .carousel-control-next, .carousel-control-prev{
+   display: none;
+ }
+ .team-container{
+   display: flex;
+   padding: 2%;
+   justify-content: center;
+}
+.team{
+  margin: 1%;
+}
+.art-container{
+  display: flex;
+  padding: 2%;
+  justify-content: center;
+}
+.artwork{
+ margin: 1%;
+}
+.project-container{
+   display: flex;
+   padding: 2%;
+   justify-content: center;
+}
+.project{
+  margin: 1%;
+}
