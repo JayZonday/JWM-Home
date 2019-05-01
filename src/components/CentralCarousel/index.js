@@ -6,7 +6,7 @@ class CentralCarousel extends Component {
   render(){
     return (
       <div className='carousel-section'>
-        <h2 className='title' id='highlights'>Highlight Reel</h2>
+        <h2 data-aos='fade-down' className='title' id='highlights'>Highlight Reel</h2>
         <div className='carousel-container'>
           <Carousel>
             <Carousel.Item>

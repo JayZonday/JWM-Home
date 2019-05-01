@@ -2,6 +2,7 @@
   background-color: seagreen;
   text-align: right;
   font-size: 24px;
+  font-weight: 500;
   padding-right: 1%;
 }
 .footer-section{
@@ -16,8 +17,8 @@
 #signname{
   font-family: 'Satisfy', sans-serif;
   padding-left: .5%;
-  color: gold;
+  color: #ffbf00;
 }
 #club{
-  color: gold;
+  color: #ffbf00;
 }

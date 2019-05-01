@@ -5,5 +5,19 @@
   background-image: url('https://images.pexels.com/photos/1282315/pexels-photo-1282315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
 .title#art{
-  
+
+}
+
+.gallery-container{
+  display: flex;
+  margin: 4% auto;
+  width: 100%;
+}
+.art-piece{
+  width: 22%;
+  margin-left: 2%;
+  border: 1px solid #ffffff;
+  height: 235px;
+  background: #005b97;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
 }

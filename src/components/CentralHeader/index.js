@@ -18,7 +18,7 @@ AOS.init({
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 120, // offset (in px) from the original trigger point
   delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 1200, // values from 0 to 3000, with step 50ms
+  duration: 600, // values from 0 to 3000, with step 50ms
   easing: 'ease', // default easing for AOS animations
   once: false, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them
@@ -60,7 +60,7 @@ class CentralHeader extends Component {
               <span id='title-letter'>e</span>
               <span id='title-letter'>y</span>
             </h2>
-            <div className='title-desc'>
+            <div data-aos='fade-up' className='title-desc'>
               <span className='desc-item'>Full Stack Developer</span>
               <span className='desc-item' id='mid'>Artist</span>
               <span className='desc-item'>Sport Enthusiast</span>
@@ -74,7 +74,7 @@ class CentralHeader extends Component {
       	            "value": 86
       	        },
       	        "size": {
-      	            "value": 5
+      	            "value": 6
       	        },
                 "color": {
                     "value": '#2E8B57'

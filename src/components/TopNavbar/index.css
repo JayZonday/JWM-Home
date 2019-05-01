@@ -20,7 +20,7 @@
   color: seagreen;
   font-weight: 600;
   border: none;
-  font-size: 15px;
+  font-size: 14px;
   width: 10%;
   cursor: pointer;
   transition: .35s ease-in-out;
@@ -29,7 +29,7 @@
 #special-char{
   font-size: 18px;
   font-weight: 800;
-  color: gold;
+  color: #ffbf00;
 }
 .nav-btn:hover{
   color: #ffffff;
@@ -44,6 +44,7 @@
   padding: .5%;
   opacity: 1;
   background: #e3e3e3;
+  cursor: pointer;
 }
 .ql-btn{
   color: black;
@@ -54,5 +55,5 @@
 }
 .ql-btn:hover{
   opacity: 1;
-  color: gold;
+  color: #ffbf00;
 }

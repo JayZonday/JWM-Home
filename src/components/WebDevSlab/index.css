@@ -14,7 +14,8 @@
   font-size: 20px;
 }
 .skill-title{
-  color: gold;
+  color: #ffbf00;
+  font-family: 'Satisfy', sans-serif;
   font-weight: bolder;
 }
 .dev-info-container{
