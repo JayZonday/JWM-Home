@@ -2,6 +2,9 @@
   "name": "home-site",
   "version": "0.1.0",
   "private": true,
+  "engines": {"npm":"6.7.0",
+              "node":"11.14.0"
+  },
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.3.1",
