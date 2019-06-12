@@ -5,6 +5,12 @@
   width: 90%;
   box-shadow: 0 11px 20px rgba(0,0,0,0.6), 0 10px 10px rgba(0,0,0,0.6);
 }
+a{
+  color: seagreen;
+}
+a:hover, a:active{
+  color: white;
+}
 .nav-logo{
   width: 10%;
 }
