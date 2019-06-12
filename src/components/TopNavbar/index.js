@@ -9,11 +9,11 @@ class TopNavbar extends Component {
           <button className='nav-btn'>Contact <span id='special-char'>✆</span></button>
           <button className='nav-btn'>Resume</button>
           <button className='nav-btn'><a href='' target='_blank'>Twitter</a></button>
-          <button className='nav-btn'><a href='https://www.facebook.com/JM.KID' target='_blank'>Facebook</button>
-          <button className='nav-btn'><a href='https://www.linkedin.com/in/josephmoloughney/' target='_blank'>LinkedIn</button>
-          <button className='nav-btn'><a href='https://www.youtube.com/channel/UCPQZKbLIPNYr36qVVAwkI6Q?view_as=subscriber' target='_blank'>YouTube</button>
-          <button className='nav-btn'><a href='https://github.com/JayZonday' target='_blank'>GitHub</button>
-          <button className='nav-btn'><a href='https://www.instagram.com/jay_zonday/?hl=en' target='_blank'>Instagram</button>
+          <button className='nav-btn'><a href='https://www.facebook.com/JM.KID' target='_blank'>Facebook</a></button>
+          <button className='nav-btn'><a href='https://www.linkedin.com/in/josephmoloughney/' target='_blank'>LinkedIn</a></button>
+          <button className='nav-btn'><a href='https://www.youtube.com/channel/UCPQZKbLIPNYr36qVVAwkI6Q?view_as=subscriber' target='_blank'>YouTube</a></button>
+          <button className='nav-btn'><a href='https://github.com/JayZonday' target='_blank'>GitHub</a></button>
+          <button className='nav-btn'><a href='https://www.instagram.com/jay_zonday/?hl=en' target='_blank'>Instagram</a></button>
           <button title='Bet of the Day' className='nav-btn'>BOTD <span id='special-char'>♔</span></button>
         </div>
         <div className='nav-logo'>
