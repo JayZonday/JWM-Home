@@ -6,7 +6,7 @@ class CentralFooter extends Component {
     return (
       <div className='footer-section'>
         <h2 className='title' id='footer'>JayZonday Visions <span id='club'> ♣</span></h2>
-        <div className='signature'>Latest Update June 2019 - Designed & Built by <span id='signname'>JayZonday</span></div>
+        <div className='signature'>Latest Update August 2019 - Designed & Built by <span id='signname'>JayZonday</span></div>
       </div>
     );
   }
