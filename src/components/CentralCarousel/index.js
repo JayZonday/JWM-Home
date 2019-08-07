@@ -20,18 +20,18 @@ class CentralCarousel extends Component {
             </Carousel.Item>
             <Carousel.Item>
             <div className='art-container'>
-              <div className='artwork'>Image 1</div>
-              <div className='artwork'>Image 2</div>
-              <div className='artwork'>Image 3</div>
-              <div className='artwork'>Image 4</div>
-              <div className='artwork'>Image 5</div>
-              <div className='artwork'>Image 6</div>
-              <div className='artwork'>Image 7</div>
+            <div className='dallas-appreciation-title'></div>
+              <div className='artwork'><img src='https://i.ibb.co/TKSC609/4-E695593-8-B8-A-4636-B22-D-84-F9-B912-C740.jpg' id='dallas-img'/></div>
+              <div className='artwork'><img src='https://i.ibb.co/pRtDzmR/DF8-C2189-9596-432-D-BEDE-D0-BD63-EE5795.jpg' id='dallas-img'/></div>
+              <div className='artwork'><img src='https://i.ibb.co/8MG09Yy/Dallas.jpg' id='dallas-img'/></div>
+              <div className='artwork'><img src='https://i.ibb.co/rtSKS6x/BF8-A6828-2258-4-F85-91-E1-76-BABA7-BAC4-C.jpg' id='dallas-img'/></div>
+              <div className='artwork'><img src='https://i.ibb.co/RGKQfKf/2-C609489-502-C-4-C4-F-AC72-C752-A9-DEFBEB.jpg' id='dallas-img'/></div>
+              <div className='artwork'><img src='https://i.ibb.co/YcrynV9/21-D8-FCC8-0333-437-B-99-A5-69826-BC06-F7-C.jpg' id='dallas-img'/></div>
             </div>
             </Carousel.Item>
             <Carousel.Item>
               <div className='team-container'>
-                <div className='team-sect-title'> Favorite Teams </div>
+                <div className='team-sect-title'></div>
                 <div className='team'><img id='sports-logo' src='https://images.vexels.com/media/users/3/141848/isolated/preview/b141601c09d9296a6e6d4083d6960039-dallas-cowboys-american-football-by-vexels.png'/>Dallas Cowboys</div>
                 <div className='team'><img id='sports-logo' src='https://www.stickpng.com/assets/images/58419d0aa6515b1e0ad75a6c.png'/>Los Angeles Lakers</div>
                 <div className='team'><img id='sports-logo' src='https://www.stickpng.com/assets/images/58419c7ba6515b1e0ad75a62.png'/>Brooklyn Nets</div>

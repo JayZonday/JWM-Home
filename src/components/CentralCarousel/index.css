@@ -47,6 +47,7 @@
 }
 .art-container{
   display: flex;
+  margin-top: -3%;
   padding: 2%;
   justify-content: center;
 }
@@ -65,8 +66,10 @@
   height: 135px;
   width: 135px;
 }
+#dallas-img{
+  height: 235px;
+  width: 200px;
+}
 .team-sect-title{
   position: absolute;
-  margin: -5%;
-
 }
