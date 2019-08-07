@@ -50,7 +50,8 @@ a:hover, a:active{
   z-index: 100;
   padding: .5%;
   opacity: 1;
-  background: #e3e3e3;
+  background: seagreen;
+  border-radius: 5%;
   cursor: pointer;
 }
 .ql-btn{

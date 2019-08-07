@@ -25,4 +25,9 @@
 #art-img{
   width: 100%;
   height: 275px;
+  transition: .4s ease-in-out;
+  cursor: pointer;
+}
+#art-img:hover{
+  transform: scale(1.25);
 }
