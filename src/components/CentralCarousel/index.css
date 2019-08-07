@@ -77,6 +77,12 @@
 #dallas-img{
   height: 235px;
   width: 200px;
+  border-radius: 15%;
+}
+#project-img{
+  height: 235px;
+  width: 200px;
+  border-radius: 15%;
 }
 .team-sect-title{
   position: absolute;
