@@ -61,3 +61,12 @@
 .project{
   margin: 1%;
 }
+#sports-logo{
+  height: 135px;
+  width: 135px;
+}
+.team-sect-title{
+  position: absolute;
+  margin: -5%;
+
+}
