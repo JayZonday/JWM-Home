@@ -2,6 +2,21 @@ import React, { Component } from 'react';
 import './index.css';
 
 class TopNavbar extends Component {
+
+  handleCode = () => {
+    document.querySelector('.dev-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+  }
+  handleArt = () => {
+    document.querySelector('.art-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+  }
+  handleSports = () => {
+    document.querySelector('.sports-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+  }
+  handleTop = () => {
+    document.querySelector('.top-nav').scrollIntoView({behavior: 'smooth', block: 'center'})
+  }
+
+
   render(){
     return (
       <div className='top-nav'>
@@ -21,9 +36,10 @@ class TopNavbar extends Component {
         </div>
 
         <div className='quicklinks'>
-          <div title='Web-Dev Section' className='ql-btn'></div>
-          <div title='Art Section' className='ql-btn'>✎</div>
-          <div title='Sport Section' className='ql-btn'>✪</div>
+          <div title='Web-Dev Section' onClick={()=> this.handleCode()} className='ql-btn'></div>
+          <div title='Art Section' onClick={()=> this.handleArt()} className='ql-btn'>✎</div>
+          <div title='Sport Section' onClick={()=> this.handleSports()} className='ql-btn'>✪</div>
+          <div title='Top of Page' onClick={()=> this.handleTop()} className='ql-btn'>↟</div>
         </div>
       </div>
     );
