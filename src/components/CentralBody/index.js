@@ -31,7 +31,7 @@ class CentralBody extends Component {
     return (
       <div className='body-section'>
         <div data-aos='zoom-in' className='bio-logo'>
-          <img className='bio-img' src='https://miro.medium.com/max/3150/1*yQI-jctXgaS-aPzXpCj28g.jpeg'/>
+          <img className='bio-img' src='https://i.ibb.co/R0SmZqt/canva-photo-editor.png'/>
         </div>
         <hr  className='bio-line' id='first'/>
         <hr  className='bio-line' id='second'/>
