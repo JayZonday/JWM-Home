@@ -43,7 +43,16 @@ class TopNavbar extends Component {
 
         <div className='bet'>
           <button id='close-btn' onClick={()=>this.handleClose()}>x</button>
-          <div id='bet-text'>Today's Bet of The Day <br/> August 8, 2019</div>
+          <div id='bet-text'>
+            <span id='bet-header-text'>
+            Today's Bet of The Day
+            <br/>
+            August 8, 2019
+            </span>
+            <hr id='bet-text-divider'/>
+            <br/>
+            <span id='the-bet'>San Francisco Giants ML +100 (vs Philadelphia Phillies)</span>
+          </div>
         </div>
 
         <div className='quicklinks'>
