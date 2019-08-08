@@ -15,6 +15,12 @@ class TopNavbar extends Component {
   handleTop = () => {
     document.querySelector('.top-nav').scrollIntoView({behavior: 'smooth', block: 'center'})
   }
+  handleBOTD = () => {
+    document.querySelector('.bet').style.display = 'block'
+  }
+  handleClose = () => {
+    document.querySelector('.bet').style.display = 'none'
+  }
 
 
   render(){
@@ -29,10 +35,15 @@ class TopNavbar extends Component {
           <button className='nav-btn'><a href='https://www.youtube.com/channel/UCPQZKbLIPNYr36qVVAwkI6Q?view_as=subscriber' target='_blank'>YouTube</a></button>
           <button className='nav-btn'><a href='https://github.com/JayZonday' target='_blank'>GitHub</a></button>
           <button className='nav-btn'><a href='https://www.instagram.com/jay_zonday/?hl=en' target='_blank'>Instagram</a></button>
-          <button title='Bet of the Day' className='nav-btn'>BOTD <span id='special-char'>♔</span></button>
+          <button onClick={() => this.handleBOTD()} title='Bet of the Day' className='nav-btn'>BOTD <span id='special-char'>♔</span></button>
         </div>
         <div className='nav-logo'>
           <img title="It's all Luck" className='nav-img' src='https://cdn.shopify.com/s/files/1/1685/2975/products/Lucky_Shamrock_green_detail.jpg?v=1549032910'/>
+        </div>
+
+        <div className='bet'>
+          <button id='close-btn' onClick={()=>this.handleClose()}>X</button>
+          <div id='bet-text' >hey</div>
         </div>
 
         <div className='quicklinks'>
