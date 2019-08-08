@@ -12,10 +12,12 @@ class WebDevSlab extends Component {
           <div data-aos='fade-up-right' className='dev-fields'>
             <h3 className='skill-title'> Core Skills </h3>
             <hr id='dev-info-line'/>
-            <div className='skill'>Ruby</div>
             <div className='skill'>JavaScript</div>
             <div className='skill'>React.js</div>
             <div className='skill'>Ruby on Rails</div>
+            <div className='skill'>CSS - UX/UI Design</div>
+            <div className='skill'>SQL & Oracle Databases </div>
+
           </div>
           <div data-aos='fade-right' className='dev-fields'>
             <h3 className='skill-title'> Desired Industries </h3>

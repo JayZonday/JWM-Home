@@ -61,6 +61,8 @@ a:hover, a:active{
   background: seagreen;
   border-radius: 5%;
   cursor: pointer;
+  border: 1px solid black;
+  opacity: .89;
 }
 .ql-btn{
   color: black;
@@ -76,12 +78,12 @@ a:hover, a:active{
 .bet{
   display: none;
   position: fixed;
-  margin: 20% 0 0 50%;
+  margin: 20% 0 0 40%;
   z-index: 5;
   height: 250px;
   width: 350px;
   background: white;
-  opacity: .85;
+  opacity: .89;
   box-shadow: 2px 15px 25px black
 }
 #bet-text{

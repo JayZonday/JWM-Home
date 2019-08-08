@@ -27,7 +27,7 @@ class TopNavbar extends Component {
     return (
       <div className='top-nav'>
         <div className='navbar'>
-          <button className='nav-btn'>Contact <span id='special-char'>✆</span></button>
+          <button className='nav-btn'><a target='_blank' href="mailto:JMoloughney25@gmail.com">Contact</a><span id='special-char'>✆</span></button>
           <button className='nav-btn'>Resume</button>
           <button className='nav-btn'><a href='' target='_blank'>Twitter</a></button>
           <button className='nav-btn'><a href='https://www.facebook.com/JM.KID' target='_blank'>Facebook</a></button>
