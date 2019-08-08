@@ -35,10 +35,10 @@ class CentralCarousel extends Component {
                 <div className='team'><img id='sports-logo' src='https://images.vexels.com/media/users/3/141848/isolated/preview/b141601c09d9296a6e6d4083d6960039-dallas-cowboys-american-football-by-vexels.png'/>Dallas Cowboys</div>
                 <div className='team'><img id='sports-logo' src='https://www.stickpng.com/assets/images/58419d0aa6515b1e0ad75a6c.png'/>Los Angeles Lakers</div>
                 <div className='team'><img id='sports-logo' src='https://www.stickpng.com/assets/images/58419c7ba6515b1e0ad75a62.png'/>Brooklyn Nets</div>
-                <div className='team'><img id='sports-logo' src='https://cdn.freebiesupply.com/images/large/2x/new-york-yankees-logo-transparent.png'/>New York Yankees</div>
+                <div className='team'><img id='sports-logo' src='https://www.stickpng.com/assets/images/584d4b740a44bd1070d5d494.png'/>New York Yankees</div>
                 <div className='team'><img id='sports-logo' src='https://www.stickpng.com/assets/images/5a4fbb83da2b4f099b95da16.png'/>New Jersey Devils</div>
-                <div className='team'><img id='sports-logo' src='https://cdn.freebiesupply.com/logos/large/2x/duke-blue-devils-1-logo-png-transparent.png'/>Duke Blue Devils</div>
-                <div className='team'><img id='sports-logo' src='https://cdn.freebiesupply.com/logos/large/2x/notre-dame-fighting-irish-2-logo-png-transparent.png'/>Notre Dame Fighting Irish</div>
+                <div className='team'><img id='sports-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Duke_Blue_Devils_logo.svg/1212px-Duke_Blue_Devils_logo.svg.png'/>Duke Blue Devils</div>
+                <div className='team'><img id='sports-logo' src='https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Notre_Dame_Leprechaun_logo.svg/220px-Notre_Dame_Leprechaun_logo.svg.png'/>Notre Dame Fighting Irish</div>
                 <div className='team'><img id='sports-logo' src='https://www.waldwickschools.org/cms/lib/NJ01912972/Centricity/Template/GlobalAssets/images///HS/HS%20Warrior%20Logo.png'/>Waldwick Warriors</div>
               </div>
             </Carousel.Item>
