@@ -42,8 +42,8 @@ class TopNavbar extends Component {
         </div>
 
         <div className='bet'>
-          <button id='close-btn' onClick={()=>this.handleClose()}>X</button>
-          <div id='bet-text' >hey</div>
+          <button id='close-btn' onClick={()=>this.handleClose()}>x</button>
+          <div id='bet-text'>Today's Bet of The Day <br/> August 8, 2019</div>
         </div>
 
         <div className='quicklinks'>
