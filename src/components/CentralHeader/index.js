@@ -67,6 +67,7 @@ class CentralHeader extends Component {
             </div>
           </div>
         </div>
+        <div id='particles'>
         <Particles
           params={{
       	    "particles": {
@@ -89,6 +90,7 @@ class CentralHeader extends Component {
       	        }
       	    }
       	}} />
+        </div>
       </div>
     );
   }
