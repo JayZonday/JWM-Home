@@ -55,10 +55,11 @@ class TopNavbar extends Component {
               August 9, 2019
               </span>
               <hr id='bet-text-divider'/>
+              <div id='the-bet'>New York Mets ML +115 (vs Washington Nationals)</div>
               <br/>
-              <span id='the-bet'>New York Mets ML +115 (vs Washington Nationals)</span>
-              <span id='bet-record'>1-0 Since August 8, 2019</span>
-              <span id='last-bet'>San Francisco Giants ML +100 (vs Philadelphia Phillies) [Won]</span>
+              <br/>
+              <div id='bet-record'>1-0 Since August 8, 2019</div>
+              <div id='last-bet'>San Francisco Giants ML +100 (vs Philadelphia Phillies) [Won]</div>
             </div>
           </div>
         </Draggable>
