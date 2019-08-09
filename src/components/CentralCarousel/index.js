@@ -59,6 +59,9 @@ class CentralCarousel extends Component {
         <Draggable>
           <div className='team-info' id='devils'>Devils Modal <button id='close-btn' onClick={()=>this.handleClose()}>x</button></div>
         </Draggable>
+        <Draggable>
+          <div className='team-info' id='warriors'>Warriors Modal <button id='close-btn' onClick={()=>this.handleClose()}>x</button></div>
+        </Draggable>
 
 
         <h2 data-aos='fade-down' className='title' id='highlights'>Highlight Reel</h2>
