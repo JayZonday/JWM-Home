@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Draggable, {DraggableCore} from 'react-draggable';
 import './index.css';
 
 class TopNavbar extends Component {
@@ -44,19 +45,21 @@ class TopNavbar extends Component {
           <img title="It's all Luck" className='nav-img' src='https://cdn.shopify.com/s/files/1/1685/2975/products/Lucky_Shamrock_green_detail.jpg?v=1549032910'/>
         </div>
 
-        <div className='bet'>
-          <button id='close-btn' onClick={()=>this.handleClose()}>x</button>
-          <div id='bet-text'>
-            <span id='bet-header-text'>
-            Bet of The Day
-            <br/>
-            August 8, 2019
-            </span>
-            <hr id='bet-text-divider'/>
-            <br/>
-            <span id='the-bet'>San Francisco Giants ML +100 (vs Philadelphia Phillies)</span>
+        <Draggable>
+          <div className='bet'>
+            <button id='close-btn' onClick={()=>this.handleClose()}>x</button>
+            <div id='bet-text'>
+              <span id='bet-header-text'>
+              Bet of The Day
+              <br/>
+              August 8, 2019
+              </span>
+              <hr id='bet-text-divider'/>
+              <br/>
+              <span id='the-bet'>San Francisco Giants ML +100 (vs Philadelphia Phillies)</span>
+            </div>
           </div>
-        </div>
+        </Draggable>
 
         <div className='quicklinks'>
           <div title='Highlight Reel' onClick={()=> this.handleReel()} className='ql-btn'>✪</div>
