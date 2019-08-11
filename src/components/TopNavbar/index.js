@@ -52,14 +52,15 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              August 9, 2019
+              August 10, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'>New York Mets ML +115 (vs Washington Nationals)</div>
+              <div id='the-bet'>NO BET MADE TODAY</div>
               <br/>
-              <br/>
-              <div id='bet-record'>1-0 Since August 8, 2019</div>
-              <div id='last-bet'>San Francisco Giants ML +100 (vs Philadelphia Phillies) [Won]</div>
+              <div id='bet-record'>2-0 Since August 8, 2019</div>
+              <div id='last-bets'>8/8 - San Francisco Giants ML +100 (vs Philadelphia Phillies) <b>[Won]</b></div>
+              <div id='last-bets'>8/9 - New York Mets ML +115 (vs Washington Nationals) <b>[Won]</b></div>
+
             </div>
           </div>
         </Draggable>

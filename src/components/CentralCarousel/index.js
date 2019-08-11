@@ -6,31 +6,60 @@ import './index.css';
 class CentralCarousel extends Component {
 
   handleLakers = () => {
-    document.querySelector('.team-info#lakers').style.display = 'block'
+    if (document.querySelector('.team-info#lakers').style.display === 'block')
+    document.querySelector('.team-info#lakers').style.display = 'none'
+    else{
+      document.querySelector('.team-info#lakers').style.display = 'block'
+    }
   }
   handleYankees = () => {
-    document.querySelector('.team-info#yankees').style.display = 'block'
+    if (document.querySelector('.team-info#yankees').style.display === 'block')
+    document.querySelector('.team-info#yankees').style.display = 'none'
+    else{
+      document.querySelector('.team-info#yankees').style.display = 'block'
+    }
   }
   handleCowboys = () => {
-    document.querySelector('.team-info#cowboys').style.display = 'block'
+    if (document.querySelector('.team-info#cowboys').style.display === 'block')
+    document.querySelector('.team-info#cowboys').style.display = 'none'
+    else{
+      document.querySelector('.team-info#cowboys').style.display = 'block'
+    }
   }
   handleBrooklyn = () => {
-    document.querySelector('.team-info#brooklyn').style.display = 'block'
+    if (document.querySelector('.team-info#brooklyn').style.display === 'block')
+    document.querySelector('.team-info#brooklyn').style.display = 'none'
+    else{
+      document.querySelector('.team-info#brooklyn').style.display = 'block'
+    }
   }
   handleDevils = () => {
-    document.querySelector('.team-info#devils').style.display = 'block'
+    if (document.querySelector('.team-info#devils').style.display === 'block')
+    document.querySelector('.team-info#devils').style.display = 'none'
+    else{
+      document.querySelector('.team-info#devils').style.display = 'block'
+    }
   }
   handleDuke = () => {
-    document.querySelector('.team-info#duke').style.display = 'block'
+    if (document.querySelector('.team-info#duke').style.display === 'block')
+    document.querySelector('.team-info#duke').style.display = 'none'
+    else{
+      document.querySelector('.team-info#duke').style.display = 'block'
+    }
   }
   handleNotreDame = () => {
-    document.querySelector('.team-info#notre').style.display = 'block'
+    if (document.querySelector('.team-info#notre').style.display === 'block')
+    document.querySelector('.team-info#notre').style.display = 'none'
+    else{
+      document.querySelector('.team-info#notre').style.display = 'block'
+    }
   }
   handleWarriors = () => {
-    document.querySelector('.team-info#warriors').style.display = 'block'
-  }
-  handleClose = () => {
-    document.querySelector('.team-info').style.display = 'none'
+    if (document.querySelector('.team-info#warriors').style.display === 'block')
+    document.querySelector('.team-info#warriors').style.display = 'none'
+    else{
+      document.querySelector('.team-info#warriors').style.display = 'block'
+    }
   }
 
 
@@ -39,28 +68,28 @@ class CentralCarousel extends Component {
       <div className='carousel-section'>
 
         <Draggable>
-          <div className='team-info' id='lakers'>Lakers Modal <button id='close-btn' onClick={()=>this.handleClose()}>x</button></div>
+          <div className='team-info' id='lakers'>Lakers Modal </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='brooklyn'>Brooklyn Modal <button id='close-btn' onClick={()=>this.handleClose()}>x</button></div>
+          <div className='team-info' id='brooklyn'>Brooklyn Modal </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='yankees'>Yankees Modal <button id='close-btn' onClick={()=>this.handleClose()}>x</button></div>
+          <div className='team-info' id='yankees'>Yankees Modal </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='cowboys'>Cowboys Modal <button id='close-btn' onClick={()=>this.handleClose()}>x</button></div>
+          <div className='team-info' id='cowboys'>Cowboys Modal </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='notre'>Notre Dame Modal <button id='close-btn' onClick={()=>this.handleClose()}>x</button></div>
+          <div className='team-info' id='notre'>Notre Dame Modal </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='duke'>Duke Modal <button id='close-btn' onClick={()=>this.handleClose()}>x</button></div>
+          <div className='team-info' id='duke'>Duke Modal </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='devils'>Devils Modal <button id='close-btn' onClick={()=>this.handleClose()}>x</button></div>
+          <div className='team-info' id='devils'>Devils Modal </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='warriors'>Warriors Modal <button id='close-btn' onClick={()=>this.handleClose()}>x</button></div>
+          <div className='team-info' id='warriors'>Warriors Modal </div>
         </Draggable>
 
 

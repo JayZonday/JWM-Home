@@ -80,7 +80,7 @@ a:hover, a:active{
   position: fixed;
   margin: 20% 0 0 40%;
   z-index: 5;
-  height: 335px;
+  height: 365px;
   width: 350px;
   background: white;
   opacity: .89;
@@ -100,5 +100,8 @@ a:hover, a:active{
   font-size: 20px;
 }
 #the-bet{
+  font-weight: 600;
+}
+#bet-record{
   font-weight: 600;
 }
