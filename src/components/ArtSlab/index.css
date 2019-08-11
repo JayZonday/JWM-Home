@@ -10,12 +10,12 @@
 
 .gallery-container{
   display: flex;
-  margin: 4% auto;
+  margin: 2% auto;
   width: 100%;
 }
 .gallery-container2{
   display: flex;
-  margin: -2% auto;
+  margin: 1% auto;
   width: 100%;
 }
 .art-piece{
@@ -46,7 +46,7 @@
 }
 #art-img2{
   width: 100%;
-  height: 175px;
+  height: 225px;
   transition: .25s ease-in-out;
   cursor: pointer;
   opacity: .05;
