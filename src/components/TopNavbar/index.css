@@ -84,10 +84,11 @@ a:hover, a:active{
   width: 350px;
   background: white;
   opacity: .89;
+  overflow-y: scroll;
   box-shadow: 2px 15px 25px black
 }
 #bet-text{
-  text-align: center;
+  text-align: left;
   position: absolute;
   margin: 15%;
 }
@@ -103,5 +104,36 @@ a:hover, a:active{
   font-weight: 600;
 }
 #bet-record{
+  font-weight: 600;
+}
+.quote{
+  display: none;
+  position: fixed;
+  margin: 6.2% 0 0 68%;
+  z-index: 5;
+  height: 375px;
+  width: 350px;
+  background: white;
+  opacity: .89;
+  overflow-y: scroll;
+  box-shadow: 2px 15px 25px black
+}
+#quote-text{
+  text-align: left;
+  position: absolute;
+  margin: 15%;
+}
+#quote-text-divider{
+  color: seagreen;
+  border-color: seagreen;
+  background: seagreen;
+}
+#quote-header-text{
+  font-size: 20px;
+}
+#the-quote{
+  font-weight: 600;
+}
+#quote-record{
   font-weight: 600;
 }

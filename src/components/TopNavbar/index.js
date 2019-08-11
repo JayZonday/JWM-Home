@@ -20,10 +20,18 @@ class TopNavbar extends Component {
     document.querySelector('.top-nav').scrollIntoView({behavior: 'smooth', block: 'center'})
   }
   handleBOTD = () => {
-    document.querySelector('.bet').style.display = 'block'
+    if(document.querySelector('.bet').style.display === 'block'){
+      document.querySelector('.bet').style.display = 'none'
+    }else{
+      document.querySelector('.bet').style.display = 'block'
+    }
   }
-  handleClose = () => {
-    document.querySelector('.bet').style.display = 'none'
+  handleQOTD = () => {
+    if(document.querySelector('.quote').style.display === 'block'){
+      document.querySelector('.quote').style.display = 'none'
+    }else{
+      document.querySelector('.quote').style.display = 'block'
+    }
   }
 
 
@@ -34,11 +42,11 @@ class TopNavbar extends Component {
           <button className='nav-btn'><a target='_blank' href="mailto:JMoloughney25@gmail.com">Contact</a><span id='special-char'>✆</span></button>
           <button className='nav-btn'>Resume</button>
           <button className='nav-btn'><a href='' target='_blank'>Twitter</a></button>
-          <button className='nav-btn'><a href='https://www.facebook.com/JM.KID' target='_blank'>Facebook</a></button>
           <button className='nav-btn'><a href='https://www.linkedin.com/in/josephmoloughney/' target='_blank'>LinkedIn</a></button>
-          <button className='nav-btn'><a href='https://www.youtube.com/channel/UCPQZKbLIPNYr36qVVAwkI6Q?view_as=subscriber' target='_blank'>YouTube</a></button>
           <button className='nav-btn'><a href='https://github.com/JayZonday' target='_blank'>GitHub</a></button>
+          <button className='nav-btn'><a href='https://www.youtube.com/channel/UCPQZKbLIPNYr36qVVAwkI6Q?view_as=subscriber' target='_blank'>YouTube</a></button>
           <button className='nav-btn'><a href='https://www.instagram.com/jay_zonday/?hl=en' target='_blank'>Instagram</a></button>
+          <button onClick={() => this.handleQOTD()} title='Quote of the Day' className='nav-btn'>QOTD <span id='special-char'>❞</span></button>
           <button onClick={() => this.handleBOTD()} title='Bet of the Day' className='nav-btn'>BOTD <span id='special-char'>♔</span></button>
         </div>
         <div className='nav-logo'>
@@ -47,7 +55,7 @@ class TopNavbar extends Component {
 
         <Draggable>
           <div className='bet'>
-            <button id='close-btn' onClick={()=>this.handleClose()}>x</button>
+
             <div id='bet-text'>
               <span id='bet-header-text'>
               Bet of The Day
@@ -60,6 +68,25 @@ class TopNavbar extends Component {
               <div id='bet-record'>2-0 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 (vs Philadelphia Phillies) <b>[Won]</b></div>
               <div id='last-bets'>8/9 - New York Mets ML +115 (vs Washington Nationals) <b>[Won]</b></div>
+
+            </div>
+          </div>
+        </Draggable>
+
+        <Draggable>
+          <div className='quote'>
+            
+            <div id='quote-text'>
+              <span id='quote-header-text'>
+              Quote of The Day
+              <br/>
+              August 11, 2019
+              </span>
+              <hr id='quote-text-divider'/>
+              <div id='the-quote'></div>
+              <br/>
+              <div id='last-quote'></div>
+              <div id='last-quote'></div>
 
             </div>
           </div>
