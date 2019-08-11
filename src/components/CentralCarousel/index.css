@@ -68,22 +68,47 @@
 }
 #sports-logo{
   height: 135px;
-  width: 135px;
+  width: 155px;
   transition: .3s ease-in-out;
   cursor: pointer;
+  border-radius: 20%;
+
 }
 #sports-logo:hover{
   transform: scale(1.175);
+
 }
-img#sports-logo:hover ~ span#team-name{
+
+img#sports-logo:hover ~ span.team-name#cowboys{
+  color: blue
+}
+img#sports-logo:hover ~ span.team-name#lakers{
   color: gold
 }
-#team-name{
+img#sports-logo:hover ~ span.team-name#yankees{
+  color: navy
+}
+img#sports-logo:hover ~ span.team-name#devils{
+  color: red
+}
+img#sports-logo:hover ~ span.team-name#brooklyn{
+  color: black
+}
+img#sports-logo:hover ~ span.team-name#duke{
+  color: blue
+}
+img#sports-logo:hover ~ span.team-name#notre{
+  color: seagreen
+}
+img#sports-logo:hover ~ span.team-name#warriors{
+  color: lightblue
+}
+
+.team-name{
   font-family: 'Satisfy', sans-serif;
   position: relative;
-  top: 6%;
+  top: 7%;
   color: black;
-  font-weight: 300;
   transition: .35s ease-in-out;
 }
 .team-info{
