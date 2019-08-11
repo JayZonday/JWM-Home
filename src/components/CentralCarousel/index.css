@@ -83,7 +83,7 @@ img#sports-logo:hover ~ span.team-name#cowboys{
   color: navy
 }
 img#sports-logo:hover ~ span.team-name#lakers{
-  color: gold
+  color: purple
 }
 img#sports-logo:hover ~ span.team-name#yankees{
   color: navy
@@ -101,7 +101,7 @@ img#sports-logo:hover ~ span.team-name#duke{
   color: blue
 }
 img#sports-logo:hover ~ span.team-name#notre{
-  color: seagreen
+  color: gold
 }
 img#sports-logo:hover ~ span.team-name#warriors{
   color: lightblue

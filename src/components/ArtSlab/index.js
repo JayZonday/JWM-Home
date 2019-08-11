@@ -20,6 +20,22 @@ class ArtSlab extends Component {
             <img id='art-img' src='https://i.ibb.co/y5x8pmH/5112102-E-C3-BC-4-E90-A01-E-51-A1305-B2-D18.jpg'/>
           </div>
         </div>
+        <div className='gallery-container2'>
+          <div className='art-piece'>
+            <img id='art-img2' src='https://i.ibb.co/h8Ds7Kg/C825-FFC4-1984-42-B5-A845-555-A3-A4192-A5.jpg'/>
+          </div>
+          <div className='art-piece'>
+
+            <img id='art-img2' src='https://i.ibb.co/N2PFgGw/08743182-4-C07-4224-9-B75-7-B970-A2-B3-B89.jpg'/>
+
+          </div>
+          <div className='art-piece'>
+            <img id='art-img2' src='https://i.ibb.co/2K0sh64/BB857-DB8-943-B-4-F05-A6-E9-DC6-B66-FC6254.jpg'/>
+          </div>
+          <div className='art-piece'>
+            <img id='art-img2' src='https://i.ibb.co/CPb60fq/77736930-8-D8-C-4793-BB2-E-1167-DC3-B6-F0-D.jpg'/>
+          </div>
+        </div>
       </div>
     );
   }

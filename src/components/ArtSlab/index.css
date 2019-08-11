@@ -1,5 +1,5 @@
 .art-section{
-  height: 650px;
+  height: 800px;
   background-size: 100% 100%;
   background-attachment: fixed;
   background-image: url('https://images.pexels.com/photos/1282315/pexels-photo-1282315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -13,21 +13,46 @@
   margin: 4% auto;
   width: 100%;
 }
+.gallery-container2{
+  display: flex;
+  margin: -2% auto;
+  width: 100%;
+}
 .art-piece{
   width: 22%;
   margin-left: 2%;
   border: 1px solid #ffffff;
-  height: 275px;
-  background: #005b97;
+  background: #D4af37;
   box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
 }
+#overlay{
+  width: 100%;
+  height: 275px;
+  position: absolute;
+}
+
 
 #art-img{
   width: 100%;
   height: 275px;
-  transition: .4s ease-in-out;
+  transition: .3s ease-in-out;
   cursor: pointer;
+  opacity: .05;
 }
+
 #art-img:hover{
   transform: scale(1.25);
+  opacity: 1;
+}
+#art-img2{
+  width: 100%;
+  height: 175px;
+  transition: .25s ease-in-out;
+  cursor: pointer;
+  opacity: .05;
+}
+
+#art-img2:hover{
+  transform: scale(1.15);
+  opacity: 1;
 }
