@@ -75,7 +75,7 @@ class TopNavbar extends Component {
 
         <Draggable>
           <div className='quote'>
-            
+
             <div id='quote-text'>
               <span id='quote-header-text'>
               Quote of The Day
@@ -93,11 +93,12 @@ class TopNavbar extends Component {
         </Draggable>
 
         <div className='quicklinks'>
+          <div title='Top of Page' onClick={()=> this.handleTop()} className='ql-btn'>⌅</div>
           <div title='Highlight Reel' onClick={()=> this.handleReel()} className='ql-btn'>✪</div>
           <div title='Web-Dev Section' onClick={()=> this.handleCode()} className='ql-btn'></div>
           <div title='Art Section' onClick={()=> this.handleArt()} className='ql-btn'>✎</div>
           <div title='Sport Section' onClick={()=> this.handleSports()} className='ql-btn'>♛</div>
-          <div title='Top of Page' onClick={()=> this.handleTop()} className='ql-btn'>↟</div>
+
         </div>
       </div>
     );
