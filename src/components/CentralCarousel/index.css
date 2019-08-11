@@ -68,7 +68,7 @@
 }
 #sports-logo{
   height: 135px;
-  width: 155px;
+  width: 135px;
   transition: .3s ease-in-out;
   cursor: pointer;
   border-radius: 20%;
@@ -80,7 +80,7 @@
 }
 
 img#sports-logo:hover ~ span.team-name#cowboys{
-  color: blue
+  color: navy
 }
 img#sports-logo:hover ~ span.team-name#lakers{
   color: gold
@@ -92,7 +92,10 @@ img#sports-logo:hover ~ span.team-name#devils{
   color: red
 }
 img#sports-logo:hover ~ span.team-name#brooklyn{
-  color: black
+  color: white;
+  background: black;
+  padding: 1%;
+  border-radius: 10%;
 }
 img#sports-logo:hover ~ span.team-name#duke{
   color: blue
