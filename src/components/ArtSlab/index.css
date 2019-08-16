@@ -19,6 +19,7 @@
   width: 100%;
 }
 .art-piece{
+  opacity: .05%;
   width: 22%;
   margin-left: 2%;
   border: 1px solid #ffffff;

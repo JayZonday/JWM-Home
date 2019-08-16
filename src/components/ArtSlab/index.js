@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './index.css';
 
 class ArtSlab extends Component {
+
+
+
   render(){
     return (
       <div className='art-section'>
