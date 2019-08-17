@@ -81,10 +81,10 @@ class TopNavbar extends Component {
               <span id='quote-header-text'>
               Quote of The Day
               <br/>
-              August 16, 2019
+              August 17, 2019
               </span>
               <hr id='quote-text-divider'/>
-              <div id='the-quote'>"Help somebody, and help yourself; because what you give is what you get"</div>
+              <div id='the-quote'>"If I have seen further it is by standing on the shoulders of Giants" <br/><span>~ Isaac Newton</span></div>
               <br/>
               <div id='last-quote'></div>
               <div id='last-quote'></div>
