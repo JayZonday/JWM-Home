@@ -28,8 +28,9 @@
   padding: 1%;
   border: 1px solid whitesmoke;
   height: 250px;
-  transition: .35s ease-in-out;
+  transition: .45s ease-in-out;
   opacity: .85;
+  cursor: crosshair;
  }
 #dev-info-line{
   border: 1px solid seagreen;
@@ -44,7 +45,7 @@
 .dev-fields:hover{
   transform: scale(1.05);
   opacity: 1;
-  border-color: white;
+  border-color: gold;
 }
 
 .dev-design-line{

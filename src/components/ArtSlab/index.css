@@ -36,7 +36,7 @@
 #art-img{
   width: 100%;
   height: 275px;
-  transition: .3s ease-in-out;
+  transition: .55s ease-in-out;
   cursor: pointer;
   opacity: .05;
 }
