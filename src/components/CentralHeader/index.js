@@ -77,6 +77,9 @@ class CentralHeader extends Component {
                         "enable": false
                     }
                 },
+                "color": {
+                    "value": '#2E8B57'
+                },
                 "size": {
                     "value": 8,
                     "random": true,
