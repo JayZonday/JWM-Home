@@ -78,10 +78,10 @@ a:hover, a:active{
 .bet{
   display: none;
   position: fixed;
-  margin: 6.2% 0 0 68%;
+  margin: 6.2% 0 0 64%;
   z-index: 5;
   height: 375px;
-  width: 350px;
+  width: 475px;
   background: white;
   opacity: .89;
   overflow-y: scroll;

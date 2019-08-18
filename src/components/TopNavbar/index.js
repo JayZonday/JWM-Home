@@ -66,9 +66,9 @@ class TopNavbar extends Component {
               <div id='the-bet'>New York Yankees ML +105 (vs Cleveland Indians)</div>
               <br/>
               <div id='bet-record'>2-1 Since August 8, 2019</div>
-              <div id='last-bets'>8/8 - San Francisco Giants ML +100 (vs Philadelphia Phillies) <b>[Won]</b></div>
-              <div id='last-bets'>8/9 - New York Mets ML +115 (vs Washington Nationals) <b>[Won]</b></div>
-              <div id='last-bets'>8/11 - Philadelphia Phillies ML -115 (@ San Francisco Giants) <b>[Lost]</b></div>
+              <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
+              <div id='last-bets'>8/9 - New York Mets ML +115 <b>[Won]</b></div>
+              <div id='last-bets'>8/11 - Philadelphia Phillies ML -115 <b>[Lost]</b></div>
 
             </div>
           </div>
@@ -81,10 +81,10 @@ class TopNavbar extends Component {
               <span id='quote-header-text'>
               Quote of The Day
               <br/>
-              August 17, 2019
+              August 18, 2019
               </span>
               <hr id='quote-text-divider'/>
-              <div id='the-quote'>"If I have seen further it is by standing on the shoulders of Giants" <br/><span>~ Isaac Newton</span></div>
+              <div id='the-quote'>"You miss 100% of the shots you don't take - Wayne Gretzsky" <br/><span>~ Michael Scott</span></div>
               <br/>
               <div id='last-quote'></div>
               <div id='last-quote'></div>
