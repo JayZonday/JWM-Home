@@ -1,4 +1,4 @@
-First Revamped-Vision of My Personal Home Website
+First Revamped Vision of My Personal Home Website
 
 This website will contain:
 - Past and Current Web Development Projects
