@@ -82,10 +82,10 @@ class TopNavbar extends Component {
               <span id='quote-header-text'>
               Quote of The Day
               <br/>
-              August 18, 2019
+              August 20, 2019
               </span>
               <hr id='quote-text-divider'/>
-              <div id='the-quote'>"You miss 100% of the shots you don't take - Wayne Gretzsky" <br/><span>~ Michael Scott</span></div>
+              <div id='the-quote'>“Be yourself; everyone else is already taken.”<br/><span>~ Oscar Wilde</span></div>
               <br/>
               <div id='last-quote'></div>
               <div id='last-quote'></div>
