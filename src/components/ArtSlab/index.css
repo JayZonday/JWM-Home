@@ -50,6 +50,8 @@
 #art-img:hover{
   transform: scale(1.25);
   opacity: 1;
+  border: 5px solid white;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
 }
 #art-img2{
   width: 100%;
@@ -62,4 +64,6 @@
 #art-img2:hover{
   transform: scale(1.15);
   opacity: 1;
+  border: 5px solid white;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
 }
