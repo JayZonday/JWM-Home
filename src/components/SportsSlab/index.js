@@ -26,7 +26,7 @@ class SportSlab extends Component {
         <div className='fantasy-sport'>Fantasy Basketball</div>
         <div className='fantasy-sport'>Fantasy Baseball</div>
 
-        <div className='fantasy-sport'>NBL [not available yet]</div>
+        <div className='fantasy-sport' id='nbl'>NBL [not available yet]</div>
 
 
       </div>

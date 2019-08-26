@@ -25,9 +25,16 @@
   font-weight: 600;
   border-radius: 25%;
   cursor: crosshair;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.20), 0 5px 5px rgba(0,0,0,0.20);
 }
 .fantasy-sport:hover{
   background-color: seagreen;
+  color: #ffbf00;
+  font-weight: 600;
+
+}
+.fantasy-sport#nbl:hover{
+  background-color: red;
   color: #ffbf00;
   font-weight: 600;
 
