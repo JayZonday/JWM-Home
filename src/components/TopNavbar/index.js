@@ -41,11 +41,9 @@ class TopNavbar extends Component {
         <div className='navbar'>
           <button className='nav-btn'><a target='_blank' href="mailto:JMoloughney25@gmail.com">Contact</a><span id='special-char'>✆</span></button>
           <button className='nav-btn'>Resume</button>
-          <button className='nav-btn'><a href='' target='_blank'>Twitter</a></button>
           <button className='nav-btn'><a href='https://www.linkedin.com/in/josephmoloughney/' target='_blank'>LinkedIn</a></button>
           <button className='nav-btn'><a href='https://github.com/JayZonday' target='_blank'>GitHub</a></button>
           <button className='nav-btn'><a href='https://www.youtube.com/channel/UCPQZKbLIPNYr36qVVAwkI6Q?view_as=subscriber' target='_blank'>YouTube</a></button>
-          <button className='nav-btn'><a href='https://www.instagram.com/jay_zonday/?hl=en' target='_blank'>Instagram</a></button>
           <button onClick={() => this.handleQOTD()} title='Quote of the Day' className='nav-btn'>QOTD <span id='special-char'>❞</span></button>
           <button onClick={() => this.handleBOTD()} title='Bet of the Day' className='nav-btn'>BOTD <span id='special-char'>♔</span></button>
         </div>
@@ -94,14 +92,16 @@ class TopNavbar extends Component {
           </div>
         </Draggable>
 
-        <div className='quicklinks'>
-          <div title='Top of Page' onClick={()=> this.handleTop()} className='ql-btn'>⌅</div>
-          <div title='Highlight Reel' onClick={()=> this.handleReel()} className='ql-btn'>✪</div>
-          <div title='Web-Dev Section' onClick={()=> this.handleCode()} className='ql-btn'></div>
-          <div title='Art Section' onClick={()=> this.handleArt()} className='ql-btn'>✎</div>
-          <div title='Sport Section' onClick={()=> this.handleSports()} className='ql-btn'>♛</div>
+        <Draggable>
+          <div className='quicklinks'>
+            <div title='Top of Page' onClick={()=> this.handleTop()} className='ql-btn'>⌅</div>
+            <div title='Highlight Reel' onClick={()=> this.handleReel()} className='ql-btn'>✪</div>
+            <div title='Web-Dev Section' onClick={()=> this.handleCode()} className='ql-btn'></div>
+            <div title='Art Section' onClick={()=> this.handleArt()} className='ql-btn'>✎</div>
+            <div title='Sport Section' onClick={()=> this.handleSports()} className='ql-btn'>♛</div>
 
-        </div>
+          </div>
+        </Draggable>
       </div>
     );
   }
