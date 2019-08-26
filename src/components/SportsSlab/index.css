@@ -13,22 +13,6 @@
   font-size: 68px;
 }
 
-.ml-advice{
-  border: 1px solid seagreen;
-  padding: 1%;
-  width: 15%;
-  margin: 2%;
-  display: inline-block;
-  text-align: center;
-}
-.hot-takes{
-  border: 1px solid seagreen;
-  padding: 1%;
-  width: 15%;
-  margin: 2%;
-  display: inline-block;
-  text-align: center;
-}
 .fantasy-sport{
   border: 1px solid seagreen;
   padding: 1%;
@@ -37,8 +21,14 @@
   display: inline-block;
   transition: .35s ease-in-out;
   text-align: center;
+  color: seagreen;
+  font-weight: 600;
+  border-radius: 25%;
+  cursor: crosshair;
 }
 .fantasy-sport:hover{
   background-color: seagreen;
-  color: white;
+  color: #ffbf00;
+  font-weight: 600;
+
 }
