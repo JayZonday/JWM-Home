@@ -58,16 +58,17 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              August 20, 2019
+              August 26, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'>St. Louis Cardinals (vs Milwaukee Brewers) ML +100</div>
+              <div id='the-bet'>Colorado Rockies (vs Atlanta Braves) ML +140</div>
               <br/>
-              <div id='bet-record'>2-2 Since August 8, 2019</div>
+              <div id='bet-record'>3-2 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
               <div id='last-bets'>8/9 - New York Mets ML +115 <b>[Won]</b></div>
               <div id='last-bets'>8/11 - Philadelphia Phillies ML -115 <b>[Lost]</b></div>
               <div id='last-bets'>8/18 - New York Yankees ML +105 <b>[Lost]</b></div>
+              <div id='last-bets'>8/20 - St. Louis Cardinals ML +100 <b>[Won]</b></div>
 
             </div>
           </div>
@@ -80,10 +81,10 @@ class TopNavbar extends Component {
               <span id='quote-header-text'>
               Quote of The Day
               <br/>
-              August 20, 2019
+              August 26, 2019
               </span>
               <hr id='quote-text-divider'/>
-              <div id='the-quote'>“Be yourself; everyone else is already taken.”<br/><span>~ Oscar Wilde</span></div>
+              <div id='the-quote'>“This is the real secret of life — to be completely engaged with what you are doing in the here and now. And instead of calling it work, realize it is play.”<br/><br/><span>~ Alan Watts</span></div>
               <br/>
               <div id='last-quote'></div>
               <div id='last-quote'></div>
