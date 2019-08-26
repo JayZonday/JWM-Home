@@ -59,9 +59,10 @@
  margin: 1%;
 }
 .project-container{
-   display: flex;
-   padding: 2%;
-   justify-content: center;
+  margin-top: -3%;
+  display: flex;
+  padding: 2%;
+  justify-content: center;
 }
 .project{
   margin: 1%;

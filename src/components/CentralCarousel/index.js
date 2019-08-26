@@ -98,8 +98,8 @@ class CentralCarousel extends Component {
           <Carousel>
             <Carousel.Item>
             <div className='project-container'>
-              <div className='project'><a href='https://youtu.be/lCnRoMmzVCE' target='_blank'><img src='https://i.ibb.co/X47CS0f/Screen-Shot-2019-08-07-at-4-52-27-PM.png' id='project-img'/></a> Nothing But Luck</div>
-              <div className='project'><a href='https://youtu.be/EabkravC05k' target='_blank'><img src='https://i.ibb.co/DY777Y2/Screen-Shot-2019-08-07-at-4-53-19-PM.png' id='project-img'/></a> FlatBall</div>
+              <div className='project'> <div className='project-name'>Nothing But Luck</div><a href='https://youtu.be/lCnRoMmzVCE' target='_blank'><img src='https://i.ibb.co/X47CS0f/Screen-Shot-2019-08-07-at-4-52-27-PM.png' id='project-img'/></a></div>
+              <div className='project'> <div className='project-name'>FlatBall</div><a href='https://youtu.be/EabkravC05k' target='_blank'><img src='https://i.ibb.co/DY777Y2/Screen-Shot-2019-08-07-at-4-53-19-PM.png' id='project-img'/></a></div>
               <div className='project'>Wrote-it</div>
               <div className='project'>NYC Safety Net</div>
               <div className='project'>GAMCO Asset Management</div>
