@@ -38,7 +38,7 @@
   height: 275px;
   transition: .55s ease-in-out;
   cursor: pointer;
-  opacity: .05;
+  opacity: .1;
 }
 
 #art-img:hover{
@@ -50,7 +50,7 @@
   height: 225px;
   transition: .25s ease-in-out;
   cursor: pointer;
-  opacity: .05;
+  opacity: .1;
 }
 
 #art-img2:hover{
