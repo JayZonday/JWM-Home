@@ -2,3 +2,43 @@
   height:335px;
   background: whitesmoke;
 }
+
+.title#sports{
+  color: seagreen;
+  text-align: left;
+  padding-top: 1%;
+  margin-left: 20%;
+  font-weight: bolder;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 68px;
+}
+
+.ml-advice{
+  border: 1px solid seagreen;
+  padding: 1%;
+  width: 15%;
+  margin: 2%;
+  display: inline-block;
+  text-align: center;
+}
+.hot-takes{
+  border: 1px solid seagreen;
+  padding: 1%;
+  width: 15%;
+  margin: 2%;
+  display: inline-block;
+  text-align: center;
+}
+.fantasy-sport{
+  border: 1px solid seagreen;
+  padding: 1%;
+  width: 15%;
+  margin: 2%;
+  display: inline-block;
+  transition: .35s ease-in-out;
+  text-align: center;
+}
+.fantasy-sport:hover{
+  background-color: seagreen;
+  color: white;
+}
