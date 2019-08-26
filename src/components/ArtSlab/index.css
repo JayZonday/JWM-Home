@@ -43,7 +43,7 @@
   width: 100%;
   height: 235px;
   transition: .55s ease-in-out;
-  cursor: pointer;
+  cursor: grab;
   opacity: .1;
 }
 
@@ -57,7 +57,7 @@
   width: 100%;
   height: 225px;
   transition: .25s ease-in-out;
-  cursor: pointer;
+  cursor: grab;
   opacity: .1;
 }
 

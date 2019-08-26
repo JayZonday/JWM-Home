@@ -85,7 +85,8 @@ a:hover, a:active{
   background: white;
   opacity: .75;
   overflow-y: scroll;
-  box-shadow: 2px 15px 25px black
+  box-shadow: 2px 15px 25px black;
+  cursor: grab;
 }
 #bet-text{
   text-align: left;
@@ -116,7 +117,8 @@ a:hover, a:active{
   background: white;
   opacity: .89;
   overflow-y: scroll;
-  box-shadow: 2px 15px 25px black
+  box-shadow: 2px 15px 25px black;
+  cursor: grab;
 }
 #quote-text{
   text-align: left;
