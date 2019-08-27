@@ -6,22 +6,25 @@
 .title#sports{
   color: seagreen;
   text-align: left;
+  text-shadow: ;
   padding-top: 1%;
   margin-left: 20%;
   font-weight: bolder;
   font-family: 'Satisfy', sans-serif;
   font-size: 68px;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 .fantasy-sport{
   border: 1px solid seagreen;
+  background: rgba(63, 195, 128, .75);
   padding: 1%;
   width: 15%;
   margin: 2%;
   display: inline-block;
   transition: .35s ease-in-out;
   text-align: center;
-  color: seagreen;
+  color: #ffffff;
   font-weight: 600;
   border-radius: 25%;
   cursor: crosshair;
