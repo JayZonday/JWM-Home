@@ -10,9 +10,15 @@ canvas{
 }
 
 #title-letter{
-  transition: .15s ease-in-out;
-  cursor: cell;
-  font-family: 'Satisfy', sans-serif;
+  position: relative;
+  text-transform: uppercase;
+  text-shadow: -15px 5px 20px #ced0d3;
+  color: black;
+  letter-spacing: -0.05em;
+  user-select: none;
+  text-transform: uppercase;
+  font-size: 70px;
+  transition: all 0.25s ease-out;
 }
 #title-letter:hover{
   color: seagreen;

@@ -1,5 +1,5 @@
 .sports-section{
-  height:335px;
+  height: 420px;
   background: whitesmoke;
 }
 
@@ -20,7 +20,7 @@
   background: rgba(63, 195, 128, .75);
   padding: 1%;
   width: 15%;
-  margin: 2%;
+  margin: 2.5%;
   display: inline-block;
   transition: .35s ease-in-out;
   text-align: center;
