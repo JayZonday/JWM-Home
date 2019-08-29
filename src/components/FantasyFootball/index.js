@@ -25,12 +25,16 @@ class FantasyFootball extends Component {
         </div>
 
         <div className='ff-rankings-section'>
+          <h3 className='ff-section-title' id='greenbg'> Weekly Rankings</h3>
         </div>
         <div className='ff-waivers-section'>
+          <h3 className='ff-section-title' id='whitebg'> Weekly Waiver Wire </h3>
         </div>
         <div className='ff-trades-section'>
+          <h3 className='ff-section-title' id='greenbg'> Trading Block </h3>
         </div>
         <div className='ff-daily-section'>
+          <h3 className='ff-section-title' id='whitebg'> Daily Fantasy</h3>
         </div>
 
 
