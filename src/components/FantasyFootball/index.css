@@ -16,6 +16,7 @@
   font-family: 'Satisfy', sans-serif;
   font-size: 89px;
   text-shadow: 4px 3px 0px black, 9px 8px 0px rgba(255,255,255,0.25);
+  overflow-x: hidden;
 }
 .ff-intro{
   height: 390px;
@@ -25,12 +26,11 @@
 .ff-intro-box{
   position: absolute;
   font-size: 24px;
-  width: 62%;
-  margin-left: 19%;
-  margin-top: 7%;
+  width: 83%;
+  margin-left: 8%;
+  margin-top: 8%;
   padding: 1.5%;
   text-align: center;
-  border: 2px solid black;
   overflow-x: hidden;
 }
 .ff-nav{
@@ -38,6 +38,7 @@
   margin-top: 21%;
   margin-left: 24%;
   width: 100%;
+  overflow: hidden;
 }
 .ff-nav-btn{
   font-family: 'Satisfy', sans-serif;
@@ -51,4 +52,28 @@
 }
 .ff-nav-btn:hover{
   color: gold;
+}
+.ff-rankings-section{
+  height: 350px;
+  width: 100%;
+  background-color: seagreen;
+  overflow-x: hidden;
+}
+.ff-waivers-section{
+  height: 350px;
+  background-color: white;
+  overflow-x: hidden;
+  width: 100%;
+}
+.ff-trades-section{
+  height: 350px;
+  background-color: seagreen;
+  overflow-x: hidden;
+  width: 100%;
+}
+.ff-daily-section{
+  height: 350px;
+  background-color: white;
+  overflow-x: hidden;
+  width: 100%;
 }

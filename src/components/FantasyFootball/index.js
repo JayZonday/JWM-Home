@@ -12,7 +12,7 @@ class FantasyFootball extends Component {
           <div className='ff-intro-box'>
             Welcome to JayZonday Visions 2019 Fantasy Football Hub - Catch all the latest news and advice here!
             Desperate for a waiver wire addition? - Need to know if a trade is fair? -
-            Don't know who to start? - You're in LUCK.
+            Don't know who to start? <br/> You're in LUCK.
           </div>
 
           <div className='ff-nav'>
@@ -21,9 +21,17 @@ class FantasyFootball extends Component {
             <div className='ff-nav-btn' id='trades'>Trading Block</div>
             <div className='ff-nav-btn' id='daily'>Daily Fantasy</div>
           </div>
+
         </div>
 
-
+        <div className='ff-rankings-section'>
+        </div>
+        <div className='ff-waivers-section'>
+        </div>
+        <div className='ff-trades-section'>
+        </div>
+        <div className='ff-daily-section'>
+        </div>
 
 
       </div>
