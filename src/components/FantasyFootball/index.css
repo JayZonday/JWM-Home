@@ -111,7 +111,7 @@ body{
   position: absolute;
   height: 400px;
   width: 18%;
-  border: 3px solid black;
+  border: 2px solid black;
   margin-left: 10%;
   margin-top: 3%;
 }
@@ -120,7 +120,7 @@ body{
   position: absolute;
   height: 400px;
   width: 18%;
-  border: 3px solid black;
+  border: 2px solid black;
   margin-left: 30%;
   margin-top: 3%;
 }
@@ -128,7 +128,7 @@ body{
   position: absolute;
   height: 400px;
   width: 18%;
-  border: 3px solid black;
+  border: 2px solid black;
   margin-left: 50%;
   margin-top: 3%;
 }
@@ -136,7 +136,40 @@ body{
   position: absolute;
   height: 400px;
   width: 18%;
-  border: 3px solid black;
+  border: 2px solid black;
   margin-left: 70%;
+  margin-top: 3%;
+}
+
+.rankings-title{
+  color: gold;
+  text-align: center;
+  margin-top: 5%;
+}
+.waiver-title{
+  color: seagreen;
+  text-align: center;
+  margin-top: 5%;
+}
+.trade-title{
+  color: gold;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.buy-section{
+  position: absolute;
+  height: 400px;
+  width: 35%;
+  border: 2px solid black;
+  margin-left: 13%;
+  margin-top: 3%;
+}
+.sell-section{
+  position: absolute;
+  height: 400px;
+  width: 35%;
+  border: 2px solid black;
+  margin-left: 53%;
   margin-top: 3%;
 }
