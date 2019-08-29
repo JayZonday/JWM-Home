@@ -1,0 +1,16 @@
+.fantasy-page-bg{
+  background: white;
+  background-image: url('http://www.tavern23mn.com/wp-content/uploads/2016/04/football-bg.jpg');
+  background-size:100% 100%;
+  height: 420px;
+}
+.ff-title{
+  color: seagreen;
+  text-align: left;
+  padding-top: 10%;
+  margin-left: 33%;
+  font-weight: bolder;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 80px;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}

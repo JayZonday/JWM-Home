@@ -4,8 +4,8 @@ import './index.css';
 class FantasyFootball extends Component {
   render(){
     return (
-      <div>
-        <h3> Fantasy Football </h3>
+      <div className='fantasy-page-bg'>
+        <h3 className='ff-title'> Fantasy Football </h3>
       </div>
     );
   }
