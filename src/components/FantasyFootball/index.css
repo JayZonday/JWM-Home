@@ -101,9 +101,42 @@ body{
   color: seagreen;
   text-align: center;
   padding-top: 3%;
-  margin-left: 10%;
   font-weight: bolder;
   font-family: 'Satisfy', sans-serif;
   font-size: 56px;
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+.rb-section{
+  position: absolute;
+  height: 400px;
+  width: 18%;
+  border: 3px solid black;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.wr-section{
+  position: absolute;
+  height: 400px;
+  width: 18%;
+  border: 3px solid black;
+  margin-left: 30%;
+  margin-top: 3%;
+}
+.qb-section{
+  position: absolute;
+  height: 400px;
+  width: 18%;
+  border: 3px solid black;
+  margin-left: 50%;
+  margin-top: 3%;
+}
+.te-section{
+  position: absolute;
+  height: 400px;
+  width: 18%;
+  border: 3px solid black;
+  margin-left: 70%;
+  margin-top: 3%;
 }

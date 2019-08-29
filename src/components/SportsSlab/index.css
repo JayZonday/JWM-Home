@@ -33,6 +33,7 @@
 .sport-btn-title{
   font-family: 'Satisfy', sans-serif;
   font-size: 40px;
+  font-weight: 700;
   transition: .3s ease-in-out;
   width: 100%;
   position: absolute;
