@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import Draggable, {DraggableCore} from 'react-draggable';
 import './index.css';
 
@@ -47,9 +48,12 @@ class TopNavbar extends Component {
           <button onClick={() => this.handleQOTD()} title='Quote of the Day' className='nav-btn'>QOTD <span id='special-char'>❞</span></button>
           <button onClick={() => this.handleBOTD()} title='Bet of the Day' className='nav-btn'>BOTD <span id='special-char'>♔</span></button>
         </div>
-        <div className='nav-logo'>
-          <img title="It's all Luck" className='nav-img' src='https://cdn.shopify.com/s/files/1/1685/2975/products/Lucky_Shamrock_green_detail.jpg?v=1549032910'/>
-        </div>
+
+          <div className='nav-logo'>
+            <NavLink to='/'>
+            <img title="It's all Luck" className='nav-img' src='https://cdn.shopify.com/s/files/1/1685/2975/products/Lucky_Shamrock_green_detail.jpg?v=1549032910'/>
+            </NavLink>
+          </div>
 
         <Draggable>
           <div className='bet'>
