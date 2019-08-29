@@ -68,7 +68,8 @@
 .fantasy-sport#nbl{
   margin-left: 73%;
   color: seagreen;
-  border: 1px solid seagreen;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
 }
 .fantasy-sport:hover{
   clip-path: polygon(100% 0, 100% 46%, 100% 100%, 0 100%, 0 17%);

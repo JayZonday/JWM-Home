@@ -41,6 +41,15 @@ body{
   width: 100%;
   overflow: hidden;
 }
+.ff-nav-btn-underline{
+  border: 1px solid white;
+  width: 50px;
+  transition: .3s ease-in-out;
+}
+.ff-nav-btn:hover .ff-nav-btn-underline{
+  border: 1px solid gold;
+  width: 100px;
+}
 .ff-nav-btn{
   font-family: 'Satisfy', sans-serif;
   color: seagreen;
@@ -55,24 +64,28 @@ body{
   color: gold;
 }
 .ff-rankings-section{
-  height: 600px;
+  height: 650px;
   width: 100%;
   background-color: seagreen;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
 }
 .ff-waivers-section{
-  height: 600px;
+  height: 650px;
   background-color: white;
   width: 100%;
+  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
 }
 .ff-trades-section{
-  height: 600px;
+  height: 650px;
   background-color: seagreen;
   width: 100%;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
 }
 .ff-daily-section{
-  height: 600px;
+  height: 650px;
   background-color: white;
   width: 100%;
+  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
 }
 .ff-section-title#greenbg{
   color: white;
@@ -89,10 +102,9 @@ body{
   color: seagreen;
   text-align: left;
   padding-top: 3%;
-  margin-left: 10%;
+  margin-left: 15%;
   font-weight: bolder;
   font-family: 'Satisfy', sans-serif;
   font-size: 56px;
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
-
 }
