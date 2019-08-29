@@ -1,6 +1,6 @@
 .sports-section{
   height: 420px;
-  background: whitesmoke;
+  background: white;
 }
 
 .title#sports{
@@ -21,11 +21,11 @@
   padding: 1%;
   width: 20%;
   display: inline-block;
-  transition: .35s ease-in-out;
+  transition: .3s ease-in-out;
   text-align: center;
   color: #ffffff;
   font-weight: 600;
-  cursor: crosshair;
+  cursor: pointer;
   height: 300px;
   opacity: .70;
 }
@@ -71,6 +71,7 @@
 .fantasy-sport:hover{
   color: #ffbf00;
   opacity: 1;
+  border-top: 20px solid white;
   font-weight: 600;
 }
 .fantasy-sport#nbl:hover{

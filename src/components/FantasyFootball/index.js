@@ -16,10 +16,10 @@ class FantasyFootball extends Component {
           </div>
 
           <div className='ff-nav'>
-            <button className='ff-nav-btn'>Weekly Rankings</button>
-            <button className='ff-nav-btn'>Waiver Wire</button>
-            <button className='ff-nav-btn'>Trading Block</button>
-            <button className='ff-nav-btn'>Daily Fantasy</button>
+            <div className='ff-nav-btn' id='rankings'>Weekly Rankings</div>
+            <div className='ff-nav-btn' id='waivers'>Waiver Wire</div>
+            <div className='ff-nav-btn' id='trades'>Trading Block</div>
+            <div className='ff-nav-btn' id='daily'>Daily Fantasy</div>
           </div>
         </div>
 

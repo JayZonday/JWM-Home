@@ -31,14 +31,24 @@
   padding: 1.5%;
   text-align: center;
   border: 2px solid black;
+  overflow-x: hidden;
 }
 .ff-nav{
   position: absolute;
   margin-top: 21%;
-  margin-left: 35%;
+  margin-left: 24%;
+  width: 100%;
 }
 .ff-nav-btn{
   font-family: 'Satisfy', sans-serif;
   color: seagreen;
-
+  display: inline-block;
+  font-weight: 600;
+  font-size: 28px;
+  padding: 1%;
+  transition: .35s ease-in-out;
+  cursor: pointer;
+}
+.ff-nav-btn:hover{
+  color: gold;
 }
