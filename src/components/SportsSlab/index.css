@@ -16,25 +16,62 @@
 }
 
 .fantasy-sport{
-  border: 1px solid seagreen;
-  background: rgba(63, 195, 128, .75);
+  position: absolute;
+  margin-top: 1.18%;
   padding: 1%;
-  width: 15%;
-  margin: 2.5%;
+  width: 20%;
   display: inline-block;
   transition: .35s ease-in-out;
   text-align: center;
   color: #ffffff;
   font-weight: 600;
-  border-radius: 25%;
   cursor: crosshair;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.20), 0 5px 5px rgba(0,0,0,0.20);
+  height: 300px;
+  opacity: .70;
+}
+.sport-btn-title{
+  font-family: 'Satisfy', sans-serif;
+  font-size: 40px;
+  width: 100%;
+  position: absolute;
+  margin-left: -48%;
+  margin-top: 35%;
+  transform: rotate(-14deg);
+}
+.sport-btn-title#ff{
+  color: seagreen;
+}
+.sport-btn-title#fbb{
+  color: gold;
+}
+.sport-btn-title#fb{
+  color: seagreen;
+}
+.sport-btn-title#nbl{
+  color: black;
+  transform: rotate(0deg);
+}
+.fantasy-sport#ff{
+  margin-left: 7%;
+  background: rgb(255,215,0,1);
+}
+.fantasy-sport#fbb{
+  margin-left: 29%;
+  background: rgba(46,139,87,1);
+}
+.fantasy-sport#fb{
+  margin-left: 51%;
+  background: rgba(0,0,0,1);
+}
+.fantasy-sport#nbl{
+  margin-left: 73%;
+  color: seagreen;
+  border: 1px solid seagreen;
 }
 .fantasy-sport:hover{
-  background-color: seagreen;
   color: #ffbf00;
+  opacity: 1;
   font-weight: 600;
-
 }
 .fantasy-sport#nbl:hover{
   background-color: red;

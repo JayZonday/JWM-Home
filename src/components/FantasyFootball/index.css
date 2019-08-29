@@ -35,5 +35,10 @@
 .ff-nav{
   position: absolute;
   margin-top: 21%;
-  margin-left: 33%;
+  margin-left: 35%;
+}
+.ff-nav-btn{
+  font-family: 'Satisfy', sans-serif;
+  color: seagreen;
+
 }

@@ -9,24 +9,10 @@ class SportSlab extends Component {
         <h2 className='title' id='sports'>Sports Hub - Nothing But Luck</h2>
 
 
-        <div className='fantasy-sport'> Football ML & Fanduel</div>
-        <div className='fantasy-sport'> Basketball ML & Fanduel</div>
-        <div className='fantasy-sport'> Baseball ML</div>
-
-
-
-        <div className='fantasy-sport'> Football Takes</div>
-        <div className='fantasy-sport'> Basketball Takes</div>
-        <div className='fantasy-sport'> Baseball Takes</div>
-
-
-
-
-
-        <NavLink to='/fantasy-football'><div className='fantasy-sport'>Fantasy Football</div></NavLink>
-        <div className='fantasy-sport'>Fantasy Basketball</div>
-        <div className='fantasy-sport'>Fantasy Baseball</div>
-        <div className='fantasy-sport' id='nbl'>NBL [not available yet]</div>
+        <NavLink to='/fantasy-football'><div className='fantasy-sport' id='ff'><span className='sport-btn-title' id='ff'>Fantasy Football</span></div></NavLink>
+        <div className='fantasy-sport' id='fbb'><span className='sport-btn-title' id='fbb'>Fantasy Basketball</span></div>
+        <div className='fantasy-sport' id='fb'><span className='sport-btn-title' id='fb'>Fantasy Baseball</span></div>
+        <div className='fantasy-sport' id='nbl'><span className='sport-btn-title' id='nbl'>NBL <br/>[ Not Avaliable ]</span></div>
 
 
       </div>
