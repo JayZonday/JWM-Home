@@ -4,6 +4,8 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 420px;
+  clip-path: polygon(51% 0, 100% 0, 100% 100%, 50% 80%, 0 100%, 0 0);
+
 }
 .ff-title{
   color: seagreen;
@@ -16,7 +18,19 @@
   text-shadow: 4px 3px 0px black, 9px 8px 0px rgba(255,255,255,0.25);
 }
 .ff-intro{
-  height: 350px;
+  height: 320px;
   background: white;
+  clip-path: polygon(50% 2%, 100% 21%, 100% 100%, 51% 100%, 0 100%, 0 21%);
+}
+.ff-intro-box{
+  position: absolute;
+  font-size: 24px;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 7%;
+  padding: 1%;
+  text-align: center;
+  border: 1px solid seagreen;
+
 
 }
