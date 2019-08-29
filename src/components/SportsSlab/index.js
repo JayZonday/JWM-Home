@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import './index.css';
 
 class SportSlab extends Component {
@@ -22,10 +23,9 @@ class SportSlab extends Component {
 
 
 
-        <div className='fantasy-sport'>Fantasy Football</div>
+        <NavLink to='/fantasy-football'><div className='fantasy-sport'>Fantasy Football</div></NavLink>
         <div className='fantasy-sport'>Fantasy Basketball</div>
         <div className='fantasy-sport'>Fantasy Baseball</div>
-
         <div className='fantasy-sport' id='nbl'>NBL [not available yet]</div>
 
 
