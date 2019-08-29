@@ -18,7 +18,6 @@ class CentralHome extends Component {
         <WebDevSlab/>
         <ArtSlab/>
         <SportsSlab/>
-        <CentralFooter/>
       </div>
     );
   }
