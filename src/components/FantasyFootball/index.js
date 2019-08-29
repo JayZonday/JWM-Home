@@ -5,16 +5,27 @@ class FantasyFootball extends Component {
   render(){
     return (
       <div>
-      <div className='fantasy-page-header'>
-        <h3 className='ff-title'> Fantasy Football </h3>
-      </div>
-      <div className='ff-intro'>
-        <div className='ff-intro-box'>
-          Welcome to JayZonday Visions 2019 Fantasy Football Hub - Catch all the latest news and advice here!
-          Desperate for a waiver wire addition? - Need to know if a trade is fair? -
-          Don't know who to start? - You're in LUCK.
+        <div className='fantasy-page-header'>
+          <h3 className='ff-title'> Fantasy Football </h3>
         </div>
-      </div>
+        <div className='ff-intro'>
+          <div className='ff-intro-box'>
+            Welcome to JayZonday Visions 2019 Fantasy Football Hub - Catch all the latest news and advice here!
+            Desperate for a waiver wire addition? - Need to know if a trade is fair? -
+            Don't know who to start? - You're in LUCK.
+          </div>
+
+          <div className='ff-nav'>
+            <button className='ff-nav-btn'>Weekly Rankings</button>
+            <button className='ff-nav-btn'>Waiver Wire</button>
+            <button className='ff-nav-btn'>Trading Block</button>
+            <button className='ff-nav-btn'>Daily Fantasy</button>
+          </div>
+        </div>
+
+
+
+
       </div>
     );
   }
