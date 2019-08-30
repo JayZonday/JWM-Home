@@ -24,6 +24,12 @@ body{
   background: white;
   clip-path: polygon(50% 2%, 100% 21%, 100% 100%, 51% 100%, 0 100%, 0 21%);
 }
+.luck{
+  font-family: 'Satisfy', sans-serif;
+  color: gold;
+  font-weight: 600;
+}
+
 .ff-intro-box{
   position: absolute;
   font-size: 24px;
@@ -67,25 +73,25 @@ body{
   height: 650px;
   width: 100%;
   background-color: seagreen;
-  clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%);
+  clip-path: polygon(50% 0%, 100% 0, 96% 64%, 93% 100%, 7% 100%, 4% 64%, 0 0);
 }
 .ff-waivers-section{
   height: 650px;
   background-color: white;
   width: 100%;
-  clip-path: polygon(7% 0, 100% 0%, 93% 100%, 0% 100%);
+  clip-path: polygon(50% 0%, 93% 0, 96% 36%, 100% 100%, 0 100%, 4% 36%, 7% 0);
 }
 .ff-trades-section{
   height: 650px;
   background-color: seagreen;
   width: 100%;
-  clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%);
+  clip-path: polygon(50% 0%, 100% 0, 96% 64%, 93% 100%, 7% 100%, 4% 64%, 0 0);
 }
 .ff-daily-section{
   height: 650px;
   background-color: white;
   width: 100%;
-  clip-path: polygon(7% 0, 100% 0%, 93% 100%, 0% 100%);
+  clip-path: polygon(50% 0%, 93% 0, 96% 36%, 100% 100%, 0 100%, 4% 36%, 7% 0);
 }
 .ff-section-title#greenbg{
   color: white;
@@ -114,6 +120,8 @@ body{
   border: 2px solid black;
   margin-left: 10%;
   margin-top: 3%;
+  overflow-y: scroll;
+  padding: 1%;
 }
 
 .wr-section{
@@ -123,6 +131,8 @@ body{
   border: 2px solid black;
   margin-left: 30%;
   margin-top: 3%;
+  overflow-y: scroll;
+  padding: 1%;
 }
 .qb-section{
   position: absolute;
@@ -131,6 +141,8 @@ body{
   border: 2px solid black;
   margin-left: 50%;
   margin-top: 3%;
+  overflow-y: scroll;
+  padding: 1%;
 }
 .te-section{
   position: absolute;
@@ -139,22 +151,30 @@ body{
   border: 2px solid black;
   margin-left: 70%;
   margin-top: 3%;
+  overflow-y: scroll;
+  padding: 1%;
 }
 
 .rankings-title{
   color: gold;
   text-align: center;
   margin-top: 5%;
+  font-size: 22px;
+  font-weight: 600;
 }
 .waiver-title{
   color: seagreen;
   text-align: center;
   margin-top: 5%;
+  font-size: 22px;
+  font-weight: 600;
 }
 .trade-title{
   color: gold;
   text-align: center;
   margin-top: 5%;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .buy-section{
