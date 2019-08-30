@@ -193,3 +193,10 @@ body{
   margin-left: 53%;
   margin-top: 3%;
 }
+.ff-week-desc{
+  text-align: center;
+  margin-top: 1%;
+  font-size: 22px;
+  color: gold;
+  font-weight: 600;
+}

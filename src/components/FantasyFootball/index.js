@@ -26,6 +26,7 @@ class FantasyFootball extends Component {
 
         <div className='ff-rankings-section'>
           <h3 className='ff-section-title' id='greenbg'> Weekly Rankings</h3>
+          <div className='ff-week-desc'>Week 1 (September 5th - 9th)</div>
           <div className='rb-section'>
             <h3 className='rankings-title'>Running Backs</h3>
               <div>1</div>
@@ -102,6 +103,7 @@ class FantasyFootball extends Component {
 
         <div className='ff-waivers-section'>
           <h3 className='ff-section-title' id='whitebg'> Weekly Waiver Wire </h3>
+          <div className='ff-week-desc'>Week 1 (September 5th - 9th)</div>
           <div className='rb-section'>
             <h3 className='waiver-title'>Running Backs</h3>
               <div>1</div>
@@ -148,6 +150,7 @@ class FantasyFootball extends Component {
 
         <div className='ff-daily-section'>
           <h3 className='ff-section-title' id='whitebg'> Daily Fantasy</h3>
+          <div className='ff-week-desc'>Week 1 (September 8th)</div>
           <div className='rb-section'>
             <h3 className='waiver-title'>Running Backs</h3>
               <div>1</div>
