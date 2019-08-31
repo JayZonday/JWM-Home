@@ -27,10 +27,10 @@ class FantasyFootball extends Component {
         <div className='ff-rankings-section'>
           <h3 className='ff-section-title' id='greenbg'> Weekly Rankings</h3>
           <div className='ff-week-desc'>Week 1 (September 5th - 9th)</div>
-          <div className='rb-section'>
+          <div className='rb-section' id='greenbg'>
             <h3 className='rankings-title'>Running Backs</h3>
-              <div>1</div>
-              <div>2</div>
+              <div>1. Saquon Barkley</div>
+              <div>2. Alvin Kamara</div>
               <div>3</div>
               <div>4</div>
               <div>5</div>
@@ -45,9 +45,9 @@ class FantasyFootball extends Component {
               <div>14</div>
               <div>15</div>
           </div>
-          <div className='wr-section'>
+          <div className='wr-section' id='greenbg'>
             <h3 className='rankings-title'>Wide Recievers</h3>
-              <div>1</div>
+              <div>1. DeAndre Hopkins</div>
               <div>2</div>
               <div>3</div>
               <div>4</div>
@@ -63,7 +63,7 @@ class FantasyFootball extends Component {
               <div>14</div>
               <div>15</div>
           </div>
-          <div className='qb-section'>
+          <div className='qb-section' id='greenbg'>
             <h3 className='rankings-title'>Quarterbacks</h3>
             <div>1</div>
               <div>2</div>
@@ -81,7 +81,7 @@ class FantasyFootball extends Component {
               <div>14</div>
               <div>15</div>
           </div>
-          <div className='te-section'>
+          <div className='te-section' id='greenbg'>
             <h3 className='rankings-title'>Tight Ends</h3>
               <div>1</div>
               <div>2</div>
@@ -104,7 +104,7 @@ class FantasyFootball extends Component {
         <div className='ff-waivers-section'>
           <h3 className='ff-section-title' id='whitebg'> Weekly Waiver Wire </h3>
           <div className='ff-week-desc'>Week 1 (September 5th - 9th)</div>
-          <div className='rb-section'>
+          <div className='rb-section' id='whitebg'>
             <h3 className='waiver-title'>Running Backs</h3>
               <div>1</div>
               <div>2</div>
@@ -112,7 +112,7 @@ class FantasyFootball extends Component {
               <div>4</div>
               <div>5</div>
           </div>
-          <div className='wr-section'>
+          <div className='wr-section' id='whitebg'>
             <h3 className='waiver-title'>Wide Recievers</h3>
               <div>1</div>
               <div>2</div>
@@ -120,7 +120,7 @@ class FantasyFootball extends Component {
               <div>4</div>
               <div>5</div>
           </div>
-          <div className='qb-section'>
+          <div className='qb-section' id='whitebg'>
             <h3 className='waiver-title'>Quarterbacks</h3>
               <div>1</div>
               <div>2</div>
@@ -128,7 +128,7 @@ class FantasyFootball extends Component {
               <div>4</div>
               <div>5</div>
           </div>
-          <div className='te-section'>
+          <div className='te-section' id='whitebg'>
             <h3 className='waiver-title'>Tight Ends</h3>
               <div>1</div>
               <div>2</div>
@@ -151,7 +151,7 @@ class FantasyFootball extends Component {
         <div className='ff-daily-section'>
           <h3 className='ff-section-title' id='whitebg'> Daily Fantasy</h3>
           <div className='ff-week-desc'>Week 1 (September 8th)</div>
-          <div className='rb-section'>
+          <div className='rb-section' id='whitebg'>
             <h3 className='waiver-title'>Running Backs</h3>
               <div>1</div>
               <div>2</div>
@@ -164,7 +164,7 @@ class FantasyFootball extends Component {
               <div>9</div>
               <div>10</div>
           </div>
-          <div className='wr-section'>
+          <div className='wr-section' id='whitebg'>
             <h3 className='waiver-title'>Wide Recievers</h3>
               <div>1</div>
               <div>2</div>
@@ -177,7 +177,7 @@ class FantasyFootball extends Component {
               <div>9</div>
               <div>10</div>
           </div>
-          <div className='qb-section'>
+          <div className='qb-section' id='whitebg'>
             <h3 className='waiver-title'>Quarterbacks</h3>
               <div>1</div>
               <div>2</div>
@@ -185,7 +185,7 @@ class FantasyFootball extends Component {
               <div>4</div>
               <div>5</div>
           </div>
-          <div className='te-section'>
+          <div className='te-section' id='whitebg'>
             <h3 className='waiver-title'>Tight Ends</h3>
               <div>1</div>
               <div>2</div>

@@ -40,7 +40,7 @@ class TopNavbar extends Component {
     return (
       <div className='top-nav'>
         <div className='navbar'>
-          <button className='nav-btn'><a target='_blank' href="mailto:JMoloughney25@gmail.com">Contact</a><span id='special-char'>✆</span></button>
+          <button className='nav-btn'><a target='_blank' href="mailto:JMoloughney25@gmail.com">Contact</a> <span id='special-char'>✉</span></button>
           <button className='nav-btn'>Resume</button>
           <button className='nav-btn'><a href='https://www.linkedin.com/in/josephmoloughney/' target='_blank'>LinkedIn</a></button>
           <button className='nav-btn'><a href='https://github.com/JayZonday' target='_blank'>GitHub</a></button>
@@ -62,7 +62,7 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              August 28, 2019
+              August 31, 2019
               </span>
               <hr id='bet-text-divider'/>
               <div id='the-bet'></div>
@@ -87,10 +87,10 @@ class TopNavbar extends Component {
               <span id='quote-header-text'>
               Quote of The Day
               <br/>
-              August 26, 2019
+              August 31, 2019
               </span>
               <hr id='quote-text-divider'/>
-              <div id='the-quote'>“This is the real secret of life — to be completely engaged with what you are doing in the here and now. And instead of calling it work, realize it is play.”<br/><br/><span>~ Alan Watts</span></div>
+              <div id='the-quote'>“You have to jump in to swim..”<br/><br/><span>~ Mac Miller</span></div>
               <br/>
               <div id='last-quote'></div>
               <div id='last-quote'></div>

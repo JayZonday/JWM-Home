@@ -113,57 +113,66 @@ body{
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
 }
 
+.rb-section#whitebg, .wr-section#whitebg, .te-section#whitebg, .qb-section#whitebg{
+  background: seagreen;
+  color: white;
+}
+
 .rb-section{
   position: absolute;
   height: 400px;
   width: 18%;
-  border: 2px solid black;
+  background: white;
   margin-left: 10%;
   margin-top: 3%;
   overflow-y: scroll;
   padding: 1%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .wr-section{
   position: absolute;
   height: 400px;
   width: 18%;
-  border: 2px solid black;
+  background: white;
   margin-left: 30%;
   margin-top: 3%;
   overflow-y: scroll;
   padding: 1%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .qb-section{
   position: absolute;
   height: 400px;
   width: 18%;
-  border: 2px solid black;
+  background: white;
   margin-left: 50%;
   margin-top: 3%;
   overflow-y: scroll;
   padding: 1%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .te-section{
   position: absolute;
   height: 400px;
   width: 18%;
-  border: 2px solid black;
+  background: white;
   margin-left: 70%;
   margin-top: 3%;
   overflow-y: scroll;
   padding: 1%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .rankings-title{
-  color: gold;
+  color: seagreen;
   text-align: center;
   margin-top: 5%;
   font-size: 22px;
   font-weight: 600;
 }
 .waiver-title{
-  color: seagreen;
+  color: gold;
   text-align: center;
   margin-top: 5%;
   font-size: 22px;
@@ -181,17 +190,19 @@ body{
   position: absolute;
   height: 400px;
   width: 35%;
-  border: 2px solid black;
   margin-left: 13%;
   margin-top: 3%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background: white;
 }
 .sell-section{
   position: absolute;
   height: 400px;
   width: 35%;
-  border: 2px solid black;
   margin-left: 53%;
   margin-top: 3%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background: white;
 }
 .ff-week-desc{
   text-align: center;

@@ -23,7 +23,7 @@
 }
 .carousel-indicators{
   position: absolute !important;
-  margin: -30% auto !important;
+  margin: -32% auto !important;
   color: seagreen !important;
   width: 100%;
 }
@@ -36,8 +36,9 @@
 }
 .carousel-indicators li{
   background: seagreen;
-  width: 12%;
-  height: 1%;
+  width: 1.5%;
+  margin: 1%;
+  height: 2px;
  }
  .carousel-control-next, .carousel-control-prev{
    display: none;
