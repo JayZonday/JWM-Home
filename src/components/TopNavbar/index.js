@@ -62,10 +62,10 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              August 31, 2019
+              September 5, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'></div>
+              <div id='the-bet'>Greenbay Packers ML +150 (@ Chicago Bears) TNF</div>
               <br/>
               <div id='bet-record'>4-3 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
@@ -87,10 +87,11 @@ class TopNavbar extends Component {
               <span id='quote-header-text'>
               Quote of The Day
               <br/>
-              August 31, 2019
+              September 5, 2019
               </span>
               <hr id='quote-text-divider'/>
-              <div id='the-quote'>“You have to jump in to swim..”<br/><br/><span>~ Mac Miller</span></div>
+              <div id='the-quote'>“My technique is don’t believe anything. If you believe in something,
+              you are automatically precluded from believing its opposite.”<br/><br/><span>~ Terence McKenna</span></div>
               <br/>
               <div id='last-quote'></div>
               <div id='last-quote'></div>
