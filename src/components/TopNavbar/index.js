@@ -62,12 +62,12 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              September 5, 2019
+              September 9, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'>Greenbay Packers ML +150 (@ Chicago Bears) TNF</div>
+              <div id='the-bet'>MNF</div>
               <br/>
-              <div id='bet-record'>4-3 Since August 8, 2019</div>
+              <div id='bet-record'>5-3 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
               <div id='last-bets'>8/9 - New York Mets ML +115 <b>[Won]</b></div>
               <div id='last-bets'>8/11 - Philadelphia Phillies ML -115 <b>[Lost]</b></div>
@@ -75,6 +75,7 @@ class TopNavbar extends Component {
               <div id='last-bets'>8/20 - St. Louis Cardinals ML +100 <b>[Won]</b></div>
               <div id='last-bets'>8/26 - Colorado Rockies ML +140 <b>[Won]</b></div>
               <div id='last-bets'>8/27 - New York Mets ML EVEN <b>[Lost]</b></div>
+              <div id='last-bets'>9/5 - Greenbay Packers ML +150 <b>[Won]</b></div>
 
             </div>
           </div>
