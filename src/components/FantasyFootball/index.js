@@ -204,36 +204,44 @@ class FantasyFootball extends Component {
           <div className='ff-week-desc'>Week 2 (September 12th - 16th)</div>
           <div className='rb-section' id='whitebg'>
             <h3 className='waiver-title'>Running Backs</h3>
-              <div>1. Giovani Bernard [CIN]</div>
-              <div>2. Chris Thompson [WAS]</div>
-              <div>3. Adrian Peterson [WAS]</div>
-              <div>4. Ronald Jones [TB]</div>
-              <div>5. Malcolm Brown [LAR]</div>
+              <div className='player-name'><span id='rank'>1.</span> Giovani Bernard [CIN]</div>
+              <div className='player-name'><span id='rank'>2.</span> Chris Thompson [WAS]</div>
+              <div className='player-name'><span id='rank'>3.</span> Adrian Peterson [WAS]</div>
+              <div className='player-name'><span id='rank'>4.</span> Ronald Jones [TB]</div>
+              <div className='player-name'><span id='rank'>5.</span> Malcolm Brown [LAR]</div>
           </div>
           <div className='wr-section' id='whitebg'>
             <h3 className='waiver-title'>Wide Recievers</h3>
-              <div>1. John Ross III [CIN]</div>
-              <div>2. Marquise Brown [BAL]</div>
-              <div>3. DJ Shark [JAX]</div>
-              <div>4. Randall Cobb [DAL]</div>
-              <div>5. Terry McLaurin [WAS]</div>
+              <div className='player-name'><span id='rank'>1.</span> John Ross III [CIN]</div>
+              <div className='player-name'><span id='rank'>2.</span> Marquise Brown [BAL]</div>
+              <div className='player-name'><span id='rank'>3.</span> DJ Shark [JAX]</div>
+              <div className='player-name'><span id='rank'>4.</span> Randall Cobb [DAL]</div>
+              <div className='player-name'><span id='rank'>5.</span> Terry McLaurin [WAS]</div>
           </div>
           <div className='qb-section' id='whitebg'>
             <h3 className='waiver-title'>Quarterbacks</h3>
-              <div>1. Matthew Stafford [DET]</div>
-              <div>2. Marcus Mariota [TEN]</div>
-              <div>3. Case Keenum [WAS]</div>
-              <div>4. Mitchell Trubisky [CHI]</div>
-              <div>5. Kyler Murray [ARI]</div>
+              <div className='player-name'><span id='rank'>1.</span> Matthew Stafford [DET]</div>
+              <div className='player-name'><span id='rank'>2.</span> Marcus Mariota [TEN]</div>
+              <div className='player-name'><span id='rank'>3.</span> Case Keenum [WAS]</div>
+              <div className='player-name'><span id='rank'>4.</span> Mitchell Trubisky [CHI]</div>
+              <div className='player-name'><span id='rank'>5.</span> Kyler Murray [ARI]</div>
           </div>
           <div className='te-section' id='whitebg'>
             <h3 className='waiver-title'>Tight Ends</h3>
-              <div>1. Vernon Davis [WAS]</div>
-              <div>2. Jimmy Graham [GB]</div>
-              <div>3. Mark Andrews [BAL]</div>
-              <div>4. T.J. Hockenson [DET]</div>
-              <div>5. Jason Witten [DAL]</div>
+              <div className='player-name'><span id='rank'>1.</span> Vernon Davis [WAS]</div>
+              <div className='player-name'><span id='rank'>2.</span> Jimmy Graham [GB]</div>
+              <div className='player-name'><span id='rank'>3.</span> Mark Andrews [BAL]</div>
+              <div className='player-name'><span id='rank'>4.</span> T.J. Hockenson [DET]</div>
+              <div className='player-name'><span id='rank'>5.</span> Jason Witten [DAL]</div>
           </div>
+
+          <hr className='design-lines' id='waiver1' />
+          <hr className='design-lines' id='waiver2' />
+          <hr className='design-lines' id='waiver3' />
+          <hr className='design-lines' id='waiver4' />
+          <hr className='design-lines' id='waiver5' />
+          <hr className='design-lines' id='waiver6' />
+
         </div>
 
         <div className='ff-trades-section'>
@@ -248,49 +256,50 @@ class FantasyFootball extends Component {
 
         <div className='ff-daily-section'>
           <h3 className='ff-section-title' id='whitebg'> Daily Fantasy</h3>
-          <div className='ff-week-desc'>Week 2 (September 15th)</div>
-          <div className='rb-section' id='whitebg'>
+          <div className='ff-week-desc'>Fanduel Week 2 (September 15th) </div>
+          <div className='rb-section' id='whitebg2'>
             <h3 className='waiver-title'>Running Backs</h3>
-            <div>1. Christian McCaffrey [CAR]</div>
-            <div>2. Alvin Kamara [NO]</div>
-            <div>3. Derrick Henry [TEN]</div>
-            <div>4. Dalvin Cook [MIN]</div>
-            <div>5. Ezekiel Elliot [DAL]</div>
-            <div>6. David Johnson [ARI]</div>
-            <div>7. Chris Carson [SEA]</div>
-            <div>8. Leveon Bell [NYJ]</div>
-            <div>9. Saquon Barkley [NYG]</div>
-            <div>10. Todd Gurley II [LAR]</div>
+            <div className='player-name'><span id='rank'>1.</span> Christian McCaffrey [CAR]</div>
+            <div className='player-name'><span id='rank'>2.</span> Alvin Kamara [NO]</div>
+            <div className='player-name'><span id='rank'>3.</span> Derrick Henry [TEN]</div>
+            <div className='player-name'><span id='rank'>4.</span> Dalvin Cook [MIN]</div>
+            <div className='player-name'><span id='rank'>5.</span> Ezekiel Elliot [DAL]</div>
+            <div className='player-name'><span id='rank'>6.</span> David Johnson [ARI]</div>
+            <div className='player-name'><span id='rank'>7.</span> Chris Carson [SEA]</div>
+            <div className='player-name'><span id='rank'>8.</span> Leveon Bell [NYJ]</div>
+            <div className='player-name'><span id='rank'>9.</span> Saquon Barkley [NYG]</div>
+            <div className='player-name'><span id='rank'>10.</span> Todd Gurley II [LAR]</div>
           </div>
-          <div className='wr-section' id='whitebg'>
+          <div className='wr-section' id='whitebg2'>
             <h3 className='waiver-title'>Wide Recievers</h3>
-            <div>1. DeAndre Hopkins [HOU]</div>
-            <div>2. Julio Jones [ATL]</div>
-            <div>3. Antonio Brown [NE]</div>
-            <div>4. Mike Evans [TB]</div>
-            <div>5. Michael Thomas [NO]</div>
-            <div>6. Keenan Allen [LAC]</div>
-            <div>7. JuJu Smith-Schuster [PIT]</div>
-            <div>8. Davante Adams [GB]</div>
-            <div>9. Amari Cooper [DAL]</div>
-            <div>10. Adam Thielen [MIN]</div>
+            <div className='player-name'><span id='rank'>1.</span> DeAndre Hopkins [HOU]</div>
+            <div className='player-name'><span id='rank'>2.</span> Julio Jones [ATL]</div>
+            <div className='player-name'><span id='rank'>3.</span> Antonio Brown [NE]</div>
+            <div className='player-name'><span id='rank'>4.</span> Mike Evans [TB]</div>
+            <div className='player-name'><span id='rank'>5.</span> Michael Thomas [NO]</div>
+            <div className='player-name'><span id='rank'>6.</span> Keenan Allen [LAC]</div>
+            <div className='player-name'><span id='rank'>7.</span> JuJu Smith-Schuster [PIT]</div>
+            <div className='player-name'><span id='rank'>8.</span> Davante Adams [GB]</div>
+            <div className='player-name'><span id='rank'>9.</span> Amari Cooper [DAL]</div>
+            <div className='player-name'><span id='rank'>10.</span> Adam Thielen [MIN]</div>
           </div>
-          <div className='qb-section' id='whitebg'>
+          <div className='qb-section' id='whitebg2'>
             <h3 className='waiver-title'>Quarterbacks</h3>
-            <div>1. Patrick Mahomes [KC]</div>
-            <div>2. Lamar Jackson [BAL]</div>
-            <div>3. Tom Brady [NE]</div>
-            <div>4. Aaron Rodgers [GB]</div>
-            <div>5. Drew Brees [NO]</div>
-            <div>6. Dak Prescott [DAL]</div>
+            <div className='player-name'><span id='rank'>1.</span> Patrick Mahomes [KC]</div>
+            <div className='player-name'><span id='rank'>2.</span> Lamar Jackson [BAL]</div>
+            <div className='player-name'><span id='rank'>3.</span> Tom Brady [NE]</div>
+            <div className='player-name'><span id='rank'>4.</span> Aaron Rodgers [GB]</div>
+            <div className='player-name'><span id='rank'>5.</span> Drew Brees [NO]</div>
+            <div className='player-name'><span id='rank'>6.</span> Dak Prescott [DAL]</div>
           </div>
-          <div className='te-section' id='whitebg'>
+          <div className='te-section' id='whitebg2'>
             <h3 className='waiver-title'>Tight Ends</h3>
-            <div>1. Travis Kelce [KC]</div>
-            <div>2. Zach Ertz [PHI]</div>
-            <div>3. George Kittle [SF]</div>
-            <div>4. Evan Engram [NYG]</div>
-            <div>5. OJ Howard [TB]</div>
+            <div className='player-name'><span id='rank'>1.</span> Travis Kelce [KC]</div>
+            <div className='player-name'><span id='rank'>2.</span> Zach Ertz [PHI]</div>
+            <div className='player-name'><span id='rank'>3.</span> George Kittle [SF]</div>
+            <div className='player-name'><span id='rank'>4.</span> Evan Engram [NYG]</div>
+            <div className='player-name'><span id='rank'>5.</span>. OJ Howard [TB]</div>
+            <div className='player-name'><span id='rank'>6.</span>. Mark Andrews [BAL]</div>
           </div>
         </div>
 
