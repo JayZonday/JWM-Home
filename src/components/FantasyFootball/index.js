@@ -2,6 +2,20 @@ import React, { Component } from 'react';
 import './index.css';
 
 class FantasyFootball extends Component {
+
+  handleRankings = () => {
+    document.querySelector('.ff-rankings-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+  }
+  handleWire = () => {
+    document.querySelector('.ff-waivers-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+  }
+  handleTrades = () => {
+    document.querySelector('.ff-trades-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+  }
+  handleDaily = () => {
+    document.querySelector('.ff-daily-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+  }
+
   render(){
     return (
       <div>
@@ -21,10 +35,10 @@ class FantasyFootball extends Component {
           </div>
 
           <div className='ff-nav'>
-            <div className='ff-nav-btn' id='rankings'>Weekly Rankings<hr className='ff-nav-btn-underline'/></div>
-            <div className='ff-nav-btn' id='waivers'>Waiver Wire<hr className='ff-nav-btn-underline'/></div>
-            <div className='ff-nav-btn' id='trades'>Trading Block<hr className='ff-nav-btn-underline'/></div>
-            <div className='ff-nav-btn' id='daily'>Daily Fantasy<hr className='ff-nav-btn-underline'/></div>
+            <div className='ff-nav-btn' id='rankings' onClick={()=> this.handleRankings()}>Weekly Rankings<hr className='ff-nav-btn-underline'/></div>
+            <div className='ff-nav-btn' id='waivers' onClick={()=> this.handleWire()}>Waiver Wire<hr className='ff-nav-btn-underline'/></div>
+            <div className='ff-nav-btn' id='trades' onClick={()=> this.handleTrades()}>Trading Block<hr className='ff-nav-btn-underline'/></div>
+            <div className='ff-nav-btn' id='daily' onClick={()=> this.handleDaily()}>Daily Fantasy<hr className='ff-nav-btn-underline'/></div>
           </div>
 
         </div>
