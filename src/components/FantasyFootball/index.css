@@ -120,7 +120,7 @@ body{
 
 .rb-section{
   position: absolute;
-  height: 400px;
+  height: 420px;
   width: 18%;
   background: white;
   margin-left: 10%;
@@ -128,12 +128,13 @@ body{
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
+  transition: .25s ease-in-out;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .wr-section{
   position: absolute;
-  height: 400px;
+  height: 420px;
   width: 18%;
   background: white;
   margin-left: 30%;
@@ -141,10 +142,12 @@ body{
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
+  transition: .25s ease-in-out;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .qb-section{
   position: absolute;
-  height: 400px;
+  height: 420px;
   width: 18%;
   background: white;
   margin-left: 50%;
@@ -152,11 +155,12 @@ body{
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
+  transition: .25s ease-in-out;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .te-section{
   position: absolute;
-  height: 400px;
+  height: 420px;
   width: 18%;
   background: white;
   margin-left: 70%;
@@ -164,6 +168,7 @@ body{
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
+  transition: .25s ease-in-out;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 #rank{

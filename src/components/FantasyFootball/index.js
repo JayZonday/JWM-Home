@@ -18,29 +18,37 @@ class FantasyFootball extends Component {
   handleRbReveal = () => {
     if(document.querySelector('.rb-names').style.display === 'none'){
       document.querySelector('.rb-names').style.display = 'block'
+      document.querySelector('.rb-section').style.height = '420px'
     }else{
       document.querySelector('.rb-names').style.display = 'none'
+      document.querySelector('.rb-section').style.height = '160px'
     }
   }
   handleWrReveal = () => {
     if(document.querySelector('.wr-names').style.display === 'none'){
       document.querySelector('.wr-names').style.display = 'block'
+      document.querySelector('.wr-section').style.height = '420px'
     }else{
       document.querySelector('.wr-names').style.display = 'none'
+      document.querySelector('.wr-section').style.height = '160px'
     }
   }
   handleQbReveal = () => {
     if(document.querySelector('.qb-names').style.display === 'none'){
       document.querySelector('.qb-names').style.display = 'block'
+      document.querySelector('.qb-section').style.height = '420px'
     }else{
       document.querySelector('.qb-names').style.display = 'none'
+      document.querySelector('.qb-section').style.height = '160px'
     }
   }
   handleTeReveal = () => {
     if(document.querySelector('.te-names').style.display === 'none'){
       document.querySelector('.te-names').style.display = 'block'
+      document.querySelector('.te-section').style.height = '420px'
     }else{
       document.querySelector('.te-names').style.display = 'none'
+      document.querySelector('.te-section').style.height = '160px'
     }
   }
 
