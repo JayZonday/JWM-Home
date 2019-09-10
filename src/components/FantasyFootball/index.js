@@ -9,6 +9,9 @@ class FantasyFootball extends Component {
           <h3 className='ff-title'> Fantasy Football </h3>
         </div>
         <div className='ff-intro'>
+        <hr className='design-lines' id='first' />
+        <hr className='design-lines' id='second' />
+        <hr className='design-lines' id='third' />
           <div className='ff-intro-box'>
             Welcome to JayZonday Visions 2019 Fantasy Football Hub - Catch all the latest news and advice here!
             Desperate for a waiver wire addition?  Need a trade option to target?

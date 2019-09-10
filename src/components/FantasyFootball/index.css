@@ -214,3 +214,25 @@ body{
   color: gold;
   font-weight: 600;
 }
+
+.design-lines{
+  position: absolute;
+  background-color: seagreen;
+  border-color: seagreen;
+  width: 100%;
+  height: 4px;
+}
+
+.design-lines#first{
+  margin-top: 6%;
+  height: 6px;
+
+}
+.design-lines#second{
+  margin-top: 18%;
+  width: 31%;
+}
+.design-lines#third{
+  margin-top: 18%;
+  margin-left: 69%;
+}
