@@ -197,6 +197,7 @@ body{
   margin-top: 3%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   background: white;
+  border-radius: 2%;
 }
 .sell-section{
   position: absolute;
@@ -206,6 +207,7 @@ body{
   margin-top: 3%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   background: white;
+  border-radius: 2%;
 }
 .ff-week-desc{
   text-align: center;
@@ -213,6 +215,13 @@ body{
   font-size: 22px;
   color: gold;
   font-weight: 600;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.55);
+}
+.ff-logo{
+  position: absolute;
+  height: 85px;
+  width: 95px;
+  margin: 1.5% 0% 0 47%;
 }
 
 .design-lines{

@@ -23,6 +23,7 @@ class FantasyFootball extends Component {
           <h3 className='ff-title'> Fantasy Football </h3>
         </div>
         <div className='ff-intro'>
+        <img className='ff-logo' src='https://i.ibb.co/fXThCh4/sham-helm.png'/>
         <hr className='design-lines' id='first' />
         <hr className='design-lines' id='fourth' />
         <hr className='design-lines' id='second' />
