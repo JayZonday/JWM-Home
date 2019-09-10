@@ -15,6 +15,34 @@ class FantasyFootball extends Component {
   handleDaily = () => {
     document.querySelector('.ff-daily-section').scrollIntoView({behavior: 'smooth', block: 'center'})
   }
+  handleRbReveal = () => {
+    if(document.querySelector('.rb-names').style.display === 'none'){
+      document.querySelector('.rb-names').style.display = 'block'
+    }else{
+      document.querySelector('.rb-names').style.display = 'none'
+    }
+  }
+  handleWrReveal = () => {
+    if(document.querySelector('.wr-names').style.display === 'none'){
+      document.querySelector('.wr-names').style.display = 'block'
+    }else{
+      document.querySelector('.wr-names').style.display = 'none'
+    }
+  }
+  handleQbReveal = () => {
+    if(document.querySelector('.qb-names').style.display === 'none'){
+      document.querySelector('.qb-names').style.display = 'block'
+    }else{
+      document.querySelector('.qb-names').style.display = 'none'
+    }
+  }
+  handleTeReveal = () => {
+    if(document.querySelector('.te-names').style.display === 'none'){
+      document.querySelector('.te-names').style.display = 'block'
+    }else{
+      document.querySelector('.te-names').style.display = 'none'
+    }
+  }
 
   render(){
     return (
@@ -49,105 +77,117 @@ class FantasyFootball extends Component {
           <div className='ff-week-desc'>Week 2 (September 12th - 16th)</div>
           <div className='rb-section' id='greenbg'>
             <h3 className='rankings-title'>Running Backs</h3>
-              <div>1. Christian McCaffrey [CAR]</div>
-              <div>2. Alvin Kamara [NO]</div>
-              <div>3. Derrick Henry [TEN]</div>
-              <div>4. Dalvin Cook [MIN]</div>
-              <div>5. Ezekiel Elliot [DAL]</div>
-              <div>6. David Johnson [ARI]</div>
-              <div>7. Chris Carson [SEA]</div>
-              <div>8. Leveon Bell [NYJ]</div>
-              <div>9. Saquon Barkley [NYG]</div>
-              <div>10. Todd Gurley II [LAR]</div>
-              <div>11. Nick Chubb [CLE]</div>
-              <div>12. Marlon Mack [IND]</div>
-              <div>13. James Conner [PIT]</div>
-              <div>14. Sony Michel [NE]</div>
-              <div>15. Leonard Fournette [JAX]</div>
-              <div>16. Kerryon Johnson [DET]</div>
-              <div>17. Austin Ekeler [LAC]</div>
-              <div>18. Joe Mixon [CIN]</div>
-              <div>19. Aaron Jones [GB]</div>
-              <div>20. Devonta Freeman [ATL]</div>
-              <div>21. Josh Jacobs [OAK]</div>
-              <div>22. Mark Ingram II [BAL]</div>
-              <div>23. Devin Singletary [BUF]</div>
-              <div>24. Adrian Peterson [WAS]</div>
-              <div>25. Duke Johnson Jr [HOU]</div>
-              <div>26. Damien Williams [KC]</div>
-              <div>27. Phillip Lindsay [DEN]</div>
-              <div>28. David Montgomery [CHI]</div>
-              <div>29. Carlos Hyde [HOU]</div>
-              <div>30. Lesean McCoy [KC]</div>
+              <button className='reveal-btn' onClick={()=> this.handleRbReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
+            <div className='rb-names'>
+              <div className='player-name'><span id='rank'>1.</span> Christian McCaffrey [CAR]</div>
+              <div className='player-name'><span id='rank'>2.</span> Alvin Kamara [NO]</div>
+              <div className='player-name'><span id='rank'>3.</span> Derrick Henry [TEN]</div>
+              <div className='player-name'><span id='rank'>4.</span> Dalvin Cook [MIN]</div>
+              <div className='player-name'><span id='rank'>5.</span> Ezekiel Elliot [DAL]</div>
+              <div className='player-name'><span id='rank'>6.</span> David Johnson [ARI]</div>
+              <div className='player-name'><span id='rank'>7.</span> Chris Carson [SEA]</div>
+              <div className='player-name'><span id='rank'>8.</span> Leveon Bell [NYJ]</div>
+              <div className='player-name'><span id='rank'>9.</span> Saquon Barkley [NYG]</div>
+              <div className='player-name'><span id='rank'>10.</span> Todd Gurley II [LAR]</div>
+              <div className='player-name'><span id='rank'>11.</span> Nick Chubb [CLE]</div>
+              <div className='player-name'><span id='rank'>12.</span> Marlon Mack [IND]</div>
+              <div className='player-name'><span id='rank'>13.</span> James Conner [PIT]</div>
+              <div className='player-name'><span id='rank'>14.</span> Sony Michel [NE]</div>
+              <div className='player-name'><span id='rank'>15.</span> Leonard Fournette [JAX]</div>
+              <div className='player-name'><span id='rank'>16.</span> Kerryon Johnson [DET]</div>
+              <div className='player-name'><span id='rank'>17.</span> Austin Ekeler [LAC]</div>
+              <div className='player-name'><span id='rank'>18.</span> Joe Mixon [CIN]</div>
+              <div className='player-name'><span id='rank'>19.</span> Aaron Jones [GB]</div>
+              <div className='player-name'><span id='rank'>20.</span> Devonta Freeman [ATL]</div>
+              <div className='player-name'><span id='rank'>21.</span> Josh Jacobs [OAK]</div>
+              <div className='player-name'><span id='rank'>22.</span> Mark Ingram II [BAL]</div>
+              <div className='player-name'><span id='rank'>23.</span> Devin Singletary [BUF]</div>
+              <div className='player-name'><span id='rank'>24.</span> Adrian Peterson [WAS]</div>
+              <div className='player-name'><span id='rank'>25.</span> Duke Johnson Jr [HOU]</div>
+              <div className='player-name'><span id='rank'>26.</span> Damien Williams [KC]</div>
+              <div className='player-name'><span id='rank'>27.</span> Phillip Lindsay [DEN]</div>
+              <div className='player-name'><span id='rank'>28.</span> David Montgomery [CHI]</div>
+              <div className='player-name'><span id='rank'>29.</span> Carlos Hyde [HOU]</div>
+              <div className='player-name'><span id='rank'>30.</span> Lesean McCoy [KC]</div>
+            </div>
           </div>
           <div className='wr-section' id='greenbg'>
             <h3 className='rankings-title'>Wide Recievers</h3>
-              <div>1. DeAndre Hopkins [HOU]</div>
-              <div>2. Julio Jones [ATL]</div>
-              <div>3. Antonio Brown [NE]</div>
-              <div>4. Mike Evans [TB]</div>
-              <div>5. Michael Thomas [NO]</div>
-              <div>6. Keenan Allen [LAC]</div>
-              <div>7. JuJu Smith-Schuster [PIT]</div>
-              <div>8. Davante Adams [GB]</div>
-              <div>9. Amari Cooper [DAL]</div>
-              <div>10. Adam Thielen [MIN]</div>
-              <div>11. Kenny Golladay [DET]</div>
-              <div>12. Sammy Watkins [KC]</div>
-              <div>13. Julian Edelman [NE]</div>
-              <div>14. Josh Gordon [NE]</div>
-              <div>15. Stefon Diggs [MIN]</div>
-              <div>16. Allen Robinson [CHI]</div>
-              <div>17. Cooper Kupp [LAR]</div>
-              <div>18. Robert Woods [LAR]</div>
-              <div>19. Brandin Cooks [LAR]</div>
-              <div>20. TY Hilton [IND]</div>
-              <div>21. Tyrell Williams [OAK]</div>
-              <div>22. Ashlon Jeffery [PHI]</div>
-              <div>23. DJ Moore [CAR]</div>
-              <div>24. Chris Godwin [TB]</div>
-              <div>25. Desean Jackson [PHI]</div>
-              <div>26.  Mike Williams [LAC]</div>
-              <div>27.  Tyler Boyd [CIN]</div>
-              <div>28.  Tyler Lockett [SEA]</div>
-              <div>29.  Marquise Brown [BAL]</div>
-              <div>30.  Dede Westbrook [JAX]</div>
+            <button className='reveal-btn' onClick={()=> this.handleWrReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
+              <div className='wr-names'>
+              <div className='player-name'><span id='rank'>1.</span> DeAndre Hopkins [HOU]</div>
+              <div className='player-name'><span id='rank'>2.</span> Julio Jones [ATL]</div>
+              <div className='player-name'><span id='rank'>3.</span> Antonio Brown [NE]</div>
+              <div className='player-name'><span id='rank'>4.</span> Mike Evans [TB]</div>
+              <div className='player-name'><span id='rank'>5.</span> Michael Thomas [NO]</div>
+              <div className='player-name'><span id='rank'>6.</span> Keenan Allen [LAC]</div>
+              <div className='player-name'><span id='rank'>7.</span> JuJu Smith-Schuster [PIT]</div>
+              <div className='player-name'><span id='rank'>8.</span> Davante Adams [GB]</div>
+              <div className='player-name'><span id='rank'>9.</span> Amari Cooper [DAL]</div>
+              <div className='player-name'><span id='rank'>10.</span> Adam Thielen [MIN]</div>
+              <div className='player-name'><span id='rank'>11.</span> Kenny Golladay [DET]</div>
+              <div className='player-name'><span id='rank'>12.</span> Sammy Watkins [KC]</div>
+              <div className='player-name'><span id='rank'>13.</span> Julian Edelman [NE]</div>
+              <div className='player-name'><span id='rank'>14.</span> Josh Gordon [NE]</div>
+              <div className='player-name'><span id='rank'>15.</span> Stefon Diggs [MIN]</div>
+              <div className='player-name'><span id='rank'>16.</span> Allen Robinson [CHI]</div>
+              <div className='player-name'><span id='rank'>17.</span> Cooper Kupp [LAR]</div>
+              <div className='player-name'><span id='rank'>18.</span> Robert Woods [LAR]</div>
+              <div className='player-name'><span id='rank'>19.</span> Brandin Cooks [LAR]</div>
+              <div className='player-name'><span id='rank'>20.</span> TY Hilton [IND]</div>
+              <div className='player-name'><span id='rank'>21.</span> Tyrell Williams [OAK]</div>
+              <div className='player-name'><span id='rank'>22.</span> Ashlon Jeffery [PHI]</div>
+              <div className='player-name'><span id='rank'>23.</span> DJ Moore [CAR]</div>
+              <div className='player-name'><span id='rank'>24.</span> Chris Godwin [TB]</div>
+              <div className='player-name'><span id='rank'>25.</span> Desean Jackson [PHI]</div>
+              <div className='player-name'><span id='rank'>26.</span>  Mike Williams [LAC]</div>
+              <div className='player-name'><span id='rank'>27.</span>  Tyler Boyd [CIN]</div>
+              <div className='player-name'><span id='rank'>28.</span>  Tyler Lockett [SEA]</div>
+              <div className='player-name'><span id='rank'>29.</span>  Marquise Brown [BAL]</div>
+              <div className='player-name'><span id='rank'>30.</span>  Dede Westbrook [JAX]</div>
+            </div>
           </div>
           <div className='qb-section' id='greenbg'>
             <h3 className='rankings-title'>Quarterbacks</h3>
-            <div>1. Patrick Mahomes [KC]</div>
-            <div>2. Lamar Jackson [BAL]</div>
-            <div>3. Tom Brady [NE]</div>
-            <div>4. Aaron Rodgers [GB]</div>
-            <div>5. Drew Brees [NO]</div>
-            <div>6. Dak Prescott [DAL]</div>
-            <div>7. Deshaun Watson [HOU]</div>
-            <div>8. Carson Wentz [PHI]</div>
-            <div>9. Cam Newton [CAR]</div>
-            <div>10. Russell Wilson [SEA]</div>
-            <div>11. Ben Roethlisberger [PIT]</div>
-            <div>12. Philip Rivers [LAC]</div>
-            <div>13. Jared Goff [LAR]</div>
-            <div>14. Matthew Stafford [DET]</div>
-            <div>15. Matt Ryan [ATL]</div>
+            <button className='reveal-btn' onClick={()=> this.handleQbReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
+          <div className='qb-names'>
+            <div className='player-name'><span id='rank'>1.</span> Patrick Mahomes [KC]</div>
+            <div className='player-name'><span id='rank'>2.</span> Lamar Jackson [BAL]</div>
+            <div className='player-name'><span id='rank'>3.</span> Tom Brady [NE]</div>
+            <div className='player-name'><span id='rank'>4.</span> Aaron Rodgers [GB]</div>
+            <div className='player-name'><span id='rank'>5.</span> Drew Brees [NO]</div>
+            <div className='player-name'><span id='rank'>6.</span> Dak Prescott [DAL]</div>
+            <div className='player-name'><span id='rank'>7.</span> Deshaun Watson [HOU]</div>
+            <div className='player-name'><span id='rank'>8.</span> Carson Wentz [PHI]</div>
+            <div className='player-name'><span id='rank'>9.</span> Cam Newton [CAR]</div>
+            <div className='player-name'><span id='rank'>10.</span> Russell Wilson [SEA]</div>
+            <div className='player-name'><span id='rank'>11.</span> Ben Roethlisberger [PIT]</div>
+            <div className='player-name'><span id='rank'>12.</span> Philip Rivers [LAC]</div>
+            <div className='player-name'><span id='rank'>13.</span> Jared Goff [LAR]</div>
+            <div className='player-name'><span id='rank'>14.</span> Matthew Stafford [DET]</div>
+            <div className='player-name'><span id='rank'>15.</span> Matt Ryan [ATL]</div>
+          </div>
           </div>
           <div className='te-section' id='greenbg'>
             <h3 className='rankings-title'>Tight Ends</h3>
-              <div>1. Travis Kelce [KC]</div>
-              <div>2. Zach Ertz [PHI]</div>
-              <div>3. George Kittle [SF]</div>
-              <div>4. Evan Engram [NYG]</div>
-              <div>5. OJ Howard [TB]</div>
-              <div>6. Hunter Henry [LAC]</div>
-              <div>7. Mark Andrews [BAL]</div>
-              <div>8. Delanie Walker [TEN]</div>
-              <div>9. David Njoku [CLE]</div>
-              <div>10. Jared Cook [NO]</div>
-              <div>11. Vance McDonald [PIT]</div>
-              <div>12. Darren Waller [OAK]</div>
-              <div>13. Greg Olsen [CAR]</div>
-              <div>14. Jimmy Graham [GB]</div>
-              <div>15. Vernon Davis [WAS]</div>
+            <button className='reveal-btn' onClick={()=> this.handleTeReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
+            <div className='te-names'>
+              <div className='player-name'><span id='rank'>1.</span> Travis Kelce [KC]</div>
+              <div className='player-name'><span id='rank'>2.</span> Zach Ertz [PHI]</div>
+              <div className='player-name'><span id='rank'>3.</span> George Kittle [SF]</div>
+              <div className='player-name'><span id='rank'>4.</span> Evan Engram [NYG]</div>
+              <div className='player-name'><span id='rank'>5.</span> OJ Howard [TB]</div>
+              <div className='player-name'><span id='rank'>6.</span> Hunter Henry [LAC]</div>
+              <div className='player-name'><span id='rank'>7.</span> Mark Andrews [BAL]</div>
+              <div className='player-name'><span id='rank'>8.</span> Delanie Walker [TEN]</div>
+              <div className='player-name'><span id='rank'>9.</span> David Njoku [CLE]</div>
+              <div className='player-name'><span id='rank'>10.</span> Jared Cook [NO]</div>
+              <div className='player-name'><span id='rank'>11.</span> Vance McDonald [PIT]</div>
+              <div className='player-name'><span id='rank'>12.</span> Darren Waller [OAK]</div>
+              <div className='player-name'><span id='rank'>13.</span> Greg Olsen [CAR]</div>
+              <div className='player-name'><span id='rank'>14.</span> Jimmy Graham [GB]</div>
+              <div className='player-name'><span id='rank'>15.</span> Vernon Davis [WAS]</div>
+            </div>
           </div>
         </div>
 

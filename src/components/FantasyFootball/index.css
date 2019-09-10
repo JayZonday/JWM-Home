@@ -166,13 +166,27 @@ body{
   border-radius: 2%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+#rank{
+  color: gold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.45);
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 4%;
+}
+.player-name:hover{
+  color: seagreen;
+  background: rgba(0,0,0,.05);
+  cursor: crosshair;
+  border-radius: 3%;
+}
 
 .rankings-title{
   color: seagreen;
   text-align: center;
   margin-top: 5%;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 600;
+  font-family: 'Satisfy', sans-serif;
 }
 .waiver-title{
   color: gold;
@@ -220,10 +234,29 @@ body{
 .ff-logo{
   position: absolute;
   height: 85px;
-  width: 95px;
+  width: 105px;
   margin: 1.5% 0% 0 47%;
 }
-
+.rb-names, .wr-names, .qb-names, .te-names{
+  display: block;
+}
+.reveal-btn{
+  border: none;
+  padding: 3%;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  transition: .3s ease-in-out;
+  margin-left: 38%;
+}
+.reveal-btn:hover{
+  border: 1px solid gold;
+  border-radius: 50%;
+  background: seagreen;
+}
+.reveal-btn-img{
+  height: 35px;
+  width: 35px;
+}
 .design-lines{
   position: absolute;
   background-color: seagreen;
