@@ -225,8 +225,15 @@ body{
 
 .design-lines#first{
   margin-top: 6%;
-  height: 6px;
-
+  margin-left: 61%;
+  width: 40%;
+  transform: rotate(6deg);
+}
+.design-lines#fourth{
+  margin-top: 6%;
+  margin-left: -1%;
+  width: 40%;
+  transform: rotate(-6deg);
 }
 .design-lines#second{
   margin-top: 18%;
