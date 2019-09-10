@@ -46,9 +46,19 @@ class FantasyFootball extends Component {
               <div>15. Leonard Fournette [JAX]</div>
               <div>16. Kerryon Johnson [DET]</div>
               <div>17. Austin Ekeler [LAC]</div>
-              <div>18. Giovani Bernard [CIN]</div>
+              <div>18. Joe Mixon [CIN]</div>
               <div>19. Aaron Jones [GB]</div>
               <div>20. Devonta Freeman [ATL]</div>
+              <div>21. Josh Jacobs [OAK]</div>
+              <div>22. Mark Ingram II [BAL]</div>
+              <div>23. Devin Singletary [BUF]</div>
+              <div>24. Adrian Peterson [WAS]</div>
+              <div>25. Duke Johnson Jr [HOU]</div>
+              <div>26. Damien Williams [KC]</div>
+              <div>27. Phillip Lindsay [DEN]</div>
+              <div>28. David Montgomery [CHI]</div>
+              <div>29. Carlos Hyde [HOU]</div>
+              <div>30. Lesean McCoy [KC]</div>
           </div>
           <div className='wr-section' id='greenbg'>
             <h3 className='rankings-title'>Wide Recievers</h3>
@@ -72,6 +82,16 @@ class FantasyFootball extends Component {
               <div>18. Robert Woods [LAR]</div>
               <div>19. Brandin Cooks [LAR]</div>
               <div>20. TY Hilton [IND]</div>
+              <div>21. Tyrell Williams [OAK]</div>
+              <div>22. Ashlon Jeffery [PHI]</div>
+              <div>23. DJ Moore [CAR]</div>
+              <div>24. Chris Godwin [TB]</div>
+              <div>25. Desean Jackson [PHI]</div>
+              <div>26.  Mike Williams [LAC]</div>
+              <div>27.  Tyler Boyd [CIN]</div>
+              <div>28.  Tyler Lockett [SEA]</div>
+              <div>29.  Marquise Brown [BAL]</div>
+              <div>30.  Dede Westbrook [JAX]</div>
           </div>
           <div className='qb-section' id='greenbg'>
             <h3 className='rankings-title'>Quarterbacks</h3>
