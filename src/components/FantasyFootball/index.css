@@ -128,20 +128,20 @@ body{
 .rb-section#whitebg2, .wr-section#whitebg2, .te-section#whitebg2, .qb-section#whitebg2{
   background: none;
   color: black;
-  border-radius: 10%;
+  border-radius: 3%;
   height: 400px;
   width: 19%;
-  margin-top: 0.5%;
-  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 2%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .rb-section{
   position: absolute;
-  height: 420px;
+  height: 150px;
   width: 18%;
   background: white;
   margin-left: 10%;
-  margin-top: 3%;
+  margin-top: 2%;
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
@@ -151,11 +151,11 @@ body{
 
 .wr-section{
   position: absolute;
-  height: 420px;
+  height: 150px;
   width: 18%;
   background: white;
   margin-left: 30%;
-  margin-top: 3%;
+  margin-top: 2%;
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
@@ -164,11 +164,11 @@ body{
 }
 .qb-section{
   position: absolute;
-  height: 420px;
+  height: 150px;
   width: 18%;
   background: white;
   margin-left: 50%;
-  margin-top: 3%;
+  margin-top: 2%;
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
@@ -177,11 +177,11 @@ body{
 }
 .te-section{
   position: absolute;
-  height: 420px;
+  height: 150px;
   width: 18%;
   background: white;
   margin-left: 70%;
-  margin-top: 3%;
+  margin-top: 2%;
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
@@ -262,7 +262,7 @@ body{
   margin: 1.5% 0% 0 47%;
 }
 .rb-names, .wr-names, .qb-names, .te-names{
-  display: block;
+  display: none;
 }
 .reveal-btn{
   border: none;
