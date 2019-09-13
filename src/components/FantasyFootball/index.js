@@ -200,6 +200,8 @@ class FantasyFootball extends Component {
         </div>
 
         <div className='ff-waivers-section'>
+        <img className='bg-football-img' src='https://png2.cleanpng.com/sh/4ccaabc8b92137e215298f59fde45b65/L0KzQYm3U8E3N6pAiZH0aYP2gLBuTgQue5luiuY2YX3ogrrqgf4ubpD0jNRqbHywc73wkL1ieqUyfARuZX6wdrF2lPJidJ0ye95ycHH1hMS0VfFiamU3TtUBM3G7R4O1V8kzQWE4S6k6NUK0QYi6UcAxPGE9SpD5bne=/kisspng-t-shirt-american-football-clip-art-green-football-cliparts-5aab426c63a872.7929033715211731004082.png'/>
+
           <h3 className='ff-section-title' id='whitebg'> Weekly Waiver Wire </h3>
           <div className='ff-week-desc'>Week 2 (September 12th - 16th)</div>
           <div className='rb-section' id='whitebg'>
@@ -235,7 +237,7 @@ class FantasyFootball extends Component {
               <div className='player-name'><span id='rank'>5.</span> Jason Witten [DAL]</div>
           </div>
 
-        
+
 
         </div>
 
