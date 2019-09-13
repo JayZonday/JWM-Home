@@ -116,7 +116,7 @@ body{
 .rb-section#whitebg, .wr-section#whitebg, .te-section#whitebg, .qb-section#whitebg{
   background: none;
   color: black;
-  border-radius: 30%;
+  border-radius: 40%;
   box-shadow: none;
   border: 3px solid white;
   height: 300px;
@@ -200,6 +200,9 @@ body{
   background: rgba(0,0,0,.05);
   cursor: crosshair;
   border-radius: 3%;
+}
+.player-name#trade{
+  text-align: center;
 }
 
 .rankings-title{

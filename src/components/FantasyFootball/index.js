@@ -248,9 +248,19 @@ class FantasyFootball extends Component {
           <h3 className='ff-section-title' id='greenbg'> Trading Block </h3>
           <div className='buy-section'>
             <h3 className='trade-title'>Buy Low</h3>
+            <div className='player-name' id='trade'> Mike Evans [TB]</div>
+            <div className='player-name' id='trade'> Devonta Freeman [ATL]</div>
+            <div className='player-name' id='trade'> Kerryon Johnson [DET]</div>
+            <div className='player-name' id='trade'> Sony Michel [NE]</div>
+            <div className='player-name' id='trade'> Aaron Jones [GB]</div>
           </div>
           <div className='sell-section'>
             <h3 className='trade-title'>Sell High</h3>
+            <div className='player-name' id='trade'> Peyton Barber [TB]</div>
+            <div className='player-name' id='trade'> Adrian Peterson [WAS]</div>
+            <div className='player-name' id='trade'> Derrick Henry [TEN]</div>
+            <div className='player-name' id='trade'> Damien Williams [KC]</div>
+            <div className='player-name' id='trade'> TY Hilton [IND]</div>
           </div>
         </div>
 
