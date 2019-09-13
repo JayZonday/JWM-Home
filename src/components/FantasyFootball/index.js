@@ -82,7 +82,7 @@ class FantasyFootball extends Component {
 
         <div className='ff-rankings-section'>
           <h3 className='ff-section-title' id='greenbg'> Weekly Rankings</h3>
-          <div className='ff-week-desc'>Week 2 (September 12th - 16th)</div>
+          <div className='ff-week-desc' id='greenbg'>Week 2 (September 12th - 16th)</div>
           <div className='rb-section' id='greenbg'>
             <h3 className='rankings-title'>Running Backs</h3>
               <button className='reveal-btn' onClick={()=> this.handleRbReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
