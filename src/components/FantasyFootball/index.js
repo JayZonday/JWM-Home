@@ -18,9 +18,11 @@ class FantasyFootball extends Component {
   handleRbReveal = () => {
     if(document.querySelector('.rb-names').style.display === 'block'){
       document.querySelector('.rb-names').style.display = 'none'
+      document.querySelector('.reveal-btn#rb').style.background = 'white'
       document.querySelector('.rb-section').style.height = '150px'
     }else{
       document.querySelector('.rb-names').style.display = 'block'
+      document.querySelector('.reveal-btn#rb').style.background = 'seagreen'
       document.querySelector('.rb-section').style.height = '435px'
     }
   }
@@ -28,8 +30,10 @@ class FantasyFootball extends Component {
     if(document.querySelector('.wr-names').style.display === 'block'){
       document.querySelector('.wr-names').style.display = 'none'
       document.querySelector('.wr-section').style.height = '150px'
+      document.querySelector('.reveal-btn#wr').style.background = 'white'
     }else{
       document.querySelector('.wr-names').style.display = 'block'
+      document.querySelector('.reveal-btn#wr').style.background = 'seagreen'
       document.querySelector('.wr-section').style.height = '435px'
     }
   }
@@ -37,8 +41,10 @@ class FantasyFootball extends Component {
     if(document.querySelector('.qb-names').style.display === 'block'){
       document.querySelector('.qb-names').style.display = 'none'
       document.querySelector('.qb-section').style.height = '150px'
+      document.querySelector('.reveal-btn#qb').style.background = 'white'
     }else{
       document.querySelector('.qb-names').style.display = 'block'
+      document.querySelector('.reveal-btn#qb').style.background = 'seagreen'
       document.querySelector('.qb-section').style.height = '435px'
     }
   }
@@ -46,8 +52,10 @@ class FantasyFootball extends Component {
     if(document.querySelector('.te-names').style.display === 'block'){
       document.querySelector('.te-names').style.display = 'none'
       document.querySelector('.te-section').style.height = '150px'
+      document.querySelector('.reveal-btn#te').style.background = 'white'
     }else{
       document.querySelector('.te-names').style.display = 'block'
+      document.querySelector('.reveal-btn#te').style.background = 'seagreen'
       document.querySelector('.te-section').style.height = '435px'
     }
   }
@@ -85,7 +93,7 @@ class FantasyFootball extends Component {
           <div className='ff-week-desc' id='greenbg'>Week 2 (September 12th - 16th)</div>
           <div className='rb-section' id='greenbg'>
             <h3 className='rankings-title'>Running Backs</h3>
-              <button className='reveal-btn' onClick={()=> this.handleRbReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
+              <button className='reveal-btn' id='rb' onClick={()=> this.handleRbReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
             <div className='rb-names'>
               <div className='player-name'><span id='rank'>1.</span> Christian McCaffrey [CAR]</div>
               <div className='player-name'><span id='rank'>2.</span> Alvin Kamara [NO]</div>
@@ -121,7 +129,7 @@ class FantasyFootball extends Component {
           </div>
           <div className='wr-section' id='greenbg'>
             <h3 className='rankings-title'>Wide Recievers</h3>
-            <button className='reveal-btn' onClick={()=> this.handleWrReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
+            <button className='reveal-btn' id='wr' onClick={()=> this.handleWrReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
               <div className='wr-names'>
               <div className='player-name'><span id='rank'>1.</span> DeAndre Hopkins [HOU]</div>
               <div className='player-name'><span id='rank'>2.</span> Julio Jones [ATL]</div>
@@ -157,7 +165,7 @@ class FantasyFootball extends Component {
           </div>
           <div className='qb-section' id='greenbg'>
             <h3 className='rankings-title'>Quarterbacks</h3>
-            <button className='reveal-btn' onClick={()=> this.handleQbReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
+            <button className='reveal-btn' id='qb' onClick={()=> this.handleQbReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
           <div className='qb-names'>
             <div className='player-name'><span id='rank'>1.</span> Patrick Mahomes [KC]</div>
             <div className='player-name'><span id='rank'>2.</span> Lamar Jackson [BAL]</div>
@@ -178,7 +186,7 @@ class FantasyFootball extends Component {
           </div>
           <div className='te-section' id='greenbg'>
             <h3 className='rankings-title'>Tight Ends</h3>
-            <button className='reveal-btn' onClick={()=> this.handleTeReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
+            <button className='reveal-btn' id='te' onClick={()=> this.handleTeReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
             <div className='te-names'>
               <div className='player-name'><span id='rank'>1.</span> Travis Kelce [KC]</div>
               <div className='player-name'><span id='rank'>2.</span> Zach Ertz [PHI]</div>
