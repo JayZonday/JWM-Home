@@ -21,7 +21,7 @@ class FantasyFootball extends Component {
       document.querySelector('.rb-section').style.height = '150px'
     }else{
       document.querySelector('.rb-names').style.display = 'block'
-      document.querySelector('.rb-section').style.height = '425px'
+      document.querySelector('.rb-section').style.height = '435px'
     }
   }
   handleWrReveal = () => {
@@ -30,7 +30,7 @@ class FantasyFootball extends Component {
       document.querySelector('.wr-section').style.height = '150px'
     }else{
       document.querySelector('.wr-names').style.display = 'block'
-      document.querySelector('.wr-section').style.height = '425px'
+      document.querySelector('.wr-section').style.height = '435px'
     }
   }
   handleQbReveal = () => {
@@ -39,7 +39,7 @@ class FantasyFootball extends Component {
       document.querySelector('.qb-section').style.height = '150px'
     }else{
       document.querySelector('.qb-names').style.display = 'block'
-      document.querySelector('.qb-section').style.height = '425px'
+      document.querySelector('.qb-section').style.height = '435px'
     }
   }
   handleTeReveal = () => {
@@ -48,7 +48,7 @@ class FantasyFootball extends Component {
       document.querySelector('.te-section').style.height = '150px'
     }else{
       document.querySelector('.te-names').style.display = 'block'
-      document.querySelector('.te-section').style.height = '425px'
+      document.querySelector('.te-section').style.height = '435px'
     }
   }
 
@@ -248,6 +248,8 @@ class FantasyFootball extends Component {
           <h3 className='ff-section-title' id='greenbg'> Trading Block </h3>
           <div className='buy-section'>
             <h3 className='trade-title'>Buy Low</h3>
+            <hr className='design-lines' id='buy-one' />
+            <hr className='design-lines' id='buy-two' />
             <div className='player-name' id='trade'> Mike Evans [TB]</div>
             <div className='player-name' id='trade'> Devonta Freeman [ATL]</div>
             <div className='player-name' id='trade'> Kerryon Johnson [DET]</div>
@@ -256,6 +258,8 @@ class FantasyFootball extends Component {
           </div>
           <div className='sell-section'>
             <h3 className='trade-title'>Sell High</h3>
+            <hr className='design-lines' id='sell-one' />
+            <hr className='design-lines' id='sell-two' />
             <div className='player-name' id='trade'> Peyton Barber [TB]</div>
             <div className='player-name' id='trade'> Adrian Peterson [WAS]</div>
             <div className='player-name' id='trade'> Derrick Henry [TEN]</div>
