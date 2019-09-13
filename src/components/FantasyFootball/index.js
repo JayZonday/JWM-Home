@@ -235,12 +235,7 @@ class FantasyFootball extends Component {
               <div className='player-name'><span id='rank'>5.</span> Jason Witten [DAL]</div>
           </div>
 
-          <hr className='design-lines' id='waiver1' />
-          <hr className='design-lines' id='waiver2' />
-          <hr className='design-lines' id='waiver3' />
-          <hr className='design-lines' id='waiver4' />
-          <hr className='design-lines' id='waiver5' />
-          <hr className='design-lines' id='waiver6' />
+        
 
         </div>
 
