@@ -73,6 +73,7 @@
   transition: .35s ease-in-out;
   padding: .4%;
   cursor: alias;
+  color: #e8b923;
 }
 #career:hover{
   transition: scale(1.1);

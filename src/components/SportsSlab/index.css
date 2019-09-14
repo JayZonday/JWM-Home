@@ -88,3 +88,6 @@
   cursor: not-allowed;
 
 }
+.fantasy-sport#fb:hover, .fantasy-sport#fbb:hover{
+  cursor: not-allowed;
+}

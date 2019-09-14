@@ -26,7 +26,7 @@
   width: 100%;
 }
 .art-piece{
-  opacity: .05%;
+
   width: 22%;
   margin-left: 2%;
   border: 5px solid whitesmoke;
@@ -45,7 +45,7 @@
   height: 235px;
   transition: .55s ease-in-out;
   cursor: grab;
-  opacity: .1;
+  opacity: .35;
 }
 
 #art-img:hover{
@@ -59,7 +59,7 @@
   height: 225px;
   transition: .25s ease-in-out;
   cursor: grab;
-  opacity: .1;
+  opacity: .35;
 }
 
 #art-img2:hover{

@@ -317,8 +317,8 @@ class FantasyFootball extends Component {
             <div className='player-name'><span id='rank'>2.</span> Zach Ertz [PHI]</div>
             <div className='player-name'><span id='rank'>3.</span> George Kittle [SF]</div>
             <div className='player-name'><span id='rank'>4.</span> Evan Engram [NYG]</div>
-            <div className='player-name'><span id='rank'>5.</span>. OJ Howard [TB]</div>
-            <div className='player-name'><span id='rank'>6.</span>. Mark Andrews [BAL]</div>
+            <div className='player-name'><span id='rank'>5.</span> OJ Howard [TB]</div>
+            <div className='player-name'><span id='rank'>6.</span> Mark Andrews [BAL]</div>
           </div>
         </div>
 
