@@ -29,7 +29,8 @@
 
   width: 22%;
   margin-left: 2%;
-  border: 5px solid whitesmoke;
+  border-left: 5px solid whitesmoke;
+  border-bottom: 5px solid whitesmoke;
   background: #D4af37;
   box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
 }
@@ -51,7 +52,8 @@
 #art-img:hover{
   transform: scale(1.25);
   opacity: 1;
-  border: 5px solid white;
+  border-right: 5px solid whitesmoke;
+  border-top: 5px solid whitesmoke;
   box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
 }
 #art-img2{
@@ -65,6 +67,7 @@
 #art-img2:hover{
   transform: scale(1.15);
   opacity: 1;
-  border: 5px solid white;
+  border-right: 5px solid whitesmoke;
+  border-top: 5px solid whitesmoke;
   box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
 }
