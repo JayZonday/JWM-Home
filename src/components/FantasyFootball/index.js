@@ -70,9 +70,7 @@ class FantasyFootball extends Component {
         <img className='ff-logo' src='https://i.ibb.co/fXThCh4/sham-helm.png'/>
         <hr className='design-lines' id='first' />
         <hr className='design-lines' id='fourth' />
-        <hr className='design-lines' id='second' />
-        <hr className='design-lines' id='third' />
-        <hr className='design-lines' id='fourth' />
+
           <div className='ff-intro-box'>
             Welcome to JayZonday Visions 2019 Fantasy Football Hub - Catch all the latest news and advice here!
             Desperate for a waiver wire addition?  Need a trade option to target?
@@ -208,7 +206,7 @@ class FantasyFootball extends Component {
         </div>
 
         <div className='ff-waivers-section'>
-        <img className='bg-football-img' src='https://png2.cleanpng.com/sh/4ccaabc8b92137e215298f59fde45b65/L0KzQYm3U8E3N6pAiZH0aYP2gLBuTgQue5luiuY2YX3ogrrqgf4ubpD0jNRqbHywc73wkL1ieqUyfARuZX6wdrF2lPJidJ0ye95ycHH1hMS0VfFiamU3TtUBM3G7R4O1V8kzQWE4S6k6NUK0QYi6UcAxPGE9SpD5bne=/kisspng-t-shirt-american-football-clip-art-green-football-cliparts-5aab426c63a872.7929033715211731004082.png'/>
+        <img className='bg-football-img' src='https://i.ibb.co/r5K21VR/hiclipart-com-id-degki.png'/>
 
           <h3 className='ff-section-title' id='whitebg'> Weekly Waiver Wire </h3>
           <div className='ff-week-desc'>Week 2 (September 12th - 16th)</div>
