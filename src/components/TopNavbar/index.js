@@ -62,7 +62,7 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              September 9, 2019
+              September 16, 2019
               </span>
               <hr id='bet-text-divider'/>
               <div id='the-bet'>Cleveland Browns -6.5 -110 (@ New York Jets)</div>
