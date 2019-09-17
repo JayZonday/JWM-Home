@@ -198,11 +198,15 @@ body{
   font-weight: 600;
   padding-right: 4%;
 }
+.player-name{
+  transition: .25s ease-in-out;
+}
 .player-name:hover{
   color: seagreen;
   background: rgba(0,0,0,.075);
   cursor: crosshair;
   border-radius: 3%;
+  font-weight: bold;
 }
 .player-name#trade{
   text-align: center;
