@@ -3,10 +3,10 @@
 }
 .web-design-title{
   height: 200px;
-  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 65% 69%, 0 100%, 0 0);
-
-  width: 100%;
+  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 65% 65%, 0 100%, 0 0);
+  border-bottom: 20px solid seagreen;
   background-color: black;
+
 }
 .vision-title{
   color: seagreen;
@@ -23,6 +23,13 @@
 }
 .design-1{
   height: 650px;
+}
+.design-1-title{
+  font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  margin-left: 30%;
+  margin-top : 6%;
+  font-size: 42px;
 }
 .design-2{
   height: 650px;

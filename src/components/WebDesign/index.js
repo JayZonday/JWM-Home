@@ -11,6 +11,7 @@ class WebDesign extends Component {
         </div>
 
         <div className='design-1'>
+          <h3 className='design-1-title'>JJs Pizzeria</h3>
         </div>
         <div className='design-2'>
         </div>
