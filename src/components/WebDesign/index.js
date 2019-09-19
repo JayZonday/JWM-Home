@@ -7,7 +7,7 @@ class WebDesign extends Component {
       <div className= 'main-bg'>
         <div className='web-design-title'>
           <h2 className='vision-title'> JayZonday Vision Designs SandBox </h2>
-          <div className='title-desc'> JavaScript | CSS | HTML   </div>
+          <div className='title-desc-design'> JavaScript | CSS | HTML   </div>
         </div>
 
         <div className='design-1'>
