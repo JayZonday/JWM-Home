@@ -1,0 +1,38 @@
+.main-bg{
+  background-color: white;
+}
+.web-design-title{
+  height: 200px;
+  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 65% 69%, 0 100%, 0 0);
+
+  width: 100%;
+  background-color: black;
+}
+.vision-title{
+  color: seagreen;
+  text-align: center;
+  padding-top: 2%;
+  font-weight: bolder;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 42px;
+  text-shadow: 4px 3px 0px black, 9px 8px 0px rgba(255,255,255,0.25);
+}
+.title-desc{
+  color: white;
+  text-align: center;
+}
+.design-1{
+  height: 650px;
+}
+.design-2{
+  height: 650px;
+}
+.design-3{
+  height: 650px;
+}
+.design-4{
+  height: 650px;
+}
+.design-5{
+  height: 650px;
+}

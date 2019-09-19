@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import './index.css';
 
 class WebDevSlab extends Component {
@@ -15,7 +16,7 @@ class WebDevSlab extends Component {
             <div className='skill'>JavaScript</div>
             <div className='skill'>React.js</div>
             <div className='skill'>Ruby on Rails</div>
-            <div className='skill'>CSS - UX/UI Design</div>
+            <NavLink to='/web-designs'><div className='skill'>CSS - UX/UI Design</div></NavLink>
             <div className='skill'>SQL & Oracle Databases </div>
 
           </div>
