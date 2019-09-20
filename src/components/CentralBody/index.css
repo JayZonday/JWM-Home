@@ -70,12 +70,9 @@
 #career{
   font-weight: bolder;
   display: inline-block;
-  transition: .35s ease-in-out;
+  transition: .25s ease-in-out;
   padding: .4%;
   cursor: alias;
   color: #e8b923;
-}
-#career:hover{
-  transition: scale(1.1);
-  background: black;
+  text-shadow: 1px 1px 1px black;
 }

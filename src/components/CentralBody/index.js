@@ -36,7 +36,7 @@ class CentralBody extends Component {
         <hr  className='bio-line' id='first'/>
         <hr  className='bio-line' id='second'/>
         <div className='mini-bio'>
-          A Criminal Justice Graduate turned highly eager and motivated <b id='career'>Full-Stack Web Developer</b> looking
+          A highly eager and motivated <b id='career'>Full-Stack Web Developer</b> looking
           to apply my wide range of skills to create and build beautiful and intelligently designed programs that can help
           change and shape the way we think about tomorrow.
         </div>

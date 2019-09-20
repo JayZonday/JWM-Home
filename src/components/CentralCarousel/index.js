@@ -97,15 +97,87 @@ class CentralCarousel extends Component {
         <div className='carousel-container'>
           <Carousel>
             <Carousel.Item>
-            <div className='project-container'>
-              <div className='project'> <div className='project-name'>Nothing But Luck</div><a href='https://youtu.be/lCnRoMmzVCE' target='_blank'><img src='https://i.ibb.co/X47CS0f/Screen-Shot-2019-08-07-at-4-52-27-PM.png' id='project-img'/></a></div>
-              <div className='project'> <div className='project-name'>FlatBall</div><a href='https://youtu.be/EabkravC05k' target='_blank'><img src='https://i.ibb.co/DY777Y2/Screen-Shot-2019-08-07-at-4-53-19-PM.png' id='project-img'/></a></div>
-              <div className='project'>Wrote-it</div>
-              <div className='project'>NYC Safety Net</div>
-              <div className='project'>GAMCO Asset Management</div>
+            <div className='project'>
+            <div className='project-name'>GAMCO</div>
+            <div className='project-desc'>
+              <b>A collaborative rebuilt website for a finanical company</b>
+              <br/>
+              <br/>
+              Collaborated with team members to rebuild a complete commercial website for the company,
+              using Ruby on Rails and React. Planned and coordinated with team members to optimize work efficiency.
+              Custom designed and built frontend of GAMCO Asset Management portion of website.
+            </div>
+              <a href='https://www.gabelli.com/gamco' target='_blank'>
+                <img src='https://i.ibb.co/6J0xjxn/Screen-Shot-2019-09-20-at-2-49-43-AM.png' id='project-img'/>
+              </a>
             </div>
             </Carousel.Item>
+              <Carousel.Item>
+              <div className='project'>
+                <div className='project-name'>Nothing But Luck</div>
+                <div className='project-desc'>
+                  <b>A member-based social platform for daily fantasy sports players.</b>
+                  <br/>
+                  <br/>
+                  Built frontend using Javascript within a React w/ Redux framework
+                  Featured a Ruby on Rails 5 API backend for the persistence of user/post data
+                  Incorporated full authentication using JSON Web Token (JWT)
+                  Produced complete web app design through a custom-written CSS stylesheet
+                </div>
+                <a href='https://github.com/JayZonday/nothing-but-luck-FE' target='_blank'>
+                  <img src='https://i.ibb.co/X47CS0f/Screen-Shot-2019-08-07-at-4-52-27-PM.png' id='project-img'/>
+                </a>
+              </div>
+              </Carousel.Item>
+              <Carousel.Item>
+              <div className='project'>
+              <div className='project-name'>FlatBall</div>
+              <div className='project-desc'>
+                <b>A Major League Baseball simulation game</b>
+                <br/>
+                <br/>
+                 Built frontend in pure Javascript (Vanilla - OO)
+                 Utilized a Ruby on Rails 5 API backend for the persistence of game data
+                 Created styling and animations through custom-written CSS stylesheets
+              </div>
+                <a href='https://github.com/JayZonday/flatball' target='_blank'>
+                  <img src='https://i.ibb.co/DY777Y2/Screen-Shot-2019-08-07-at-4-53-19-PM.png' id='project-img'/>
+                </a>
+              </div>
+              </Carousel.Item>
+              <Carousel.Item>
+              <div className='project'>
+              <div className='project-name'>Wrote-it</div>
+              <div className='project-desc'>
+                <b>A collaborative, unique rendition of the website Reddit</b>
+                <br/>
+                <br/>
+                Built a complete Ruby on Rails 5 Web Application (frontend and backend)
+                Created styling and design produced through a custom-written CSS stylesheet
+              </div>
+                <a href='https://github.com/JayZonday/reddit_app' target='_blank'>
+                  <img src='https://i.ibb.co/37stsGr/wroteit.png' id='project-img'/>
+                </a>
+              </div>
+              </Carousel.Item>
+              <Carousel.Item>
+              <div className='project'>
+              <div className='project-name'>NYC Safety Net</div>
+              <div className='project-desc'>
+                <b>A collaborative built command line program that scours an NYPD API and gathers crime statistics to give users the current rate of crimes in the five boroughs of New York City</b>
+                <br/>
+                <br/>
+                Built a complete Ruby on Rails 5 Web Application (frontend and backend)
+                Created styling and design produced through a custom-written CSS stylesheet
+              </div>
+                <a href='https://github.com/JayZonday/reddit_app' target='_blank'>
+                  <img src='https://i.ibb.co/f8PMn0Q/safetynet.png' id='project-img'/>
+                </a>
+              </div>
+              </Carousel.Item>
+
             <Carousel.Item>
+
             <div className='art-container'>
             <div className='dallas-appreciation-title'></div>
               <div className='artwork'><img src='https://i.ibb.co/TKSC609/4-E695593-8-B8-A-4636-B22-D-84-F9-B912-C740.jpg' id='dallas-img'/></div>

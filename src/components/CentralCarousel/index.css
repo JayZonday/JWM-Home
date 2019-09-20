@@ -19,6 +19,7 @@
   background: whitesmoke !important;
   opacity: 1 !important;
   margin-top: -3%;
+  overflow: visible !important;
 
 }
 .carousel-indicators{
@@ -38,7 +39,7 @@
   background: seagreen;
   width: 1.5%;
   margin: 1%;
-  height: 2px;
+  height: .2px;
  }
  .carousel-control-next, .carousel-control-prev{
    display: none;
@@ -68,6 +69,13 @@
 }
 .project{
   margin: 1%;
+}
+.project-desc{
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 10%;
+  width: 50%;
+  text-align: left;
 }
 #sports-logo{
   height: 135px;
@@ -136,9 +144,11 @@ img#sports-logo:hover ~ span.team-name#warriors{
   border-radius: 10%;
 }
 #project-img{
-  height: 235px;
-  width: 200px;
-  border-radius: 15%;
+  height: 315px;
+  width: 315px;
+  border-radius: 2%;
+  margin-left: 60%;
+  margin-top: -3.1%;
 }
 .team-sect-title{
   position: absolute;
