@@ -171,7 +171,7 @@ class CentralCarousel extends Component {
                 Created styling and design produced through a custom-written CSS stylesheet
               </div>
                 <a href='https://github.com/JayZonday/reddit_app' target='_blank'>
-                  <img src='https://i.ibb.co/f8PMn0Q/safetynet.png' id='project-img'/>
+                  <img src='https://i.ibb.co/TbQrzz5/nypd.png' id='project-img'/>
                 </a>
               </div>
               </Carousel.Item>
