@@ -16,7 +16,7 @@ class WebDevSlab extends Component {
             <div className='skill'>JavaScript</div>
             <div className='skill'>React.js</div>
             <div className='skill'>Ruby on Rails</div>
-            <NavLink to='/web-designs'><div className='skill'>CSS - UX/UI Design</div></NavLink>
+            <div className='skill'>CSS - UX/UI Design</div>
             <div className='skill'>SQL & Oracle Databases </div>
 
           </div>
@@ -44,7 +44,9 @@ class WebDevSlab extends Component {
             <div className='skill'>Stockton University</div>
             <div className='skill'>Waldwick High School</div>
           </div>
+
         </div>
+        <NavLink to='/web-designs' className='web-design-btn'><div>Explore Web Designs</div></NavLink>
       </div>
     );
   }

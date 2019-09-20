@@ -1,5 +1,5 @@
 .dev-section{
-  height: 500px;
+  height: 600px;
 }
 .title#dev{
   color: seagreen;
@@ -63,7 +63,7 @@
 }
 .dev-design-line#second{
   width: 35%;
-  margin-top: 31%;
+  margin-top: 36%;
 }
 
 .dev-section:hover .dev-design-line#first{
@@ -71,4 +71,19 @@
 }
 .dev-section:hover .dev-design-line#second{
   width: 100%;
+}
+
+.web-design-btn:hover{
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  background: seagreen;
+  transition: .3s ease-in-out;
+}
+.web-design-btn{
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 42%;
+  font-size: 21px;
+  border: 3px solid seagreen;
+  padding: .5%;
 }

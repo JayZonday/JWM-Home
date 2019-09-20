@@ -4,6 +4,7 @@ import CentralFooter from '../CentralFooter'
 import CentralCarousel from '../CentralCarousel'
 import WebDevSlab from '../WebDevSlab'
 import SportsSlab from '../SportsSlab'
+import SideNavbar from '../SideNavbar'
 import ArtSlab from '../ArtSlab'
 import React, { Component } from 'react';
 import './index.css';
@@ -13,6 +14,7 @@ class CentralHome extends Component {
     return (
       <div>
         <CentralHeader/>
+        <SideNavbar/>
         <CentralBody/>
         <CentralCarousel/>
         <WebDevSlab/>
