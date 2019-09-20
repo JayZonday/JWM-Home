@@ -143,9 +143,20 @@ img#sports-logo:hover ~ span.team-name#warriors{
   width: 200px;
   border-radius: 10%;
 }
+.project-name{
+  color: #e8b923;
+  text-align: left;
+  text-shadow: ;
+  padding-top: 1%;
+  margin-left: 20%;
+  font-weight: bolder;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 42px;
+  text-shadow: 1px 1px 1px black;
+}
 #project-img{
-  height: 315px;
-  width: 315px;
+  height: 325px;
+  width: 335px;
   border-radius: 2%;
   margin-left: 60%;
   margin-top: -3.1%;
