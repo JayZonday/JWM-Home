@@ -98,7 +98,7 @@ class CentralCarousel extends Component {
           <Carousel>
             <Carousel.Item>
             <div className='project'>
-            <div className='project-name'>GAMCO</div>
+            <div className='project-name'>GAMCO Investors</div>
             <div className='project-desc'>
               <b>A collaborative rebuilt website for a finanical company</b>
               <br/>
@@ -177,9 +177,9 @@ class CentralCarousel extends Component {
               </Carousel.Item>
 
             <Carousel.Item>
-
+            <div className='dallas-appreciation-title'>Dallas Appreciation Gallery</div>
             <div className='art-container'>
-            <div className='dallas-appreciation-title'></div>
+
               <div className='artwork'><img src='https://i.ibb.co/TKSC609/4-E695593-8-B8-A-4636-B22-D-84-F9-B912-C740.jpg' id='dallas-img'/></div>
               <div className='artwork'><img src='https://i.ibb.co/pRtDzmR/DF8-C2189-9596-432-D-BEDE-D0-BD63-EE5795.jpg' id='dallas-img'/></div>
               <div className='artwork'><img src='https://i.ibb.co/8MG09Yy/Dallas.jpg' id='dallas-img'/></div>
@@ -189,8 +189,9 @@ class CentralCarousel extends Component {
             </div>
             </Carousel.Item>
             <Carousel.Item>
+              <div className='team-sect-title'>Favorite Team News & Standings</div>
               <div className='team-container'>
-                <div className='team-sect-title'></div>
+
                 <div className='team'><img onClick={() => this.handleCowboys()} id='sports-logo' src='https://images.vexels.com/media/users/3/141848/isolated/preview/b141601c09d9296a6e6d4083d6960039-dallas-cowboys-american-football-by-vexels.png'/><span className='team-name' id='cowboys'>Dallas Cowboys</span></div>
                 <div className='team'><img onClick={() => this.handleLakers()} id='sports-logo' src='https://www.stickpng.com/assets/images/58419d0aa6515b1e0ad75a6c.png'/><span className='team-name' id='lakers'>Los Angeles Lakers</span></div>
                 <div className='team'><img onClick={() => this.handleBrooklyn()} id='sports-logo' src='https://www.stickpng.com/assets/images/58419c7ba6515b1e0ad75a62.png'/><span  className='team-name' id='brooklyn'>Brooklyn Nets</span></div>

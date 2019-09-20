@@ -1,13 +1,14 @@
 .dev-section{
-  height: 600px;
+  height: 700px;
 }
 .title#dev{
   color: seagreen;
   text-align: center;
   padding-top: 2%;
+
   font-weight: bolder;
   font-family: 'Satisfy', sans-serif;
-  font-size: 42px;
+  font-size: 68px;
   text-shadow: 4px 3px 0px black, 9px 8px 0px rgba(255,255,255,0.25);
 
 }
@@ -25,7 +26,7 @@
 }
 .dev-fields{
   width: 22%;
-  margin-top: 4%;
+  margin-top: 6%;
   margin-left: 2%;
   padding: 1%;
   border: 1px solid #aaa;
@@ -58,16 +59,16 @@
   transition: .45s ease-in-out;
 }
 .dev-design-line#first{
-  width: 20%;
-  margin-top: 3%;
+  width: 22%;
+  margin-top: 4%;
 }
 .dev-design-line#second{
   width: 35%;
-  margin-top: 36%;
+  margin-top: 43.5%;
 }
 
 .dev-section:hover .dev-design-line#first{
-  width: 35%;
+  width: 30%;
 }
 .dev-section:hover .dev-design-line#second{
   width: 100%;
@@ -77,13 +78,14 @@
   color: #FFFFFF !important;
   text-decoration: none !important;
   background: seagreen;
-  transition: .3s ease-in-out;
+  transition: .35s ease-in-out;
+  font-weight: bold;
 }
 .web-design-btn{
   position: absolute;
-  margin-top: 3%;
+  margin-top: 5%;
   margin-left: 42%;
   font-size: 21px;
-  border: 3px solid seagreen;
+  border: 2px solid seagreen;
   padding: .5%;
 }

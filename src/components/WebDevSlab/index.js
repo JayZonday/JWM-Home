@@ -24,18 +24,18 @@ class WebDevSlab extends Component {
             <h3 className='skill-title'> Desired Industries </h3>
             <hr id='dev-info-line'/>
             <div className='skill'>Sports</div>
-            <div className='skill'>Health & Fitness</div>
             <div className='skill'>Automotive</div>
+            <div className='skill'>Law</div>
             <div className='skill'>Tech</div>
-            <div className='skill'>Finance</div>
+            <div className='skill'>Health, Food & Fitness</div>
 
           </div>
           <div data-aos='fade-left' className='dev-fields'>
             <h3 className='skill-title'> On The Horizon </h3>
             <hr id='dev-info-line'/>
-            <div className='skill'>Establish & Plan new project</div>
-            <div className='skill'>Find a new FSD role in NYC</div>
+            <div className='skill'>Find a new FSD role in NJ/NYC</div>
             <div className='skill'>Complete Nothing But Luck</div>
+            <div className='skill'>Start Web-Design Sandbox </div>
           </div>
           <div  data-aos='fade-up-left' className='dev-fields'>
             <h3 className='skill-title'> Educational Journey </h3>
