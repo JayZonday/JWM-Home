@@ -133,14 +133,15 @@ img#sports-logo:hover ~ span.team-name#warriors{
 .team-info{
   display: none;
   position: absolute;
+  border-radius: 2%;
   z-index: 101;
-  height: 200px;
-  opacity: .85;
-  width: 420px;
-  background: black;
+  height: 175px;
+  opacity: .9;
+  width: 335px;
+  background: rgba(0,0,0,.9);
   color: seagreen;
   padding: 3%;
-  margin: 17% 0 0 25%;
+  margin: 5% 0 0 57%;
   transition: .35s ease-in-out;
 }
 #dallas-img{

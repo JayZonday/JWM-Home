@@ -3,7 +3,6 @@
 }
 .web-design-title{
   height: 200px;
-  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 65% 65%, 0 100%, 0 0);
   border-bottom: 20px solid seagreen;
   background-color: black;
 
