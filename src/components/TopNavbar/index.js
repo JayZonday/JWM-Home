@@ -48,10 +48,10 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              September 20, 2019
+              October 7, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'>CFB: Utah (@ USC) -3.5 -115</div>
+              <div id='the-bet'>New York Yankees -1.5 (@ Minnesota Twins) +108</div>
               <br/>
               <div id='bet-record'>6-3 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
@@ -75,10 +75,11 @@ class TopNavbar extends Component {
               <span id='quote-header-text'>
               Quote of The Day
               <br/>
-              September 16, 2019
+              October 7, 2019
               </span>
               <hr id='quote-text-divider'/>
-              <div id='the-quote'>“When you dance, your purpose is not to get to a certain place on the floor. It’s to enjoy each step along the way.”<br/><br/><span>~ Wayne Dyer</span></div>
+              <div id='the-quote'>“Anything lost, can be found again, except for time wasted.
+              A vision without action is merely a dream. Action, it's the grind, it's the hustle, it's the persistence.”<br/><br/><span>~ Kevin Gates</span></div>
               <br/>
               <div id='last-quote'></div>
               <div id='last-quote'></div>
