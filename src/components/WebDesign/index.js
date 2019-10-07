@@ -10,7 +10,8 @@ class WebDesign extends Component {
       <div className= 'main-bg'>
         <div className='web-design-title'>
           <h2 className='vision-title'> JayZonday Vision Designs SandBox </h2>
-          <div className='title-desc-design'> JavaScript | CSS | HTML   </div>
+          <br/>
+          <div className='title-desc-design'> JavaScript | React.js | CSS | HTML </div>
         </div>
 
 
@@ -24,6 +25,10 @@ class WebDesign extends Component {
 
 
         <div className='design-2'>
+          <div className='design-2-headbar'>
+            <div className='design-2-headbtn'>Log In | Sign Up</div>
+            <div className='design-2-headbtn'>Order Online</div>
+          </div>
           <div className='design-2-header'>
             <h3 className='design-2-title'>Jay's Pizzeria < hr className='design-2-titleline' /></h3>
             <div className='design-2-deal'><div className='the-deal'>Back 2 School Special <br/> 1 Large Pie and 2L Soda <br/> <span className='price'>$19.99</span></div></div>
@@ -36,10 +41,13 @@ class WebDesign extends Component {
             <div className='design-2-navbtn'>Contact</div>
           </div>
           <div className='design-2-footer'>
-            <div className='design-2-coupons'></div>
-            <div className='design-2-social'></div>
+            <div className='design-2-coupons'><div className='design-2-overlay'><div className='design-2-footer-title'>Give Pizza Back</div></div></div>
+            <div className='design-2-social'><div className='design-2-overlay'><div className='design-2-footer-title'>Employment</div></div></div>
           </div>
         </div>
+
+
+
         <div className='design-3'>
           <h3 className='design-3-title'>Back From The Past <br/> <h4>Jays Vintage Shoppe</h4> </h3>
         </div>
