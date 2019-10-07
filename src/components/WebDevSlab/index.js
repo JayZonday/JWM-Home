@@ -25,8 +25,7 @@ class WebDevSlab extends Component {
             <hr id='dev-info-line'/>
             <div className='skill'>Sports</div>
             <div className='skill'>Automotive</div>
-            <div className='skill'>Law</div>
-            <div className='skill'>Tech</div>
+            <div className='skill'>Law & Security</div>
             <div className='skill'>Health, Food & Fitness</div>
 
           </div>

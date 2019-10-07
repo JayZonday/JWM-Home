@@ -45,12 +45,11 @@
   transition: .55s ease-in-out;
   cursor: grab;
   opacity: 1;
-  border: 5px solid whitesmoke;
+  border: 3px solid whitesmoke;
 }
 
 #art-img:hover{
-  transform: scale(1.15);
-  border: 5px solid #ffffff;
+  transform: scale(1.10);
   box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
 }
 #art-img2{
@@ -58,12 +57,11 @@
   height: 235px;
   transition: .55s ease-in-out;
   cursor: grab;
-  border: 5px solid #ffffff;
+  border: 3px solid #ffffff;
   opacity: 1;
 }
 
 #art-img2:hover{
-  transform: scale(1.15);
-  border: 5px solid whitesmoke;
+  transform: scale(1.10);
   box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
 }

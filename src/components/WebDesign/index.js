@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './index.css';
 
 class WebDesign extends Component {
+
+
+
   render(){
     return (
       <div className= 'main-bg'>
@@ -10,9 +13,23 @@ class WebDesign extends Component {
           <div className='title-desc-design'> JavaScript | CSS | HTML   </div>
         </div>
 
-        <div className='design-1'>
-          <h3 className='design-1-title'>JJs Pizzeria</h3>
+
+
+
+        <div className='code-design'>
+          <h3 className='code-test-title'>Technical Challenge</h3>
+          <div className='code-test-div'>
+            <button className='code-test-btn'> Test Button</button>
+            <div className='test-display'>
+            </div>
+          </div>
         </div>
+
+
+
+
+
+
         <div className='design-2'>
           <h3 className='design-2-title'>JJs Pizzeria</h3>
         </div>

@@ -22,7 +22,7 @@
   text-align: center;
 }
 .design-1{
-  height: 650px;
+  height: 850px;
 }
 .design-1-title{
   font-family: 'Permanent Marker', cursive;
@@ -32,14 +32,87 @@
   font-size: 42px;
 }
 .design-2{
-  height: 650px;
+  height: 850px;
+  background-color: #aaa;
+}
+.design-2-title{
+  font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  margin-left: 30%;
+  margin-top : 6%;
+  font-size: 42px;
 }
 .design-3{
-  height: 650px;
+  height: 850px;
+  background-color: whitesmoke;
+}
+.design-3-title{
+  font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  margin-left: 30%;
+  margin-top : 6%;
+  font-size: 42px;
 }
 .design-4{
-  height: 650px;
+  height: 850px;
+  background-color: #aaa;
+}
+.design-4-title{
+  font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  margin-left: 30%;
+  margin-top : 6%;
+  font-size: 42px;
 }
 .design-5{
-  height: 650px;
+  height: 850px;
+  background-color: #fff;
+}
+.design-5-title{
+  font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  margin-left: 30%;
+  margin-top : 6%;
+  font-size: 42px;
+}
+
+
+
+.code-design{
+  height: 850px;
+}
+.code-test-title{
+  font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  margin-left: 30%;
+  margin-top : 6%;
+  font-size: 42px;
+}
+.code-test-div{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border: 2px solid #aaa;
+  margin-left: 35%;
+  margin-top : 14%;
+  transition: .3s ease-in-out;
+}
+.code-test-btn{
+  margin: 5% 0 0 33%;;
+}
+.test-display{
+  height: 165px;
+  width: 175px;
+  border: 2px solid #aaa;
+  margin: 8% 0 0 20%;;
+  transition: .3s ease-in-out;
+}
+.code-test-div:hover{
+  border-color: black;
+}
+.test-display:hover{
+  border-color: blue;
+}
+.code-test-div:hover .test-display{
+  background: rgba(0,23,233,.5);
 }
