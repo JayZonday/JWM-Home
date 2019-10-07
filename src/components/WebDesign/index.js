@@ -25,7 +25,7 @@ class WebDesign extends Component {
 
         <div className='design-2'>
           <div className='design-2-header'>
-            <h3 className='design-2-title'>JJs Pizzeria < hr className='design-2-titleline' /></h3>
+            <h3 className='design-2-title'>Jay's Pizzeria < hr className='design-2-titleline' /></h3>
             <div className='design-2-deal'><div className='the-deal'>Back 2 School Special: 1 Large Pie and 2L Soda <span className='price'>$19.99</span></div></div>
           </div>
           <div className='design-2-navbar'>
@@ -37,13 +37,13 @@ class WebDesign extends Component {
           </div>
         </div>
         <div className='design-3'>
-          <h3 className='design-3-title'>JJs Pizzeria</h3>
+          <h3 className='design-3-title'>Back From The Past <br/> <h4>Jays Vintage Shoppe</h4> </h3>
         </div>
         <div className='design-4'>
-          <h3 className='design-4-title'>JJs Pizzeria</h3>
+          <h3 className='design-4-title'>The Woof-Woof Inn <br/> <h4>Jays Dog Daycare</h4> </h3>
         </div>
         <div className='design-5'>
-          <h3 className='design-5-title'>JJs Pizzeria</h3>
+          <h3 className='design-5-title'>Average Jays Gym</h3>
         </div>
         <div className='code-design'>
           <h3 className='code-test-title'>Technical Challenge</h3>

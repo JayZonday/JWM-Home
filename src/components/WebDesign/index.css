@@ -61,9 +61,13 @@
   height: 225px;
   width: 350px;
   position: absolute;
-  border: 8px double white;
+  border: 12px double white;
   margin: 10% 0 0 60%;
   background-color: orange;
+}
+.the-deal{
+  padding: 5%;
+  font-size: 20px;
 }
 .design-2-navbar{
   display: flex;
@@ -102,6 +106,7 @@
 .design-5{
   height: 850px;
   background-color: #fff;
+  border-bottom: 10px solid black;
 }
 .design-5-title{
   font-family: 'Permanent Marker', cursive;
