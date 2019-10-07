@@ -62,6 +62,7 @@
   width: 350px;
   position: absolute;
   border: 12px double white;
+  border-radius: 2%;
   margin: 10% 0 0 60%;
   background-color: orange;
 }
@@ -70,6 +71,10 @@
   font-size: 24px;
   font-family: 'Permanent Marker', cursive;
   opacity: .85;
+  text-align: center;
+}
+.price{
+  font-size: 42px;
 }
 .design-2-navbar{
   display: flex;
@@ -97,6 +102,25 @@
   color: orange;
   border-left: 3px solid orange;
   border-right: 3px solid orange;
+}
+.design-2-footer{
+  height: 200px;
+  border: 2px solid black;
+  margin: 2% auto;
+  width: 90%;
+  display: flex;
+}
+.design-2-coupons{
+  height: 150px;
+  border: 2px solid black;
+  margin: 2% auto;
+  width: 45%;
+}
+.design-2-social{
+  height: 150px;
+  border: 2px solid black;
+  margin: 2% auto;
+  width: 45%;
 }
 .design-3{
   height: 850px;
@@ -137,6 +161,11 @@
 
 .code-design{
   height: 850px;
+  opacity: 0;
+  transition: .35s ease-in-out;
+}
+.code-design:hover{
+  opacity: 1;
 }
 .code-test-title{
   font-family: 'Permanent Marker', cursive;

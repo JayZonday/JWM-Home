@@ -35,6 +35,10 @@ class WebDesign extends Component {
             <div className='design-2-navbtn'>About Us</div>
             <div className='design-2-navbtn'>Contact</div>
           </div>
+          <div className='design-2-footer'>
+            <div className='design-2-coupons'></div>
+            <div className='design-2-social'></div>
+          </div>
         </div>
         <div className='design-3'>
           <h3 className='design-3-title'>Back From The Past <br/> <h4>Jays Vintage Shoppe</h4> </h3>
