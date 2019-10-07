@@ -33,14 +33,37 @@
 }
 .design-2{
   height: 850px;
-  background-color: #aaa;
+  background-color: orange;
 }
 .design-2-title{
   font-family: 'Permanent Marker', cursive;
   position: absolute;
-  margin-left: 30%;
-  margin-top : 6%;
-  font-size: 42px;
+  color: white;
+  margin-left: 2%;
+  margin-top : 3%;
+  font-size: 80px;
+  transform: rotate(-10deg);
+}
+.design-2-titleline{
+  color: white;
+  background: white;
+  border-color: white;
+  height: 5px;
+  width: 200px;
+  margin-left: 10%;
+}
+.design-2-header{
+  background-image: url('https://images.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg');
+  background-size: cover;
+  height: 480px;
+}
+.design-2-deal{
+  height: 225px;
+  width: 350px;
+  position: absolute;
+  border: 8px double white;
+  margin: 10% 0 0 60%;
+  background-color: orange;
 }
 .design-3{
   height: 850px;
