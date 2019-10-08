@@ -70,7 +70,33 @@ class WebDesign extends Component {
             <div className='design-3-sidebtn'>Jackets</div>
             <div className='design-3-sidebtn'>Accessories</div>
           </div>
-          <div className='design-hot-items'>
+          <div className='design-3-hotitems'>
+          </div>
+          <div className='design-3-mainitems'>
+            <div className='design-3-mainrow'>
+              <div className='design-3-item'>
+              </div>
+              <div className='design-3-item'>
+              </div>
+              <div className='design-3-item'>
+              </div>
+            </div>
+            <div className='design-3-mainrow'>
+              <div className='design-3-item'>
+              </div>
+              <div className='design-3-item'>
+              </div>
+              <div className='design-3-item'>
+              </div>
+            </div>
+            <div className='design-3-mainrow'>
+              <div className='design-3-item'>
+              </div>
+              <div className='design-3-item'>
+              </div>
+              <div className='design-3-item'>
+              </div>
+            </div>
           </div>
         </div>
 
