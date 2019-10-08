@@ -34,6 +34,7 @@
   height: 1050px;
   background-color: orange;
   border-top: 20px solid black;
+  border-bottom: 20px solid black;
 }
 .design-2-headbar{
   width: 100%;
@@ -165,16 +166,59 @@
   margin: 5% 0 0 3%;
 }
 .design-3{
-  height: 850px;
+  height: 1050px;
   background-color: whitesmoke;
+  border-top: 40px solid black;
+}
+.design-3-navbar{
+  display: flex;
+  width: 100%;
+  background: white;
+  height: 75px;
+}
+.design-3-navbtn{
+  margin: 2%;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
 }
 .design-3-title{
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Bangers', cursive;
   position: absolute;
-  margin-left: 30%;
-  margin-top : 6%;
-  font-size: 42px;
+  margin-left: 7%;
+  margin-top : 3%;
+  font-size: 54px;
+  border: 1px solid black;
+  padding: 3%;
 }
+.design-3-deal{
+  color: white;
+  background: black;
+  position: absolute;
+  margin-left: 55%;
+  margin-top : 3%;
+  font-size: 54px;
+  border: 1px solid black;
+  padding: 3%;
+  text-align: center;
+}
+.design-3-search{
+  width: 100%;
+}
+.search-btn{
+  width: 5%;
+  font-family: 'Bangers', cursive;
+  background: rgba(0,0,0,.15);
+}
+.search-input{
+  width: 95%;
+}
+
+
+
+
+
 .design-4{
   height: 850px;
   background-color: #aaa;

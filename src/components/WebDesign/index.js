@@ -49,8 +49,35 @@ class WebDesign extends Component {
 
 
         <div className='design-3'>
+          <div className='design-3-navbar'>
+            <div className='design-3-navbtn'>Mens</div>
+            <div className='design-3-navbtn'>Womens</div>
+            <div className='design-3-navbtn'>About Us</div>
+            <div className='design-3-navbtn'>Contact</div>
+            <div className='design-3-navbtn'>Locations</div>
+          </div>
+          <div className='design-3-search'>
+            <input className='search-input'></input>
+            <button className='search-btn'>Search</button>
+          </div>
           <h3 className='design-3-title'>Back From The Past <br/> <h4>Jays Vintage Shoppe</h4> </h3>
+          <div className='design-3-deal'>Exclusive Deals <br/> <h4> 25% ANY ORDER OVER $75</h4> </div>
+          <div className='design-3-sidebar'>
+            <div className='design-3-sidebtn'>Shirts</div>
+            <div className='design-3-sidebtn'>Pants</div>
+            <div className='design-3-sidebtn'>Sweatshirts</div>
+            <div className='design-3-sidebtn'>T-Shirts</div>
+            <div className='design-3-sidebtn'>Jackets</div>
+            <div className='design-3-sidebtn'>Accessories</div>
+          </div>
+          <div className='design-hot-items'>
+          </div>
         </div>
+
+
+
+
+
         <div className='design-4'>
           <h3 className='design-4-title'>The Woof-Woof Inn <br/> <h4>Jays Dog Daycare</h4> </h3>
         </div>
