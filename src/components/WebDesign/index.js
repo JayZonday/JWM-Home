@@ -14,16 +14,6 @@ class WebDesign extends Component {
           <div className='title-desc-design'> JavaScript | React.js | CSS | HTML </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
         <div className='design-2'>
           <div className='design-2-headbar'>
             <div className='design-2-headbtn'>Log In | Sign Up</div>
@@ -75,26 +65,44 @@ class WebDesign extends Component {
           <div className='design-3-mainitems'>
             <div className='design-3-mainrow'>
               <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/2536584/pexels-photo-2536584.jpeg'/>
               </div>
               <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
               </div>
               <div className='design-3-item'>
-              </div>
-            </div>
-            <div className='design-3-mainrow'>
-              <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/2536584/pexels-photo-2536584.jpeg'/>
               </div>
               <div className='design-3-item'>
-              </div>
-              <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
               </div>
             </div>
             <div className='design-3-mainrow'>
               <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/2536584/pexels-photo-2536584.jpeg'/>
               </div>
               <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
               </div>
               <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/2536584/pexels-photo-2536584.jpeg'/>
+              </div>
+              <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
+              </div>
+            </div>
+            <div className='design-3-mainrow'>
+              <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/2536584/pexels-photo-2536584.jpeg'/>
+              </div>
+              <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
+              </div>
+              <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/2536584/pexels-photo-2536584.jpeg'/>
+              </div>
+              <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
               </div>
             </div>
           </div>

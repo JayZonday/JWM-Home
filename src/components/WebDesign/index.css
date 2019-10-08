@@ -166,7 +166,7 @@
   margin: 5% 0 0 3%;
 }
 .design-3{
-  height: 1450px;
+  height: 1750px;
   background-color: whitesmoke;
   border-top: 40px solid black;
 }
@@ -235,15 +235,26 @@
 }
 .design-3-mainitems{
   border: 1px solid black;
-  height: 650px;
+  height: 1050px;
   width: 80%;
   position: absolute;
   margin-top: 35%;
   margin-left: 15%;
 }
-
-
-
+.design-3-mainrow{
+  display: flex;
+}
+.design-3-item{
+  border: 1px solid black;
+  height: 250px;
+  width: 20%;
+  margin: 3%;
+  cursor: pointer;
+}
+.design-3-photo{
+  width: 100%;
+  height: 248px;
+}
 
 
 .design-4{
