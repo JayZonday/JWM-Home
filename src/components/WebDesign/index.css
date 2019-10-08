@@ -33,7 +33,7 @@
 .design-2{
   height: 1050px;
   background-color: orange;
-  border-top: 20px solid orange;
+  border-top: 20px solid black;
 }
 .design-2-headbar{
   width: 100%;
@@ -41,9 +41,16 @@
   margin-left: 80%;
 }
 .design-2-headbtn{
-  margin: 1%;
+  margin: .5%;
+  padding: .5%;
   cursor: pointer;
   font-weight: bolder;
+  border: 1px solid transparent;
+  transition: .2s ease-in-out;
+  border-radius: 35%;
+}
+.design-2-headbtn:hover{
+  border: 1px solid black;
 }
 .design-2-title{
   font-family: 'Permanent Marker', cursive;
@@ -124,7 +131,6 @@
 }
 .design-2-coupons{
   height: 175px;
-  border: 2px solid black;
   margin: 2% auto;
   width: 45%;
   background-image: url('https://images.pexels.com/photos/1023828/pexels-photo-1023828.jpeg');
