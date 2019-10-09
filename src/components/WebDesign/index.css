@@ -182,10 +182,15 @@
   cursor: pointer;
   width: 20%;
   text-align: center;
+  font-weight: bold;
+  color: rgba(0,0,0,0.65);
+}
+.design-3-navbtn:hover{
+  color: black;
 }
 .design-3-sidebar{
   margin-left: 2%;
-  margin-top: 35%;
+  margin-top: 37%;
   position: absolute;
   width: 25%;
 }
@@ -196,32 +201,62 @@
   font-size: 20px;
   font-family: 'Bangers', cursive;
   transition: .3s ease-in-out;
-  border-bottom: 3px solid transparent;
   cursor: pointer;
+  color: rgba(0,0,0,.65);
 }
 .design-3-sidebtn:hover{
-  border-bottom: 3px solid black;
+  transform: scale(1.25);
+  color: black;
 }
 .design-3-title{
   font-family: 'Bangers', cursive;
   position: absolute;
   margin-left: 7%;
   margin-top : 3%;
-  font-size: 54px;
+  font-size: 58px;
   border: 1px solid black;
   padding: 3%;
+}
+.design-3-desc{
+  color: rgba(0,0,0,.65);
 }
 .design-3-deal{
   color: white;
   background: black;
   position: absolute;
-  margin-left: 55%;
-  margin-top : 3%;
-  font-size: 54px;
-  border: 1px solid black;
+  margin-top: 20%;
+  margin-left: 25%;
+  font-size: 50px;
   padding: 3%;
   text-align: center;
+  width: 70%;
+  cursor: alias;
 }
+.design-3-lines{
+  width: 15%;
+  position: absolute;
+  margin-top: 23%;
+}
+.design-3-line{
+  padding-top: 4%;
+  border: 5px solid black;
+  color: black;
+  background: black;
+}
+.design-3-line-odd{
+  padding-top: 4%;
+  border: 5px solid #aaa;
+  color: #aaa;
+  background: #aaa;
+}
+.design-3-banner{
+  width: 48%;
+  position: absolute;
+  height: 190px;
+  margin-left: 47%;
+  margin-top : 3%;
+}
+
 .design-3-search{
   width: 100%;
 }
@@ -229,17 +264,21 @@
   width: 5%;
   font-family: 'Bangers', cursive;
   background: rgba(0,0,0,.15);
+  padding: .5%;
 }
 .search-input{
   width: 95%;
+  font-family: 'Bangers', cursive;
+  padding: .5%;
 }
 .design-3-mainitems{
   border: 1px solid black;
-  height: 1050px;
+  height: 1000px;
   width: 80%;
   position: absolute;
-  margin-top: 35%;
+  margin-top: 37%;
   margin-left: 15%;
+  background: white;
 }
 .design-3-mainrow{
   display: flex;

@@ -50,8 +50,8 @@ class WebDesign extends Component {
             <input className='search-input'></input>
             <button className='search-btn'>Search</button>
           </div>
-          <h3 className='design-3-title'>Back From The Past <br/> <h4>Jays Vintage Shoppe</h4> </h3>
-          <div className='design-3-deal'>Exclusive Deals <br/> <h4> 25% ANY ORDER OVER $75</h4> </div>
+          <h3 className='design-3-title'>Back From The Past <br/> <h4 className='design-3-desc'>Jays Vintage Shoppe</h4> </h3>
+          <img className='design-3-banner' src='https://images.pexels.com/photos/247929/pexels-photo-247929.jpeg'/>
           <div className='design-3-sidebar'>
             <div className='design-3-sidebtn'>Shirts</div>
             <div className='design-3-sidebtn'>Pants</div>
@@ -60,7 +60,15 @@ class WebDesign extends Component {
             <div className='design-3-sidebtn'>Jackets</div>
             <div className='design-3-sidebtn'>Accessories</div>
           </div>
-          <div className='design-3-hotitems'>
+          <div className='design-3-subheader'>
+            <div className='design-3-lines'>
+              <hr className='design-3-line'/>
+              <hr className='design-3-line-odd'/>
+              <hr className='design-3-line'/>
+            </div>
+            <div className='design-3-hotitems'>
+              <div className='design-3-deal'>Exclusive Deals <br/> <h4> 25% ANY ORDER OVER $75</h4> </div>
+            </div>
           </div>
           <div className='design-3-mainitems'>
             <div className='design-3-mainrow'>
@@ -71,24 +79,10 @@ class WebDesign extends Component {
                 <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
               </div>
               <div className='design-3-item'>
-                <img className='design-3-photo' src='https://images.pexels.com/photos/2536584/pexels-photo-2536584.jpeg'/>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/236284/pexels-photo-236284.jpeg'/>
               </div>
               <div className='design-3-item'>
-                <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
-              </div>
-            </div>
-            <div className='design-3-mainrow'>
-              <div className='design-3-item'>
-                <img className='design-3-photo' src='https://images.pexels.com/photos/2536584/pexels-photo-2536584.jpeg'/>
-              </div>
-              <div className='design-3-item'>
-                <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
-              </div>
-              <div className='design-3-item'>
-                <img className='design-3-photo' src='https://images.pexels.com/photos/2536584/pexels-photo-2536584.jpeg'/>
-              </div>
-              <div className='design-3-item'>
-                <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/2798154/pexels-photo-2798154.jpeg'/>
               </div>
             </div>
             <div className='design-3-mainrow'>
@@ -99,10 +93,24 @@ class WebDesign extends Component {
                 <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
               </div>
               <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/236284/pexels-photo-236284.jpeg'/>
+              </div>
+              <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/2798154/pexels-photo-2798154.jpeg'/>
+              </div>
+            </div>
+            <div className='design-3-mainrow'>
+              <div className='design-3-item'>
                 <img className='design-3-photo' src='https://images.pexels.com/photos/2536584/pexels-photo-2536584.jpeg'/>
               </div>
               <div className='design-3-item'>
                 <img className='design-3-photo' src='https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg'/>
+              </div>
+              <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/236284/pexels-photo-236284.jpeg'/>
+              </div>
+              <div className='design-3-item'>
+                <img className='design-3-photo' src='https://images.pexels.com/photos/2798154/pexels-photo-2798154.jpeg'/>
               </div>
             </div>
           </div>
