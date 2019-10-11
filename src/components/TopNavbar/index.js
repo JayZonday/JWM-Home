@@ -51,7 +51,7 @@ class TopNavbar extends Component {
               October 11, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'></div>
+              <div id='the-bet'> Washington Nationals ML +112 (@ St.Louis Cardinals)</div>
               <br/>
               <div id='bet-record'>7-3 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
@@ -76,11 +76,10 @@ class TopNavbar extends Component {
               <span id='quote-header-text'>
               Quote of The Day
               <br/>
-              October 7, 2019
+              October 11, 2019
               </span>
               <hr id='quote-text-divider'/>
-              <div id='the-quote'>“Anything lost, can be found again, except for time wasted.
-              A vision without action is merely a dream. Action, it's the grind, it's the hustle, it's the persistence.”<br/><br/><span>~ Kevin Gates</span></div>
+              <div id='the-quote'>“”<br/><br/><span>~ Kevin Gates</span></div>
               <br/>
               <div id='last-quote'></div>
               <div id='last-quote'></div>
