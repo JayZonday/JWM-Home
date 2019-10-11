@@ -79,8 +79,11 @@ class TopNavbar extends Component {
               October 11, 2019
               </span>
               <hr id='quote-text-divider'/>
-              <div id='the-quote'>“”<br/><br/><span>~ Kevin Gates</span></div>
-              <br/>
+              <div id='the-quote'>
+              “All you need to paint is a few tools, a little instruction, and a vision in your mind.”
+                <br/><br/>
+                <span>~ Bob Ross</span></div>
+                <br/>
               <div id='last-quote'></div>
               <div id='last-quote'></div>
 
