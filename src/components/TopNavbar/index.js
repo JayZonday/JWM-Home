@@ -48,10 +48,10 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              October 12, 2019
+              October 14, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'>CFB: Kentucky Wildcats -7 (vs. Arkansas) -110 </div>
+              <div id='the-bet'></div>
               <br/>
               <div id='bet-record'>8-3 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
@@ -65,6 +65,7 @@ class TopNavbar extends Component {
               <div id='last-bets'>9/16 - Cleveland Browns -6.5 -110 <b>[Won]</b></div>
               <div id='last-bets'>10/7 - New York Yankees -1.5 +108 <b>[Won]</b></div>
               <div id='last-bets'>10/11 - Washington Nationals ML +112 <b>[Won]</b></div>
+              <div id='last-bets'>10/12 - Kentucky Wildcats -7 -110 <b>[Lost]</b></div>
 
             </div>
           </div>
