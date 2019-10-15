@@ -88,7 +88,7 @@ class FantasyFootball extends Component {
 
         <div className='ff-rankings-section'>
           <h3 className='ff-section-title' id='greenbg'> Weekly Rankings</h3>
-          <div className='ff-week-desc' id='greenbg'>Week 6 (October 10th - 14th)</div>
+          <div className='ff-week-desc' id='greenbg'>Week 7 (October 17th - 21st)</div>
           <div className='rb-section' id='greenbg'>
             <h3 className='rankings-title'>Running Backs</h3>
               <button className='reveal-btn' id='rb' onClick={()=> this.handleRbReveal()}><img src='https://www.clipartmax.com/png/full/3-37416_clover-irish-four-leaves-luck-tattoo-white-shamrock-transparent.png' className='reveal-btn-img'/></button>
@@ -209,7 +209,7 @@ class FantasyFootball extends Component {
         <img className='bg-football-img' src='https://i.ibb.co/r5K21VR/hiclipart-com-id-degki.png'/>
 
           <h3 className='ff-section-title' id='whitebg'> Weekly Waiver Wire </h3>
-          <div className='ff-week-desc'>Week 6 (October 10th - 14th)</div>
+          <div className='ff-week-desc'>Week 7 (October 17th - 21st)</div>
           <div className='rb-section' id='whitebg'>
             <h3 className='waiver-title'>Running Backs</h3>
               <div className='player-name'><span id='rank'>1.</span> Giovani Bernard [CIN]</div>
@@ -273,7 +273,7 @@ class FantasyFootball extends Component {
 
         <div className='ff-daily-section'>
           <h3 className='ff-section-title' id='whitebg'> Daily Fantasy</h3>
-          <div className='ff-week-desc'>Fanduel Week 6 (October 13th) </div>
+          <div className='ff-week-desc'>Fanduel Week 7 (October 20th) </div>
           <div className='rb-section' id='whitebg2'>
             <h3 className='waiver-title'>Running Backs</h3>
             <div className='player-name'><span id='rank'>1.</span> Christian McCaffrey [CAR]</div>
