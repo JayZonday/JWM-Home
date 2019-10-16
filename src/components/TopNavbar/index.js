@@ -80,13 +80,15 @@ class TopNavbar extends Component {
               <span id='quote-header-text'>
               Quote of The Day
               <br/>
-              October 14, 2019
+              October 16, 2019
               </span>
               <hr id='quote-text-divider'/>
               <div id='the-quote'>
-              “Just ‘cause you got the monkey off your back doesn’t mean that the circus has left town.”
+              “Pain is temporary. It may last a minute, or an hour, or a day, or a year,
+              but eventually it will subside and something else will take its place. 
+              If I quit, however, it lasts forever.”
                 <br/><br/>
-                <span>~ George Carlin</span></div>
+                <span>~ Eric Thomas</span></div>
                 <br/>
               <div id='last-quote'></div>
               <div id='last-quote'></div>
