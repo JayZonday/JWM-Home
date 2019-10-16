@@ -84,7 +84,7 @@ a:hover, a:active{
   height: 375px;
   width: 475px;
   background: white;
-  opacity: .75;
+  opacity: .9;
   overflow-y: scroll;
   box-shadow: 2px 15px 25px black;
   cursor: grab;

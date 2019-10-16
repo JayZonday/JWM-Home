@@ -70,7 +70,7 @@ body{
   color: gold;
 }
 .ff-rankings-section{
-  height: 650px;
+  height: 750px;
   width: 100%;
   background-color: seagreen;
   clip-path: polygon(50% 0%, 100% 0, 96% 64%, 93% 100%, 7% 100%, 4% 64%, 0 0);
@@ -145,7 +145,7 @@ body{
   width: 18%;
   background: white;
   margin-left: 10%;
-  margin-top: 2%;
+  margin-top: 3%;
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
@@ -159,7 +159,7 @@ body{
   width: 18%;
   background: white;
   margin-left: 30%;
-  margin-top: 2%;
+  margin-top: 3%;
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
@@ -172,7 +172,7 @@ body{
   width: 18%;
   background: white;
   margin-left: 50%;
-  margin-top: 2%;
+  margin-top: 3%;
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
@@ -185,7 +185,7 @@ body{
   width: 18%;
   background: white;
   margin-left: 70%;
-  margin-top: 2%;
+  margin-top: 3%;
   overflow-y: scroll;
   padding: 1%;
   border-radius: 2%;
