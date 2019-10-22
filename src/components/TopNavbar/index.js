@@ -48,12 +48,12 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              October 21, 2019
+              October 22, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'>New England Patriots -5.5 1st Half -115 (@ New York Jets)</div>
+              <div id='the-bet'>Los Angeles Lakers -7 -110 (@ Los Angeles Clippers)</div>
               <br/>
-              <div id='bet-record'>10-5 Since August 8, 2019</div>
+              <div id='bet-record'>11-5 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
               <div id='last-bets'>8/9 - New York Mets ML +115 <b>[Won]</b></div>
               <div id='last-bets'>8/11 - Philadelphia Phillies ML -115 <b>[Lost]</b></div>
@@ -69,6 +69,7 @@ class TopNavbar extends Component {
               <div id='last-bets'>10/14 - Washington Nationals ML -135 <b>[Won]</b></div>
               <div id='last-bets'>10/15 - New York Yankees ML +140 <b>[Lost]</b></div>
               <div id='last-bets'>10/16 - Pittsburgh Penguins ML -115 <b>[Won]</b></div>
+              <div id='last-bets'>10/21 - New England Patriots -5.5 1-Half -115 <b>[Won]</b></div>
 
             </div>
           </div>
