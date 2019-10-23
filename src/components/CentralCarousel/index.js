@@ -125,7 +125,7 @@ class CentralCarousel extends Component {
                   Produced complete web app design through a custom-written CSS stylesheet
                 </div>
                 <a href='https://github.com/JayZonday/nothing-but-luck-FE' target='_blank'>
-                  <img src='https://i.ibb.co/X47CS0f/Screen-Shot-2019-08-07-at-4-52-27-PM.png' id='project-img'/>
+                  <img src='https://i.ibb.co/MN7kcMw/Screen-Shot-2019-10-23-at-10-42-29-AM.png' id='project-img'/>
                 </a>
               </div>
               </Carousel.Item>
