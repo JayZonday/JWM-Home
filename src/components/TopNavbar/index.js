@@ -48,10 +48,10 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              October 23, 2019
+              October 24, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'></div>
+              <div id='the-bet'>Atlanta Hawks ML -106 (@ Detroit Pistons)</div>
               <br/>
               <div id='bet-record'>11-6 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
