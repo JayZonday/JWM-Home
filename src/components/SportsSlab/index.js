@@ -6,7 +6,7 @@ class SportSlab extends Component {
   render(){
     return (
       <div className='sports-section'>
-        <h2 className='title' id='sports'>Sports Hub - Nothing But Luck</h2>
+        <h2 className='title' id='sports'>Sports Hub <br/> Nothing But Luck</h2>
 
 
         <NavLink to='/fantasy-football'><div className='fantasy-sport' id='ff'><span className='sport-btn-title' id='ff'>Fantasy Football</span></div></NavLink>

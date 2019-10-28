@@ -89,3 +89,52 @@
   border: 2px solid seagreen;
   padding: .5%;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .dev-section{
+    height: 900px;
+  }
+  .dev-info-container{
+    display: block;
+    margin: 0% auto;
+  }
+  .dev-fields{
+    width: 70%;
+    margin: 8% auto;
+    padding: .5%;
+    border: 1px solid #aaa;
+    height: 150px;
+    transition: .45s ease-in-out;
+    opacity: .85;
+    cursor: crosshair;
+    text-align: center;
+   }
+   .skill{
+     color: whitesmoke;
+     font-size: 15px;
+   }
+   .skill-title{
+     color: #ffbf00;
+     font-family: 'Satisfy', sans-serif;
+     font-weight: bolder;
+     font-size: 20px;
+   }
+   #dev-info-line{
+     display: none;
+   }
+   .dev-design-line{
+     display: none;
+   }
+   .title#dev{
+     font-size: 47px;
+   }
+   .web-design-btn{
+     position: absolute;
+     margin-top: 5%;
+     margin-left: 25%;
+     font-size: 17px;
+     border: 1px solid seagreen;
+     padding: 2%;
+   }
+}

@@ -204,3 +204,17 @@ img#sports-logo:hover ~ span.team-name#warriors{
 #dallas-img:hover{
   opacity: 1;
 }
+
+@media only screen and (max-width: 600px) {
+  .title#highlights {
+    color: seagreen;
+    text-align: left;
+    padding-top: 15%;
+    margin-left: 18%;
+    font-weight: bolder;
+    font-family: 'Satisfy', sans-serif;
+    font-size: 40px;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  }
+
+}

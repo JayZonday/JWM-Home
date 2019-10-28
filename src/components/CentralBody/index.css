@@ -86,15 +86,15 @@
     height: 250px;
   }
   .title#header{
-    font-size: 43px;
+    font-size: 38px;
   }
   .mini-bio{
-    font-size: 14px;
-    margin-top: 15%;
+    font-size: 13.4px;
+    margin-top: 13%;
     padding-left: 3%;
     border-left: 3px solid white;
     width: 55%;
-    height: 168px;
+    height: 183px;
   }
   .bio-logo{
     height: 150px;

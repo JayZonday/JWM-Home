@@ -91,3 +91,27 @@
 .fantasy-sport#fb:hover, .fantasy-sport#fbb:hover{
   cursor: not-allowed;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .title#sports{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 0%;
+  }
+  .sport-btn-title{
+    font-family: 'Satisfy', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .3s ease-in-out;
+    width: 100%;
+    position: absolute;
+    margin-left: -48%;
+    margin-top: 90%;
+    transform: rotate(-14deg);
+  }
+  .sport-btn-title#nbl{
+    color: black;
+    transform: rotate(0deg);
+  }
+}

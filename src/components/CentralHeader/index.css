@@ -78,11 +78,12 @@ canvas{
   .title-desc{
     display: grid;
     text-align: center;
-    margin-left:  40%;
-    margin-top: 10%;
+    margin-left:  30%;
+    margin-top: 5%;
     overflow-x: hidden;
   }
   .desc-item#mid{
     border: none;
   }
+
 }
