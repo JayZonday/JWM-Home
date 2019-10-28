@@ -48,12 +48,12 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              October 24, 2019
+              October 28, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'>Atlanta Hawks ML -106 (@ Detroit Pistons)</div>
+              <div id='the-bet'>Golden State Warriors ML +170 (@ New Orleans Pelicans)</div>
               <br/>
-              <div id='bet-record'>11-6 Since August 8, 2019</div>
+              <div id='bet-record'>12-6 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
               <div id='last-bets'>8/9 - New York Mets ML +115 <b>[Won]</b></div>
               <div id='last-bets'>8/11 - Philadelphia Phillies ML -115 <b>[Lost]</b></div>
@@ -71,6 +71,7 @@ class TopNavbar extends Component {
               <div id='last-bets'>10/16 - Pittsburgh Penguins ML -115 <b>[Won]</b></div>
               <div id='last-bets'>10/21 - New England Patriots -5.5 1-Half -115 <b>[Won]</b></div>
               <div id='last-bets'>10/22 - Los Angeles Lakers -3 -110 <b>[Lost]</b></div>
+              <div id='last-bets'>10/24 - Atlanta Hawks ML -106 <b>[Won]</b></div>
 
             </div>
           </div>
@@ -83,15 +84,13 @@ class TopNavbar extends Component {
               <span id='quote-header-text'>
               Quote of The Day
               <br/>
-              October 16, 2019
+              October 28, 2019
               </span>
               <hr id='quote-text-divider'/>
               <div id='the-quote'>
-              “Pain is temporary. It may last a minute, or an hour, or a day, or a year,
-              but eventually it will subside and something else will take its place.
-              If I quit, however, it lasts forever.”
+              “Problems that remain persistently insoluble should always be suspected as questions asked in the wrong way.”
                 <br/><br/>
-                <span>~ Eric Thomas</span></div>
+                <span>~ Alan Watts</span></div>
                 <br/>
               <div id='last-quote'></div>
               <div id='last-quote'></div>
