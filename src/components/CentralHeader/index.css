@@ -70,3 +70,19 @@ canvas{
 #particles{
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+  }
+  .title-desc{
+    display: grid;
+    text-align: center;
+    margin-left:  40%;
+    margin-top: 10%;
+    overflow-x: hidden;
+  }
+  .desc-item#mid{
+    border: none;
+  }
+}

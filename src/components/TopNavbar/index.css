@@ -140,3 +140,24 @@ a:hover, a:active{
 #quote-record{
   font-weight: 600;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .nav-btn{
+    font-size: 10px;
+    height: 60px;
+  }
+  #special-char{
+    display: none;
+  }
+  .nav-img{
+    height: 60px;
+    overflow-x: hidden;
+  }
+  .navbar{
+    height: 60px;
+
+  }
+
+}

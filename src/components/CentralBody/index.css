@@ -76,3 +76,44 @@
   color: #e8b923;
   text-shadow: 1px 1px 1px black;
 }
+
+@media only screen and (max-width: 600px) {
+  .bio-line {
+    display: none;
+  }
+  .title-container{
+    position: relative;
+    height: 250px;
+  }
+  .title#header{
+    font-size: 43px;
+  }
+  .mini-bio{
+    font-size: 14px;
+    margin-top: 15%;
+    padding-left: 3%;
+    border-left: 3px solid white;
+    width: 55%;
+    height: 168px;
+  }
+  .bio-logo{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #e4e4e4;
+    border-radius: 2%;
+    margin-left: 3%;
+    margin-top: 16%;
+    transition: .35s ease-in-out;
+    opacity: .85;
+    box-shadow: 0 11px 20px rgba(0,0,0,0.33), 0 10px 10px rgba(0,0,0,0.33);
+  }
+  .bio-img{
+    border-radius: 2%;
+  }
+  .body-section{
+    height: 300px;
+  }
+  .nav-btn{
+    font-size: 10px;
+  }
+}
