@@ -48,12 +48,12 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              October 28, 2019
+              October 31, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'>Golden State Warriors ML +170 (@ New Orleans Pelicans)</div>
+              <div id='the-bet'></div>
               <br/>
-              <div id='bet-record'>12-6 Since August 8, 2019</div>
+              <div id='bet-record'>13-6 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
               <div id='last-bets'>8/9 - New York Mets ML +115 <b>[Won]</b></div>
               <div id='last-bets'>8/11 - Philadelphia Phillies ML -115 <b>[Lost]</b></div>
@@ -72,6 +72,7 @@ class TopNavbar extends Component {
               <div id='last-bets'>10/21 - New England Patriots -5.5 1-Half -115 <b>[Won]</b></div>
               <div id='last-bets'>10/22 - Los Angeles Lakers -3 -110 <b>[Lost]</b></div>
               <div id='last-bets'>10/24 - Atlanta Hawks ML -106 <b>[Won]</b></div>
+              <div id='last-bets'>10/24 - Golden State Warriors ML +170 <b>[Won]</b></div>
 
             </div>
           </div>
@@ -84,7 +85,7 @@ class TopNavbar extends Component {
               <span id='quote-header-text'>
               Quote of The Day
               <br/>
-              October 28, 2019
+              October 31, 2019
               </span>
               <hr id='quote-text-divider'/>
               <div id='the-quote'>
