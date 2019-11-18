@@ -156,5 +156,23 @@ a:hover, a:active{
     height: 60px;
 
   }
+  .quicklinks{
+    position: absolute;
+    margin: 62% 0 0 48%;
+    width: 40%;
+    z-index: 100;
+    padding: .5%;
+    cursor: pointer;
+    opacity: .89;
+    display: inline-flex;
+  }
+  .ql-btn{
+    width: 25%;
+    color: black;
+    opacity: .55;
+    font-size: 40px;
+    padding: 1% !important;
+    transition: .3s ease-in-out;
+  }
 
 }
