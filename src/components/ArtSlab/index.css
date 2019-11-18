@@ -3,6 +3,7 @@
   background-size: 100% 100%;
   background-attachment: fixed;
   background-image: url('https://i.ibb.co/jgcPShJ/background-carpentry-construction-326333.jpg');
+  display: none;
 }
 .title#art{
   color: seagreen;

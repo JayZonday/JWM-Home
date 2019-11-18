@@ -1,5 +1,6 @@
 .dev-section{
   height: 700px;
+  display: none;
 }
 .title#dev{
   color: seagreen;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SideNavbar from '../SideNavbar'
 import Carousel from 'react-bootstrap/Carousel'
 import './index.css';
 import AOS from 'aos';
@@ -30,7 +31,7 @@ class CentralBody extends Component {
   render(){
     return (
       <div className='body-section'>
-        <div data-aos='zoom-in' className='bio-logo'>
+        <div className='bio-logo'>
           <img className='bio-img' src='https://i.ibb.co/QYCtbK0/Screen-Shot-2019-09-19-at-4-49-20-PM.png'/>
         </div>
         <hr  className='bio-line' id='first'/>
@@ -40,6 +41,7 @@ class CentralBody extends Component {
           to apply my wide range of skills to create and build beautiful and intelligently designed programs that can help
           change and shape the way we think about tomorrow.
         </div>
+        <SideNavbar/>
       </div>
     );
   }

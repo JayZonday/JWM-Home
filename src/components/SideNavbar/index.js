@@ -6,16 +6,48 @@ import './index.css';
 class SideNavbar extends Component {
 
   handleCode = () => {
-    document.querySelector('.dev-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+    if(document.querySelector('.dev-section').style.display === 'block'){
+      document.querySelector('.dev-section').style.display = 'none'
+    }else{
+      document.querySelector('.dev-section').style.display = 'block'
+      document.querySelector('.art-section').style.display = 'none'
+      document.querySelector('.sports-section').style.display = 'none'
+      document.querySelector('.carousel-section').style.display = 'none'
+      document.querySelector('.dev-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+    }
   }
   handleArt = () => {
-    document.querySelector('.art-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+    if(document.querySelector('.art-section').style.display === 'block'){
+      document.querySelector('.art-section').style.display = 'none'
+    }else{
+      document.querySelector('.art-section').style.display = 'block'
+      document.querySelector('.dev-section').style.display = 'none'
+      document.querySelector('.sports-section').style.display = 'none'
+      document.querySelector('.carousel-section').style.display = 'none'
+      document.querySelector('.art-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+    }
   }
   handleSports = () => {
-    document.querySelector('.sports-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+    if(document.querySelector('.sports-section').style.display === 'block'){
+      document.querySelector('.sports-section').style.display = 'none'
+    }else{
+      document.querySelector('.sports-section').style.display = 'block'
+      document.querySelector('.art-section').style.display = 'none'
+      document.querySelector('.dev-section').style.display = 'none'
+      document.querySelector('.carousel-section').style.display = 'none'
+      document.querySelector('.sports-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+    }
   }
   handleReel = () => {
-    document.querySelector('.carousel-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+    if(document.querySelector('.carousel-section').style.display === 'block'){
+      document.querySelector('.carousel-section').style.display = 'none'
+    }else{
+      document.querySelector('.carousel-section').style.display = 'block'
+      document.querySelector('.art-section').style.display = 'none'
+      document.querySelector('.sports-section').style.display = 'none'
+      document.querySelector('.dev-section').style.display = 'none'
+      document.querySelector('.carousel-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+    }
   }
   handleTop = () => {
     document.querySelector('.top-nav').scrollIntoView({behavior: 'smooth', block: 'center'})
@@ -26,7 +58,6 @@ class SideNavbar extends Component {
       <div>
         <Draggable>
           <div className='quicklinks'>
-            <div title='Top of Page' onClick={()=> this.handleTop()} className='ql-btn'>⌅</div>
             <div title='Highlight Reel' onClick={()=> this.handleReel()} className='ql-btn'>✪</div>
             <div title='Web-Dev Section' onClick={()=> this.handleCode()} className='ql-btn'></div>
             <div title='Art Section' onClick={()=> this.handleArt()} className='ql-btn'>✎</div>

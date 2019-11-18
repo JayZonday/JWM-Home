@@ -52,23 +52,20 @@ a:hover, a:active{
   border-left: 1px solid #ffffff;
 }
 .quicklinks{
-  position: fixed;
-  top: 30%;
-  right: 0%;
-  width: 2.5%;
+  position: absolute;
+  margin: 22% 0 0 48%;
+  width: 40%;
   z-index: 100;
   padding: .5%;
-  opacity: 1;
-  background: seagreen;
-  border-radius: 5%;
   cursor: pointer;
-  border: 1px solid black;
   opacity: .89;
+  display: inline-flex;
 }
 .ql-btn{
+  width: 25%;
   color: black;
   opacity: .55;
-  font-size: 25px;
+  font-size: 75px;
   padding: 1% !important;
   transition: .3s ease-in-out;
 }

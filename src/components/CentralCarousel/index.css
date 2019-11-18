@@ -1,9 +1,9 @@
 .carousel-section{
   background: whitesmoke;
   height: 650px;
-  clip-path: polygon(30% 0, 100% 10%, 100% 100%, 30% 100%, 0 100%, 0 10%);
   width: 100%;
   margin-top: 0%;
+  display: none;
 }
 .title#highlights{
   color: seagreen;

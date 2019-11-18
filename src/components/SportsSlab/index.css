@@ -1,6 +1,7 @@
 .sports-section{
   height: 500px;
   background: white;
+  display: none;
 }
 
 .title#sports{
