@@ -39,7 +39,7 @@ class CentralBody extends Component {
         <div className='mini-bio'>
           A highly eager and motivated <b id='career'>Full-Stack Web Developer</b> looking
           to apply my wide range of skills to create and build beautiful and intelligently designed programs that can help
-          change and shape the way we think about tomorrow.
+          change and shape the way we think about tomorrow...
         </div>
         <SideNavbar/>
       </div>

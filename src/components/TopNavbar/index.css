@@ -5,6 +5,14 @@
   width: 90%;
   overflow-x: hidden;
 }
+#win{
+  color:green;
+
+}
+#lost{
+  color:red;
+}
+
 a{
 
   color: seagreen;
@@ -37,10 +45,10 @@ a:hover, a:active{
   border: none;
   padding-left: 1;
   font-size: 14px;
-  width: 10%;
+  width: 6%;
   cursor: pointer;
   transition: .35s ease-in-out;
-  border-left: 1px solid transparent;
+  border: 1px solid transparent;
 }
 #special-char{
   font-size: 18px;
@@ -49,7 +57,7 @@ a:hover, a:active{
 }
 .nav-btn:hover{
   color: #ffffff;
-  border-left: 1px solid #ffffff;
+  border: 1px solid seagreen;
 }
 .quicklinks{
   position: absolute;

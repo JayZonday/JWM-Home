@@ -51,29 +51,30 @@ class TopNavbar extends Component {
               November 18, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'>Kansas City Chiefs & under 52.5 points +170 (@ Los Angeles Chargers)</div>
+              <div id='the-bet'></div>
               <br/>
-              <div id='bet-record'>14-6 Since August 8, 2019</div>
-              <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b>[Won]</b></div>
-              <div id='last-bets'>8/9 - New York Mets ML +115 <b>[Won]</b></div>
-              <div id='last-bets'>8/11 - Philadelphia Phillies ML -115 <b>[Lost]</b></div>
-              <div id='last-bets'>8/18 - New York Yankees ML +105 <b>[Lost]</b></div>
-              <div id='last-bets'>8/20 - St. Louis Cardinals ML +100 <b>[Won]</b></div>
-              <div id='last-bets'>8/26 - Colorado Rockies ML +140 <b>[Won]</b></div>
-              <div id='last-bets'>8/27 - New York Mets ML EVEN <b>[Lost]</b></div>
-              <div id='last-bets'>9/5 - Greenbay Packers ML +150 <b>[Won]</b></div>
-              <div id='last-bets'>9/16 - Cleveland Browns -6.5 -110 <b>[Won]</b></div>
-              <div id='last-bets'>10/7 - New York Yankees -1.5 +108 <b>[Won]</b></div>
-              <div id='last-bets'>10/11 - Washington Nationals ML +112 <b>[Won]</b></div>
-              <div id='last-bets'>10/12 - Kentucky Wildcats -7 -110 <b>[Lost]</b></div>
-              <div id='last-bets'>10/14 - Washington Nationals ML -135 <b>[Won]</b></div>
-              <div id='last-bets'>10/15 - New York Yankees ML +140 <b>[Lost]</b></div>
-              <div id='last-bets'>10/16 - Pittsburgh Penguins ML -115 <b>[Won]</b></div>
-              <div id='last-bets'>10/21 - New England Patriots -5.5 1-Half -115 <b>[Won]</b></div>
-              <div id='last-bets'>10/22 - Los Angeles Lakers -3 -110 <b>[Lost]</b></div>
-              <div id='last-bets'>10/24 - Atlanta Hawks ML -106 <b>[Won]</b></div>
-              <div id='last-bets'>10/30 - Golden State Warriors ML +170 <b>[Won]</b></div>
-              <div id='last-bets'>11/1 - Wake Forest -3.5 1H -115 <b>[Won]</b></div>
+              <div id='bet-record'>15-6 Since August 8, 2019</div>
+              <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>8/9 - New York Mets ML +115 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>8/11 - Philadelphia Phillies ML -115 <b id='lost'>[Lost]</b></div>
+              <div id='last-bets'>8/18 - New York Yankees ML +105 <b id='lost'>[Lost]</b></div>
+              <div id='last-bets'>8/20 - St. Louis Cardinals ML +100 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>8/26 - Colorado Rockies ML +140 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>8/27 - New York Mets ML EVEN <b id='lost'>[Lost]</b></div>
+              <div id='last-bets'>9/5 - Greenbay Packers ML +150 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>9/16 - Cleveland Browns -6.5 -110 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>10/7 - New York Yankees -1.5 +108 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>10/11 - Washington Nationals ML +112 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>10/12 - Kentucky Wildcats -7 -110 <b id='lost'>[Lost]</b></div>
+              <div id='last-bets'>10/14 - Washington Nationals ML -135 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>10/15 - New York Yankees ML +140 <b id='lost'>[Lost]</b></div>
+              <div id='last-bets'>10/16 - Pittsburgh Penguins ML -115 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>10/21 - New England Patriots -5.5 1-Half -115 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>10/22 - Los Angeles Lakers -3 -110 <b id='lost'>[Lost]</b></div>
+              <div id='last-bets'>10/24 - Atlanta Hawks ML -106 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>10/30 - Golden State Warriors ML +170 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>11/1 - Wake Forest -3.5 1H -115 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>11/18 - Kansas City & under 52.5 points +170 <b id='win'>[Won]</b></div>
 
             </div>
           </div>
