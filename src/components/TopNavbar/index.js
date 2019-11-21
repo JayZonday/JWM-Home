@@ -22,6 +22,7 @@ class TopNavbar extends Component {
   }
 
 
+
   render(){
     return (
       <div className='top-nav'>
@@ -43,7 +44,7 @@ class TopNavbar extends Component {
 
         <Draggable>
           <div className='bet'>
-
+            <button className='close-btn' onClick={() => this.handleBOTD()}>X</button>
             <div id='bet-text'>
               <span id='bet-header-text'>
               Bet of The Day
@@ -77,11 +78,13 @@ class TopNavbar extends Component {
               <div id='last-bets'>11/18 - Kansas City & under 52.5 points +170 <b id='win'>[Won]</b></div>
 
             </div>
+
           </div>
         </Draggable>
 
         <Draggable>
           <div className='quote'>
+            <button className='close-btn' onClick={() => this.handleQOTD()}>X</button>
 
             <div id='quote-text'>
               <span id='quote-header-text'>

@@ -9,7 +9,7 @@
 .bio-line#first{
   border: 4px solid #ffffff;
   position: absolute;
-  width: 333px;
+  width: 260px;
   margin: 11% 0% 0% -1%;
   z-index: -1;
   transform: rotate(-6deg);
@@ -19,7 +19,7 @@
 .bio-line#second{
   border: 4px solid #ffffff;
   position: absolute;
-  width: 333px;
+  width: 260px;
   margin: 17% 0% 0% -1%;
   z-index: -1;
   transform: rotate(-6deg);
