@@ -84,7 +84,7 @@ class CentralHeader extends Component {
                     "value": 8,
                     "random": true,
                     "anim": {
-                        "speed": 1,
+                        "speed": .4,
                         "size_min": 0.3
                     }
                 },
@@ -93,7 +93,7 @@ class CentralHeader extends Component {
                 },
                 "move": {
                     "random": true,
-                    "speed": 2,
+                    "speed": .9,
                     "direction": "top",
                     "out_mode": "out"
                 }
