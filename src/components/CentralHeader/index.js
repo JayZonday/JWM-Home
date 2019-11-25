@@ -60,7 +60,7 @@ class CentralHeader extends Component {
               <span id='title-letter'>e</span>
               <span id='title-letter'>y</span>
             </h2>
-            <div data-aos='fade-up' className='title-desc' >
+            <div className='title-desc' >
               <span className='desc-item'>Full Stack Developer</span>
               <span className='desc-item' id='mid'>Artist</span>
               <span className='desc-item'>Sport Enthusiast</span>

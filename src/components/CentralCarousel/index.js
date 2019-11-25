@@ -68,28 +68,28 @@ class CentralCarousel extends Component {
       <div className='carousel-section'>
 
         <Draggable>
-          <div className='team-info' id='lakers'>Lakers Modal </div>
+          <div className='team-info' id='lakers'><button onClick={() => this.handleLakers()}>X</button>Los Angeles Lakers are currently 12-2 </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='brooklyn'>Brooklyn Modal </div>
+          <div className='team-info' id='brooklyn'>Brooklyn Nets are currently 6-8 </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='yankees'>Yankees Modal </div>
+          <div className='team-info' id='yankees'>Yankees lost in the ALCS against the Houston Astros </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='cowboys'>Cowboys Modal </div>
+          <div className='team-info' id='cowboys'>Cowboys are currently leading the NFC East, 6-4 </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='notre'>Notre Dame Modal </div>
+          <div className='team-info' id='notre'>Notre Dame's NCAAM team is 5-1, and NCAAF is ranked #15, 8-2 </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='duke'>Duke Modal </div>
+          <div className='team-info' id='duke'>Duke's NCAAM team is ranked #1, 5-0 </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='devils'>Devils Modal </div>
+          <div className='team-info' id='devils'>Devils are 7-9 with 18 points </div>
         </Draggable>
         <Draggable>
-          <div className='team-info' id='warriors'>Warriors Modal </div>
+          <div className='team-info' id='warriors'>Waldwick Warrior Sports Alumni & Supporter </div>
         </Draggable>
 
 

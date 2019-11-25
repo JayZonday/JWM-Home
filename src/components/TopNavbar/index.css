@@ -29,7 +29,8 @@ a:hover, a:active{
   position: absolute;
 }
 .nav-logo{
-  width: 10%;
+  width: 8%;
+  margin-left: 2%;
 }
 .nav-img{
   width: 100%;

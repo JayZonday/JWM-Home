@@ -134,11 +134,11 @@ img#sports-logo:hover ~ span.team-name#warriors{
   display: none;
   position: absolute;
   border-radius: 2%;
+  border: 1px solid seagreen;
   z-index: 101;
   height: 175px;
   opacity: .9;
-  width: 335px;
-  background: rgba(0,0,0,.9);
+  width: 35%;
   color: seagreen;
   padding: 3%;
   margin: 5% 0 0 57%;

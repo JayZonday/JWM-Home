@@ -38,7 +38,7 @@ class TopNavbar extends Component {
 
           <div className='nav-logo'>
             <NavLink to='/'>
-            <img title="It's all Luck" className='nav-img' src='https://cdn.shopify.com/s/files/1/1685/2975/products/Lucky_Shamrock_green_detail.jpg?v=1549032910'/>
+              <img title="Return Home" className='nav-img' src='http://www.pngmart.com/files/10/Clover-PNG-Transparent.png'/>
             </NavLink>
           </div>
 
