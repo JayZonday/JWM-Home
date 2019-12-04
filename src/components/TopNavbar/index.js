@@ -49,10 +49,10 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               Bet of The Day
               <br/>
-              November 18, 2019
+              December 3, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'></div>
+              <div id='the-bet'>Michigan Wolverines CBB +200 ML (@ Louisville)</div>
               <br/>
               <div id='bet-record'>15-6 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b id='win'>[Won]</b></div>
