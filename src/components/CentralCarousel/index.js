@@ -68,7 +68,7 @@ class CentralCarousel extends Component {
       <div className='carousel-section'>
 
         <Draggable>
-          <div className='team-info' id='lakers'><button onClick={() => this.handleLakers()}` ` >X</button>Los Angeles Lakers are currently 12-2 </div>
+          <div className='team-info' id='lakers'><button>X</button>Los Angeles Lakers are currently 12-2 </div>
         </Draggable>
         <Draggable>
           <div className='team-info' id='brooklyn'>Brooklyn Nets are currently 6-8 </div>
