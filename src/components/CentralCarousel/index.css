@@ -145,11 +145,11 @@ img#sports-logo:hover ~ span.team-name#warriors{
 #dallas-img{
   height: 225px;
   width: 215px;
-  opacity: .65;
+  opacity: .85;
   margin-top: 1%;
   transition: .35s ease-in-out;
   cursor: crosshair;
-  border-radius: 2%;
+  border-radius: 1%;
 }
 .project-name{
   color: #e8b923;
@@ -158,7 +158,8 @@ img#sports-logo:hover ~ span.team-name#warriors{
   padding-top: 1%;
   margin-left: 20%;
   font-weight: bolder;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bowlby One SC', cursive;
+  letter-spacing: .05em;
   font-size: 42px;
   text-shadow: 1px 1px 1px black;
 }
@@ -168,9 +169,10 @@ img#sports-logo:hover ~ span.team-name#warriors{
   text-shadow: ;
   padding-top: 1%;
   margin-top: 19%;
-  margin-left: 35%;
+  margin-left: 25%;
   font-weight: bolder;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bowlby One SC', cursive;
+  letter-spacing: .05em;
   font-size: 40px;
   text-shadow: 1px 1px 1px black;
   position: absolute;
@@ -181,9 +183,10 @@ img#sports-logo:hover ~ span.team-name#warriors{
   text-shadow: ;
   padding-top: 1%;
   margin-top: 15.8%;
-  margin-left: 32%;
+  margin-left: 23%;
   font-weight: bolder;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bowlby One SC', cursive;
+  letter-spacing: .05em;
   font-size: 40px;
   text-shadow: 1px 1px 1px black;
   position: absolute;

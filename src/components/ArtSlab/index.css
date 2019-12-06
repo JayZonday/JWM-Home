@@ -9,10 +9,11 @@
   color: seagreen;
   text-align: left;
   padding-top: 1%;
-  margin-left: 40%;
+  margin-left: 32%;
   font-weight: bolder;
-  font-family: 'Satisfy', sans-serif;
-  font-size: 72px;
+  font-family: 'Bowlby One SC', cursive;
+  letter-spacing: .05em;
+  font-size: 69px;
   text-shadow: 4px 3px 0px #49230E, 9px 8px 0px rgba(0,0,0,0.75);
 }
 
@@ -41,7 +42,7 @@
   transition: .55s ease-in-out;
   cursor: grab;
   opacity: 1;
-  border: 3px solid whitesmoke;
+  border: 1px solid white;
 }
 
 #art-img:hover{

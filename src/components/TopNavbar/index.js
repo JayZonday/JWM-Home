@@ -27,7 +27,7 @@ class TopNavbar extends Component {
     return (
       <div className='top-nav'>
         <div className='navbar'>
-          <button className='nav-btn'><a target='_blank' href="mailto:JMoloughney25@gmail.com">Contact</a> <span id='special-char'>✉</span></button>
+          <button className='nav-btn'><a target='_blank' href="mailto:JMoloughney25@gmail.com">Contact Me</a></button>
           <button className='nav-btn'>Resume</button>
           <button className='nav-btn'><a href='https://www.linkedin.com/in/josephmoloughney/' target='_blank'>LinkedIn</a></button>
           <button className='nav-btn'><a href='https://github.com/JayZonday' target='_blank'>GitHub</a></button>
@@ -94,7 +94,7 @@ class TopNavbar extends Component {
               </span>
               <hr id='quote-text-divider'/>
               <div id='the-quote'>
-              “Can you imagine yourself in 10 years if instead of avoiding 
+              “Can you imagine yourself in 10 years if instead of avoiding
               the things you know you should do, you
               actually did them every single day – that’s powerful."
                 <br/><br/>
