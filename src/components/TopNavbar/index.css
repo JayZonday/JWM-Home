@@ -29,7 +29,7 @@ a:hover, a:active{
   position: absolute;
 }
 .nav-logo{
-  width: 8%;
+  width: 7%;
   margin-left: 2%;
 }
 .nav-img{
@@ -51,9 +51,7 @@ a:hover, a:active{
   width: 7%;
   cursor: pointer;
   transition: .35s ease-in-out;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
-
+  border: 1px solid transparent;
 }
 #special-char{
   font-size: 18px;
@@ -62,8 +60,8 @@ a:hover, a:active{
 }
 .nav-btn:hover{
   color: #ffffff;
-  border-left: 1px solid seagreen;
-  border-right: 1px solid seagreen;
+  border: 1px solid seagreen;
+
 }
 .quicklinks{
   position: absolute;

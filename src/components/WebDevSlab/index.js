@@ -27,6 +27,7 @@ class WebDevSlab extends Component {
             <div className='skill'>Automotive</div>
             <div className='skill'>Law & Security</div>
             <div className='skill'>Health, Food & Fitness</div>
+            <div className='skill'>News & Enterntainment</div>
 
           </div>
           <div data-aos='fade-left' className='dev-fields'>

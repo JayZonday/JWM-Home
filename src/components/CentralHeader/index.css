@@ -64,7 +64,7 @@ canvas{
   border-left: 1px solid white;
 }
 .desc-item:hover{
-  color: seagreen;
+  color: white;
   text-shadow: 0px 1px 1px rgb(0,0,0);
 
 }

@@ -38,7 +38,7 @@ class TopNavbar extends Component {
 
           <div className='nav-logo'>
             <NavLink to='/'>
-              <img title="Return Home" className='nav-img' src='http://www.pngmart.com/files/10/Clover-PNG-Transparent.png'/>
+              <img title="Return Home" className='nav-img' src='https://cdn.pixabay.com/photo/2014/03/25/16/57/clover-297708_960_720.png'/>
             </NavLink>
           </div>
 
@@ -47,12 +47,12 @@ class TopNavbar extends Component {
             <button className='close-btn' onClick={() => this.handleBOTD()}>X</button>
             <div id='bet-text'>
               <span id='bet-header-text'>
-              Bet of The Day
+              <b>Bet of The Day</b>
               <br/>
-              December 4, 2019
+              December 6, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'></div>
+              <div id='the-bet'>Parlay Special - Duke ML & Michigan ML -140 <br/> (@ Virginia Tech & vs. Iowa)</div>
               <br/>
               <div id='bet-record'>15-6 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b id='win'>[Won]</b></div>
@@ -88,13 +88,15 @@ class TopNavbar extends Component {
 
             <div id='quote-text'>
               <span id='quote-header-text'>
-              Quote of The Day
+              <b>Quote of The Day</b>
               <br/>
-              November 18, 2019
+              December 6, 2019
               </span>
               <hr id='quote-text-divider'/>
               <div id='the-quote'>
-              “The purpose of life is finding the largest burden that you can bear and bearing it.”
+              “Can you imagine yourself in 10 years if instead of avoiding 
+              the things you know you should do, you
+              actually did them every single day – that’s powerful."
                 <br/><br/>
                 <span>~ Jordan Peterson</span></div>
                 <br/>

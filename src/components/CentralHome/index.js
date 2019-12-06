@@ -6,6 +6,7 @@ import WebDevSlab from '../WebDevSlab'
 import SportsSlab from '../SportsSlab'
 import SideNavbar from '../SideNavbar'
 import ArtSlab from '../ArtSlab'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 import React, { Component } from 'react';
 import './index.css';
 
@@ -16,6 +17,7 @@ class CentralHome extends Component {
         <CentralHeader/>
         <SideNavbar/>
         <CentralBody/>
+        
         <CentralCarousel/>
         <WebDevSlab/>
         <ArtSlab/>
