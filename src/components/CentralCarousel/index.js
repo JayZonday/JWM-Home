@@ -92,8 +92,6 @@ class CentralCarousel extends Component {
           <div className='team-info' id='warriors'>Waldwick Warrior Sports Alumni & Supporter </div>
         </Draggable>
 
-
-        <h2 data-aos='fade-down' className='title' id='highlights'>Highlight Reel</h2>
         <div className='carousel-container'>
           <Carousel>
             <Carousel.Item>
