@@ -218,4 +218,28 @@ img#sports-logo:hover ~ span.team-name#warriors{
     text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
   }
 
+  .project-desc{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 50%;
+    text-align: left;
+    font-size: 16px;
+  }
+  .project-name{
+    font-size: 30px;
+  }
+  #project-img{
+    height: 125px;
+    width: 135px;
+  }
+  .carousel-control-next, .carousel-control-prev{
+    margin-top:75%;
+  }
+  .team-sect-title,.dallas-appreciation-title{
+    font-size: 22px;
+  }
+  .Carousel{
+    height: 300px;
+  }
 }
