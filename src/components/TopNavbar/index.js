@@ -27,11 +27,11 @@ class TopNavbar extends Component {
     return (
       <div className='top-nav'>
         <div className='navbar'>
-          <button className='nav-btn'><a target='_blank' href="mailto:JMoloughney25@gmail.com">Contact Me</a></button>
+          <a className='nav-btn' target='_blank' href="mailto:JMoloughney25@gmail.com">Contact Me</a>
           <button className='nav-btn'>Resume</button>
-          <button className='nav-btn'><a href='https://www.linkedin.com/in/josephmoloughney/' target='_blank'>LinkedIn</a></button>
-          <button className='nav-btn'><a href='https://github.com/JayZonday' target='_blank'>GitHub</a></button>
-          <button className='nav-btn'><a href='https://www.youtube.com/channel/UCPQZKbLIPNYr36qVVAwkI6Q?view_as=subscriber' target='_blank'>YouTube</a></button>
+          <a className='nav-btn' href='https://www.linkedin.com/in/josephmoloughney/' target='_blank'>LinkedIn</a>
+          <a className='nav-btn' href='https://github.com/JayZonday' target='_blank'>GitHub</a>
+          <a className='nav-btn' href='https://www.youtube.com/channel/UCPQZKbLIPNYr36qVVAwkI6Q?view_as=subscriber' target='_blank'>YouTube</a>
           <button onClick={() => this.handleQOTD()} title='Quote of the Day' className='nav-btn'>QOTD <span id='special-char'>❞</span></button>
           <button onClick={() => this.handleBOTD()} title='Bet of the Day' className='nav-btn'>BOTD <span id='special-char'>♔</span></button>
         </div>
