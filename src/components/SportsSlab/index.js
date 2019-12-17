@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import { connect } from 'react-redux'
+import { updateUser } from '../../actions/userActions'
 import './index.css';
 
 class SportSlab extends Component {
+  constructor(props){
+    super(props);
+
+    this.onUpdateUser = this.onUpdateUser.bind(this);
+  }
+
+  onUpdateUser() {
+    this.props.onUpdateUser('Sammy');
+  }
+
   render(){
     return (
       <div className='sports-section'>
@@ -14,9 +26,21 @@ class SportSlab extends Component {
         <div className='fantasy-sport' id='fb'><span className='sport-btn-title' id='fb'>Fantasy Baseball<br/>[ Not In Season ]</span></div>
         <div className='fantasy-sport' id='nbl'><span className='sport-btn-title' id='nbl'>NBL <br/>[ Coming Soon ]</span></div>
 
-
+        <input onChange={this.onUpdateUser}></input>
+        {this.props.user}
       </div>
     );
   }
 }
-export default SportSlab;
+
+const mapStateToProps = state => ({
+  products: state.products,
+  user: state.user
+});
+
+const mapActionsToProps = {
+  onUpdateUser: updateUser
+}
+
+
+export default connect(mapStateToProps, mapActionsToProps) (SportSlab)

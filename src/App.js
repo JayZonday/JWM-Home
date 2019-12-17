@@ -5,10 +5,14 @@ import WebDesign from './components/WebDesign';
 import TopNavbar from './components/TopNavbar'
 import CentralFooter from './components/CentralFooter'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 import './App.css';
 
 class App extends Component {
+
+
   render(){
+    console.log(this.props)
     return (
 
       <Router>
