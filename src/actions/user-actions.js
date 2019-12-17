@@ -1,4 +1,4 @@
-export const UPDATE_USER = 'users: updateUser'
+export const UPDATE_USER = 'users: updateUser';
 
 export function updateUser(newUser) {
   return {
