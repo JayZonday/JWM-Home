@@ -115,26 +115,6 @@ class WebDesign extends Component {
             </div>
           </div>
         </div>
-
-
-
-
-
-        <div className='design-4'>
-          <h3 className='design-4-title'>The Woof-Woof Inn <br/> <h4>Jays Dog Daycare</h4> </h3>
-        </div>
-        <div className='design-5'>
-          <h3 className='design-5-title'>Average Jays Gym</h3>
-        </div>
-        <div className='code-design'>
-          <h3 className='code-test-title'>Technical Challenge</h3>
-          <div className='code-test-div'>
-            <button className='code-test-btn'> Test Button</button>
-            <div className='test-display'>
-            </div>
-          </div>
-        </div>
-
       </div>
     );
   }

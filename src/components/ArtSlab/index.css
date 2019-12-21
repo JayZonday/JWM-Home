@@ -1,9 +1,10 @@
 .art-section{
-  height: 800px;
-  background-size: 100% 100%;
+  height:900px;
+  /* background-size: 100% 100%;
   background-attachment: fixed;
-  background-image: url('https://i.ibb.co/jgcPShJ/background-carpentry-construction-326333.jpg');
+  background-image: url('https://images.pexels.com/photos/1901028/pexels-photo-1901028.jpeg');*/
   display: none;
+  background-color: #f7d157;
 }
 .title#art{
   color: seagreen;
@@ -27,22 +28,22 @@
   margin-left: 2%;
 
   background: #D4af37;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 10px 10px rgba(0,0,0,0.20);
 }
 #overlay{
   width: 100%;
-  height: 275px;
+  height: 300px;
   position: absolute;
 }
 
 
 #art-img{
   width: 100%;
-  height: 235px;
+  height: 285px;
   transition: .55s ease-in-out;
   cursor: grab;
   opacity: 1;
-  border: 1px solid white;
+  border-right: 30px solid black;
+  border-left: 30px solid black;
 }
 
 #art-img:hover{

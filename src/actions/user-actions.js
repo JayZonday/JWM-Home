@@ -1,3 +1,5 @@
+import $ from 'jquery'
+
 export const UPDATE_USER = 'users: updateUser';
 
 export function updateUser(newUser) {
@@ -6,5 +8,19 @@ export function updateUser(newUser) {
     payload: {
       user: newUser
     }
+  }
+}
+
+export function apiRequest() {
+  return dispatch => {
+    $.ajax({
+      url: 'http://google.com',
+      success(){
+        console.log('Success')
+      },
+      error(){
+        console.log('Error')
+      }
+    })
   }
 }

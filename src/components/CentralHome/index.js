@@ -17,11 +17,11 @@ class CentralHome extends Component {
         <CentralHeader/>
         <SideNavbar/>
         <CentralBody/>
-        
+
         <CentralCarousel/>
         <WebDevSlab/>
         <ArtSlab/>
-        <SportsSlab/>
+        <SportsSlab aRandomProp='Whatever'/>
       </div>
     );
   }
