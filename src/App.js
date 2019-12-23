@@ -7,6 +7,8 @@ import CentralFooter from './components/CentralFooter'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class App extends Component {
 

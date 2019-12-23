@@ -62,7 +62,6 @@ class CentralCarousel extends Component {
     }
   }
 
-
   render(){
     return (
       <div className='carousel-section'>
@@ -92,7 +91,7 @@ class CentralCarousel extends Component {
           <div className='team-info' id='warriors'>Waldwick Warrior Sports Alumni & Supporter </div>
         </Draggable>
 
-        <div className='carousel-container'>
+        <div>
           <Carousel>
             <Carousel.Item>
             <div className='project'>
@@ -176,28 +175,28 @@ class CentralCarousel extends Component {
 
             <Carousel.Item>
             <div className='dallas-appreciation-title'>Dallas Appreciation Gallery</div>
-            <div className='art-container'>
+            <div className='large-container'>
 
-              <div className='artwork'><img src='https://i.ibb.co/TKSC609/4-E695593-8-B8-A-4636-B22-D-84-F9-B912-C740.jpg' id='dallas-img'/></div>
-              <div className='artwork'><img src='https://i.ibb.co/pRtDzmR/DF8-C2189-9596-432-D-BEDE-D0-BD63-EE5795.jpg' id='dallas-img'/></div>
-              <div className='artwork'><img src='https://i.ibb.co/8MG09Yy/Dallas.jpg' id='dallas-img'/></div>
-              <div className='artwork'><img src='https://i.ibb.co/rtSKS6x/BF8-A6828-2258-4-F85-91-E1-76-BABA7-BAC4-C.jpg' id='dallas-img'/></div>
-              <div className='artwork'><img src='https://i.ibb.co/RGKQfKf/2-C609489-502-C-4-C4-F-AC72-C752-A9-DEFBEB.jpg' id='dallas-img'/></div>
-              <div className='artwork'><img src='https://i.ibb.co/YcrynV9/21-D8-FCC8-0333-437-B-99-A5-69826-BC06-F7-C.jpg' id='dallas-img'/></div>
+              <div className='c-item'><img src='https://i.ibb.co/TKSC609/4-E695593-8-B8-A-4636-B22-D-84-F9-B912-C740.jpg' id='dallas-img'/></div>
+              <div className='c-item'><img src='https://i.ibb.co/pRtDzmR/DF8-C2189-9596-432-D-BEDE-D0-BD63-EE5795.jpg' id='dallas-img'/></div>
+              <div className='c-item'><img src='https://i.ibb.co/8MG09Yy/Dallas.jpg' id='dallas-img'/></div>
+              <div className='c-item'><img src='https://i.ibb.co/rtSKS6x/BF8-A6828-2258-4-F85-91-E1-76-BABA7-BAC4-C.jpg' id='dallas-img'/></div>
+              <div className='c-item'><img src='https://i.ibb.co/RGKQfKf/2-C609489-502-C-4-C4-F-AC72-C752-A9-DEFBEB.jpg' id='dallas-img'/></div>
+              <div className='c-item'><img src='https://i.ibb.co/YcrynV9/21-D8-FCC8-0333-437-B-99-A5-69826-BC06-F7-C.jpg' id='dallas-img'/></div>
             </div>
             </Carousel.Item>
             <Carousel.Item>
               <div className='team-sect-title'>Favorite Team News & Standings</div>
-              <div className='team-container'>
+              <div className='large-container'>
 
-                <div className='team'><img onClick={() => this.handleCowboys()} id='sports-logo' src='https://images.vexels.com/media/users/3/141848/isolated/preview/b141601c09d9296a6e6d4083d6960039-dallas-cowboys-american-football-by-vexels.png'/><span className='team-name' id='cowboys'>Dallas Cowboys</span></div>
-                <div className='team'><img onClick={() => this.handleLakers()} id='sports-logo' src='https://www.stickpng.com/assets/images/58419d0aa6515b1e0ad75a6c.png'/><span className='team-name' id='lakers'>Los Angeles Lakers</span></div>
-                <div className='team'><img onClick={() => this.handleBrooklyn()} id='sports-logo' src='https://www.stickpng.com/assets/images/58419c7ba6515b1e0ad75a62.png'/><span  className='team-name' id='brooklyn'>Brooklyn Nets</span></div>
-                <div className='team'><img onClick={() => this.handleYankees()} id='sports-logo' src='https://www.stickpng.com/assets/images/584d4b740a44bd1070d5d494.png'/><span  className='team-name' id='yankees'>New York Yankees</span></div>
-                <div className='team'><img onClick={() => this.handleDevils()} id='sports-logo' src='https://www.stickpng.com/assets/images/5a4fbb83da2b4f099b95da16.png'/><span  className='team-name' id='devils'>New Jersey Devils</span></div>
-                <div className='team'><img onClick={() => this.handleDuke()} id='sports-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Duke_Blue_Devils_logo.svg/1212px-Duke_Blue_Devils_logo.svg.png'/><span className='team-name' id='duke'>Duke Blue Devils</span></div>
-                <div className='team'><img onClick={() => this.handleNotreDame()} id='sports-logo' src='https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Notre_Dame_Leprechaun_logo.svg/220px-Notre_Dame_Leprechaun_logo.svg.png'/><span className='team-name' id='notre'>Notre Dame Irish</span></div>
-                <div className='team'><img onClick={() => this.handleWarriors()} id='sports-logo' src='https://www.waldwickschools.org/cms/lib/NJ01912972/Centricity/Template/GlobalAssets/images///HS/HS%20Warrior%20Logo.png'/><span className='team-name' id='warriors'>Waldwick Warriors</span></div>
+                <div className='c-item'><img onClick={() => this.handleCowboys()} id='sports-logo' src='https://images.vexels.com/media/users/3/141848/isolated/preview/b141601c09d9296a6e6d4083d6960039-dallas-cowboys-american-football-by-vexels.png'/><span className='team-name' id='cowboys'>Dallas Cowboys</span></div>
+                <div className='c-item'><img onClick={() => this.handleLakers()} id='sports-logo' src='https://www.stickpng.com/assets/images/58419d0aa6515b1e0ad75a6c.png'/><span className='team-name' id='lakers'>Los Angeles Lakers</span></div>
+                <div className='c-item'><img onClick={() => this.handleBrooklyn()} id='sports-logo' src='https://www.stickpng.com/assets/images/58419c7ba6515b1e0ad75a62.png'/><span  className='team-name' id='brooklyn'>Brooklyn Nets</span></div>
+                <div className='c-item'><img onClick={() => this.handleYankees()} id='sports-logo' src='https://www.stickpng.com/assets/images/584d4b740a44bd1070d5d494.png'/><span  className='team-name' id='yankees'>New York Yankees</span></div>
+                <div className='c-item'><img onClick={() => this.handleDevils()} id='sports-logo' src='https://www.stickpng.com/assets/images/5a4fbb83da2b4f099b95da16.png'/><span  className='team-name' id='devils'>New Jersey Devils</span></div>
+                <div className='c-item'><img onClick={() => this.handleDuke()} id='sports-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Duke_Blue_Devils_logo.svg/1212px-Duke_Blue_Devils_logo.svg.png'/><span className='team-name' id='duke'>Duke Blue Devils</span></div>
+                <div className='c-item'><img onClick={() => this.handleNotreDame()} id='sports-logo' src='https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Notre_Dame_Leprechaun_logo.svg/220px-Notre_Dame_Leprechaun_logo.svg.png'/><span className='team-name' id='notre'>Notre Dame Irish</span></div>
+                <div className='c-item'><img onClick={() => this.handleWarriors()} id='sports-logo' src='https://www.waldwickschools.org/cms/lib/NJ01912972/Centricity/Template/GlobalAssets/images///HS/HS%20Warrior%20Logo.png'/><span className='team-name' id='warriors'>Waldwick Warriors</span></div>
               </div>
             </Carousel.Item>
           </Carousel>

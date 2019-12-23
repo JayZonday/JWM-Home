@@ -81,15 +81,14 @@
   text-decoration: none !important;
   background: seagreen;
   transition: .35s ease-in-out;
-  font-weight: bold;
 }
 .web-design-btn{
-  position: absolute;
-  margin-top: 5%;
-  margin-left: 42%;
   font-size: 21px;
   border: 2px solid seagreen;
-  padding: .5%;
+  color: seagreen;
+  padding: 1%;
+  margin: 4% 0 0 40%;
+  position: absolute;
 }
 
 

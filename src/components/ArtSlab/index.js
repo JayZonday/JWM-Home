@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Draggable, {DraggableCore} from 'react-draggable';
+import Image from 'react-bootstrap/Image'
 import './index.css';
 
 class ArtSlab extends Component {

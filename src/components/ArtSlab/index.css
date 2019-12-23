@@ -42,8 +42,6 @@
   transition: .55s ease-in-out;
   cursor: grab;
   opacity: 1;
-  border-right: 30px solid black;
-  border-left: 30px solid black;
 }
 
 #art-img:hover{

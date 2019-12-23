@@ -1,0 +1,7 @@
+body{
+  background: black !important;
+  cursor: url("https://i.ibb.co/6vPZS9j/iconsham.png"), default !important;;
+}
+body:hover{
+  cursor: url("https://i.ibb.co/6vPZS9j/iconsham.png"), default !important;;
+}

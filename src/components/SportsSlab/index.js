@@ -26,11 +26,11 @@ class SportSlab extends Component {
 
 
         <NavLink to='/fantasy-football'><div className='fantasy-sport' id='ff'><span className='sport-btn-title' id='ff'>Fantasy Football</span></div></NavLink>
-        <div className='fantasy-sport' id='fbb'><span className='sport-btn-title' id='fbb'>Fantasy Basketball<br/>[ Not In Season ]</span></div>
+        <div className='fantasy-sport' id='fbb'><span className='sport-btn-title' id='fbb'>Fantasy Basketball<br/>[ In Progress ]</span></div>
         <div className='fantasy-sport' id='fb'><span className='sport-btn-title' id='fb'>Fantasy Baseball<br/>[ Not In Season ]</span></div>
         <div className='fantasy-sport' id='nbl'><span className='sport-btn-title' id='nbl'>NBL <br/>[ Coming Soon ]</span></div>
 
-      
+
       </div>
     );
   }

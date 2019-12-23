@@ -20,7 +20,7 @@ class WebDesign extends Component {
             <div className='design-2-headbtn'>Order Online</div>
           </div>
           <div className='design-2-header'>
-            <h3 className='design-2-title'>Jay's Pizzeria < hr className='design-2-titleline' /></h3>
+            <h3 className='design-2-title'>Jay's Pizzeria </h3>
             <div className='design-2-deal'><div className='the-deal'>Back 2 School Special <br/> 1 Large Pie and 2L Soda <br/> <span className='price'>$19.99</span></div></div>
           </div>
           <div className='design-2-navbar'>
@@ -40,9 +40,9 @@ class WebDesign extends Component {
 
         <div className='design-3'>
           <div className='design-3-navbar'>
-            <div className='design-3-navbtn'>Mens</div>
-            <div className='design-3-navbtn'>Womens</div>
-            <div className='design-3-navbtn'>About Us</div>
+            <div className='design-3-navbtn'>Gents</div>
+            <div className='design-3-navbtn'>Ladies</div>
+            <div className='design-3-navbtn'>History</div>
             <div className='design-3-navbtn'>Contact</div>
             <div className='design-3-navbtn'>Locations</div>
           </div>

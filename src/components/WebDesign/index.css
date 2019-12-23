@@ -63,15 +63,7 @@
   transform: rotate(-10deg);
   text-shadow: 5px 5px 1px black;
 }
-.design-2-titleline{
-  color: white;
-  background: white;
-  border-color: white;
-  height: 5px;
-  width: 200px;
-  box-shadow: 5px 5px 1px black;
-  margin-left: 10%;
-}
+
 .design-2-header{
   background-image: url('https://images.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg');
   background-size: cover;
@@ -105,13 +97,10 @@
   margin: 5%;
   font-weight: 600;
   font-size: 22px;
-  border-top: 3px solid #fff;
-  border-bottom: 3px solid #fff;
-  border-left: 3px solid transparent;
-  border-right: 3px solid transparent;
+  border-left: 3px solid #fff;
   padding-left: 1%;
   padding-right: 1%;
-  border-radius: 3%;
+  border-radius: 1%;
   color: #fff;
   transition: .3s ease-in-out;
   cursor: pointer;
@@ -121,7 +110,6 @@
 .design-2-navbtn:hover{
   color: orange;
   border-left: 3px solid orange;
-  border-right: 3px solid orange;
 }
 .design-2-footer{
   height: 225px;
@@ -177,35 +165,42 @@
   height: 75px;
 }
 .design-3-navbtn{
-  margin: 2%;
+  margin: 1%;
   transition: .3s ease-in-out;
   cursor: pointer;
   width: 20%;
   text-align: center;
   font-weight: bold;
-  color: rgba(0,0,0,0.65);
+  color: #aaa;
+  padding: 1%;
+  border-left: 5px solid transparent;
+  transition: .25s ease-in-out;
 }
 .design-3-navbtn:hover{
   color: black;
+  border-left: 5px solid black;
+  background: rgba(0,0,0,0.1)
 }
 .design-3-sidebar{
-  margin-left: 2%;
+  margin-left:0%;
   margin-top: 37%;
   position: absolute;
   width: 25%;
+  background-color: white;
 }
 .design-3-sidebtn{
-  margin: 2%;
+  margin-left: 5%;
   padding-top: 5%;
-  width: 20%;
-  font-size: 20px;
+  width: 40%;
+  font-size: 19px;
   font-family: 'Bangers', cursive;
   transition: .3s ease-in-out;
   cursor: pointer;
   color: rgba(0,0,0,.65);
+  border-right: 5px solid black;
 }
 .design-3-sidebtn:hover{
-  transform: scale(1.25);
+  transform: scale(1.15);
   color: black;
 }
 .design-3-title{
@@ -267,7 +262,8 @@
   padding: .5%;
 }
 .search-input{
-  width: 95%;
+  width: 45%;
+  margin-left: 50%;
   font-family: 'Bangers', cursive;
   padding: .5%;
 }

@@ -1,8 +1,7 @@
 .carousel-section{
   background: whitesmoke;
-  height:450px;
   width: 100%;
-  margin-top: 0%;
+
 
 }
 .title#highlights{
@@ -16,62 +15,34 @@
   font-size: 68px;
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
 }
-.carousel-container{
-  background: whitesmoke !important;
-  opacity: 1 !important;
-  overflow: visible !important;
-
+.project{
+  height: 400px;
 }
-.carousel-indicators{
-
+.large-container{
+  display: flex;
+  padding: 2%;
+  justify-content: center;
+  height: 400px;
 }
-.carousel-inner{
-  font-size: 20px;
-  text-align: center;
-  position: absolute;
-
+.c-item{
+  margin: 1%;
 }
 .carousel-indicators li{
+  background-color: seagreen !important;
+  height: 10px !important ;
+  width: 2% !important;
+  padding: .3%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: seagreen !important;;
+}
+.carousel-control-next, .carousel-control-prev {
   background: seagreen;
-  width: 1.5%;
-  margin: 1%;
-  height: .2px;
- }
- .carousel-control-next, .carousel-control-prev{
-   background: seagreen;
-   height: 40px;
-   width: 10%;
-   margin-top: 28%;
- }
- .team-container{
-   display: flex;
-   padding: 2%;
-   justify-content: center;
-   height: 350px;
-   overflow: visible !important;
+  width: 10% !important;
+  height: 30px;
+  margin-top: 25%;
 }
-.team{
-  margin: 1%;
-}
-.art-container{
-  display: flex;
-  padding: 2%;
-  justify-content: center;
-  height: 350px;
-  overflow: visible !important;
-}
-.artwork{
- margin: 1%;
-}
-.project-container{
-  display: flex;
-  padding: 2%;
-  justify-content: center;
-  overflow: visible !important;
-}
-.project{
-  margin: 1%;
-}
+
 .project-desc{
   position: absolute;
   margin-top: 1%;
