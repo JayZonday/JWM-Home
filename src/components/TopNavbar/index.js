@@ -49,12 +49,12 @@ class TopNavbar extends Component {
               <span id='bet-header-text'>
               <b>Bet of The Day</b>
               <br/>
-              December 22, 2019
+              December 23, 2019
               </span>
               <hr id='bet-text-divider'/>
-              <div id='the-bet'>Colts -6.5 -110 (vs. Carolina Panthers)</div>
+              <div id='the-bet'>Greenbay Packers ML +190 (@ Minnesota Vikings)</div>
               <br/>
-              <div id='bet-record'>16-6 Since August 8, 2019</div>
+              <div id='bet-record'>17-6 Since August 8, 2019</div>
               <div id='last-bets'>8/8 - San Francisco Giants ML +100 <b id='win'>[Won]</b></div>
               <div id='last-bets'>8/9 - New York Mets ML +115 <b id='win'>[Won]</b></div>
               <div id='last-bets'>8/11 - Philadelphia Phillies ML -115 <b id='lost'>[Lost]</b></div>
@@ -77,6 +77,7 @@ class TopNavbar extends Component {
               <div id='last-bets'>11/1 - Wake Forest -3.5 1H -115 <b id='win'>[Won]</b></div>
               <div id='last-bets'>11/18 - Kansas City & under 52.5 points +170 <b id='win'>[Won]</b></div>
               <div id='last-bets'>12/6 - Parlay Special - Duke ML & Michigan ML -140 <b id='win'>[Won]</b></div>
+              <div id='last-bets'>12/22 - Colts -6.5 -110 (vs. Carolina Panthers) <b id='win'>[Won]</b></div>
 
             </div>
 
