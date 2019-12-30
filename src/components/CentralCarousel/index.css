@@ -188,6 +188,22 @@ img#sports-logo:hover ~ span.team-name#warriors{
     font-size: 40px;
     text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
   }
+  .carousel-indicators li{
+    background-color: seagreen !important;
+    height: 15px !important ;
+    width: 5% !important;
+    padding: .3%;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: seagreen !important;;
+    padding: .5%;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    background: none;
+    width: 7% !important;
+    height: 10px;
+    margin-top: 25%;
+  }
 
   .project-desc{
     position: absolute;
@@ -195,15 +211,49 @@ img#sports-logo:hover ~ span.team-name#warriors{
     margin-left: 10%;
     width: 50%;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
   }
   .project-name{
-    font-size: 30px;
+    font-size: 27px;;
+
   }
   #project-img{
-    height: 125px;
-    width: 135px;
+    height: 135px;
+    width: 115px;
+    margin-top: 10%;
+    margin-left: 65%;
   }
+  #dallas-img{
+    height: 50px;
+    width: 50px;
+    opacity: .85;
+    margin-top: 1%;
+    transition: .35s ease-in-out;
+    cursor: crosshair;
+    border-radius: 1%;
+    overflow-x: hidden;
+  }
+  .dallas-appreciation-title{
+    color: #e8b923;
+    text-align: left;
+    text-shadow: ;
+    padding-top: 1%;
+    margin-top: 19%;
+    margin-left: 2%;
+    font-weight: bolder;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: .05em;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    text-align: center;
+  }
+    #dallas-img:hover,#dallas-img:active, #dallas-img:enabled {
+      transform: translateY(100%);
+      height: 140px;
+      width: 140px;
+    }
+
   .carousel-control-next, .carousel-control-prev{
     margin-top:75%;
   }
