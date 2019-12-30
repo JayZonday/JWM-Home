@@ -178,16 +178,19 @@ a:hover{
 
 
 @media only screen and (max-width: 600px) {
+  .title-box{
+    width: 80%;
+  }
 
   .nav-btn{
     font-size: 10px;
-    height: 60px;
+    height: 20px;
   }
   #special-char{
     display: none;
   }
   .nav-img{
-    height: 60px;
+    height: 30px;
     overflow-x: hidden;
   }
   .navbar{
