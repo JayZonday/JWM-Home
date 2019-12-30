@@ -232,6 +232,7 @@ img#sports-logo:hover ~ span.team-name#warriors{
     cursor: crosshair;
     border-radius: 1%;
     overflow-x: hidden;
+    transition: .45s ease-in-out;
   }
   .dallas-appreciation-title{
     color: #e8b923;
