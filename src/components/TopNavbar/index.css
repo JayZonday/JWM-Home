@@ -58,7 +58,7 @@ a:hover, a:active{
 }
 a:hover{
   text-decoration: none !important;
-  cursor: url("https://i.ibb.co/6vPZS9j/iconsham.png"), default !important;;
+
 }
 
 #special-char{
@@ -69,7 +69,6 @@ a:hover{
 .nav-btn:hover{
   color: #ffffff;
   border: 1px solid seagreen;
-  cursor: url("https://i.ibb.co/6vPZS9j/iconsham.png"), default !important;;
 
 }
 .quicklinks{
@@ -94,7 +93,7 @@ a:hover{
   opacity: 1;
   color: #ffbf00;
   transform: scale(1.05);
-  cursor: url("https://i.ibb.co/6vPZS9j/iconsham.png"), default !important;;
+  
 }
 
 .close-btn{
