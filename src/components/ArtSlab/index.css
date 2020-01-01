@@ -51,6 +51,9 @@
 
 
 @media only screen and (max-width: 600px) {
+  html,body{
+    overflow-x: hidden !important;
+  }
 
   .art-section{
     height: 1050px;
@@ -75,8 +78,8 @@
     border: 1px solid whitesmoke;
   }
   .title#art{
-    margin-left: 20%;
-    font-size: 60px;
+    margin-left: 4%;
+    font-size: 50px;
   }
   .art-piece#mobile-remove{
     display: none;

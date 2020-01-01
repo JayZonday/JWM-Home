@@ -145,7 +145,7 @@ a:hover{
 .quote{
   display: none;
   position: fixed;
-  margin: 6.2% 0 0 68%;
+  margin: 6.2% 0 0 48%;
   z-index: 5;
   height: 375px;
   width: 350px;
@@ -154,6 +154,7 @@ a:hover{
   overflow-y: scroll;
   box-shadow: 2px 15px 25px black;
   cursor: grab;
+  overflow-x: hidden;
 
 }
 #quote-text{
@@ -215,5 +216,20 @@ a:hover{
     padding: 1% !important;
     transition: .3s ease-in-out;
   }
+  .quote, .bet{
+    display: none;
+    position: fixed;
+    margin: 6.2% 0 0 1%;
+    z-index: 5;
+    height: 375px;
+    width: 50%;;
+    background: white;
+    opacity: .89;
+    overflow-y: scroll;
+    box-shadow: 2px 15px 25px black;
+    cursor: grab;
+    overflow-x: hidden;
+}
+
 
 }

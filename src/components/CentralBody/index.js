@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SideNavbar from '../SideNavbar'
 import Carousel from 'react-bootstrap/Carousel'
 import './index.css';
+import Jay from './jay.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init({
@@ -32,7 +33,7 @@ class CentralBody extends Component {
     return (
       <div className='body-section'>
         <div className='bio-logo'>
-          <img className='bio-img' src='https://i.ibb.co/QYCtbK0/Screen-Shot-2019-09-19-at-4-49-20-PM.png'/>
+          <img className='bio-img' src={Jay}/>
         </div>
         <hr  className='bio-line' id='first'/>
         <hr  className='bio-line' id='second'/>

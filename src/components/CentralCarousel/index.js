@@ -1,65 +1,48 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import Draggable, {DraggableCore} from 'react-draggable';
+import Gamco from './project-images/gamco.png'
+import Nbl from './project-images/nbl.png'
+import Wroteit from './project-images/reddit.png'
+import FlatBall from './project-images/flatball.png'
+import Safety from './project-images/nypd.png'
+
 import './index.css';
+
+const displaySelect = (team) => {
+  if (document.querySelector(`.team-info#`+team).style.display === 'block')
+  document.querySelector(`.team-info#`+team).style.display = 'none'
+  else{
+    document.querySelector(`.team-info#`+team).style.display = 'block'
+  }
+}
 
 class CentralCarousel extends Component {
 
+
   handleLakers = () => {
-    if (document.querySelector('.team-info#lakers').style.display === 'block')
-    document.querySelector('.team-info#lakers').style.display = 'none'
-    else{
-      document.querySelector('.team-info#lakers').style.display = 'block'
-    }
+    displaySelect('lakers')
   }
   handleYankees = () => {
-    if (document.querySelector('.team-info#yankees').style.display === 'block')
-    document.querySelector('.team-info#yankees').style.display = 'none'
-    else{
-      document.querySelector('.team-info#yankees').style.display = 'block'
-    }
+    displaySelect('yankees')
   }
   handleCowboys = () => {
-    if (document.querySelector('.team-info#cowboys').style.display === 'block')
-    document.querySelector('.team-info#cowboys').style.display = 'none'
-    else{
-      document.querySelector('.team-info#cowboys').style.display = 'block'
-    }
+    displaySelect('cowboys')
   }
   handleBrooklyn = () => {
-    if (document.querySelector('.team-info#brooklyn').style.display === 'block')
-    document.querySelector('.team-info#brooklyn').style.display = 'none'
-    else{
-      document.querySelector('.team-info#brooklyn').style.display = 'block'
-    }
+    displaySelect('brooklyn')
   }
   handleDevils = () => {
-    if (document.querySelector('.team-info#devils').style.display === 'block')
-    document.querySelector('.team-info#devils').style.display = 'none'
-    else{
-      document.querySelector('.team-info#devils').style.display = 'block'
-    }
+    displaySelect('devils')
   }
   handleDuke = () => {
-    if (document.querySelector('.team-info#duke').style.display === 'block')
-    document.querySelector('.team-info#duke').style.display = 'none'
-    else{
-      document.querySelector('.team-info#duke').style.display = 'block'
-    }
+    displaySelect('duke')
   }
   handleNotreDame = () => {
-    if (document.querySelector('.team-info#notre').style.display === 'block')
-    document.querySelector('.team-info#notre').style.display = 'none'
-    else{
-      document.querySelector('.team-info#notre').style.display = 'block'
-    }
+    displaySelect('notre')
   }
   handleWarriors = () => {
-    if (document.querySelector('.team-info#warriors').style.display === 'block')
-    document.querySelector('.team-info#warriors').style.display = 'none'
-    else{
-      document.querySelector('.team-info#warriors').style.display = 'block'
-    }
+    displaySelect('warriors')
   }
 
   render(){
@@ -105,7 +88,7 @@ class CentralCarousel extends Component {
               Custom designed and built frontend of GAMCO Asset Management portion of website.
             </div>
               <a href='https://www.gabelli.com/gamco' target='_blank'>
-                <img src='https://i.ibb.co/6J0xjxn/Screen-Shot-2019-09-20-at-2-49-43-AM.png' id='project-img'/>
+                <img src={Gamco} id='project-img'/>
               </a>
             </div>
             </Carousel.Item>
@@ -122,7 +105,7 @@ class CentralCarousel extends Component {
                   Produced complete web app design through a custom-written CSS stylesheet
                 </div>
                 <a href='https://github.com/JayZonday/nothing-but-luck-FE' target='_blank'>
-                  <img src='https://i.ibb.co/MN7kcMw/Screen-Shot-2019-10-23-at-10-42-29-AM.png' id='project-img'/>
+                  <img src={Nbl} id='project-img'/>
                 </a>
               </div>
               </Carousel.Item>
@@ -138,7 +121,7 @@ class CentralCarousel extends Component {
                  Created styling and animations through custom-written CSS stylesheets
               </div>
                 <a href='https://github.com/JayZonday/flatball' target='_blank'>
-                  <img src='https://i.ibb.co/DY777Y2/Screen-Shot-2019-08-07-at-4-53-19-PM.png' id='project-img'/>
+                  <img src={FlatBall} id='project-img'/>
                 </a>
               </div>
               </Carousel.Item>
@@ -153,7 +136,7 @@ class CentralCarousel extends Component {
                 Created styling and design produced through a custom-written CSS stylesheet
               </div>
                 <a href='https://github.com/JayZonday/reddit_app' target='_blank'>
-                  <img src='https://i.ibb.co/37stsGr/wroteit.png' id='project-img'/>
+                  <img src={Wroteit} id='project-img'/>
                 </a>
               </div>
               </Carousel.Item>
@@ -168,7 +151,7 @@ class CentralCarousel extends Component {
                 Created styling and design produced through a custom-written CSS stylesheet
               </div>
                 <a href='https://github.com/JayZonday/reddit_app' target='_blank'>
-                  <img src='https://i.ibb.co/TbQrzz5/nypd.png' id='project-img'/>
+                  <img src={Safety} id='project-img'/>
                 </a>
               </div>
               </Carousel.Item>

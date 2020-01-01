@@ -1,7 +1,7 @@
 .carousel-section{
   background: whitesmoke;
   width: 100%;
-
+  overflow-x: hidden;
 
 }
 .title#highlights{
@@ -52,7 +52,7 @@
 }
 #sports-logo{
   height: 135px;
-  width: 135px;
+  width: auto;
   transition: .3s ease-in-out;
   cursor: pointer;
   border-radius: 20%;
@@ -166,7 +166,7 @@ img#sports-logo:hover ~ span.team-name#warriors{
   height: 325px;
   width: 335px;
   border-radius: 0%;
-  margin-left: 60%;
+  margin-left: 65%;
   margin-top: -3.1%;
 }
 .team-sect-title{

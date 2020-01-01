@@ -41,7 +41,7 @@ canvas{
   height: 400px;
   width: 100%;
   opacity: .64;
-  background-image: url('https://images.pexels.com/photos/1562058/pexels-photo-1562058.jpeg');
+  background-image: url('./northern-lights.jpeg');
   clip-path: polygon(50% 0%, 100% 0, 100% 100%, 30% 90%, 0 100%, 0 0);
 }
 .title-box{
