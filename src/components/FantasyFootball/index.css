@@ -3,7 +3,7 @@ body{
 }
 .fantasy-page-header{
   background: white;
-  background-image: url('https://vcore.com/wp-content/uploads/2017/09/football.jpeg');
+  background-image: url('./football.jpeg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 420px;
