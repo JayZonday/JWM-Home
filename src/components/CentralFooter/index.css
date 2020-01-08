@@ -25,3 +25,10 @@
   width: 25px;
   padding: 3px;
 }
+
+@media only screen and (max-width: 800px) {
+  .footer-section{
+    height: 25px;
+    background: black;
+  }
+}

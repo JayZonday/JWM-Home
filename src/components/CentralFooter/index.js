@@ -1,40 +1,55 @@
 import React, { Component } from 'react';
 import './index.css';
 
-var day
-var configDate = () => {
-  switch(new Date().getMonth()) {
-    case 0:
-      day = "January";
-      break;
-    case 1:
-      day = "February";
-      break;
-    case 2:
-       day = "March";
-      break;
-    case 3:
-      day = "April";
-      break;
-    case 4:
-      day = "May";
-      break;
-    case 5:
-      day = "June";
-      break;
-    case 6:
-      day = "July";
-  }
-  return day
-}
+
+
 
 
 
 class CentralFooter extends Component {
+
+  configDate(){
+    let month
+    let date = new Date().getMonth()
+    switch(date) {
+      case 0:
+        month = "January";
+        break;
+      case 1:
+        month = "February";
+        break;
+      case 2:
+         month = "March";
+        break;
+      case 3:
+        month = "April";
+        break;
+      case 4:
+        month = "May";
+        break;
+      case 5:
+        month = "June";
+        break;
+      case 6:
+        month = "July";
+      case 7:
+        month = "August";
+      case 8:
+        month = "September";
+      case 9:
+        month = "October";
+      case 10:
+        month = "November";
+      case 11:
+        month = "December";
+    }
+    return month
+  }
+
   render(){
     return (
       <div className='footer-section'>
-        <div className='signature'>Latest Update configDate - Designed & Created by <span id='signname'>JayZonday</span></div>
+        <div className='signature'>Latest Update {this.configDate()} - Designed & Created by <span id='signname'>JayZonday</span></div>
       </div>
     );
   }
