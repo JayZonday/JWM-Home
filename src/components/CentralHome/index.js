@@ -17,7 +17,6 @@ class CentralHome extends Component {
         <CentralHeader/>
         <SideNavbar/>
         <CentralBody/>
-
         <CentralCarousel/>
         <WebDevSlab/>
         <ArtSlab/>

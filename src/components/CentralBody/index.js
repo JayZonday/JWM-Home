@@ -31,7 +31,7 @@ AOS.init({
 class CentralBody extends Component {
   render(){
     return (
-      <div className='body-section'>
+      <div className='bod-section'>
         <div className='bio-logo'>
           <img className='bio-img' src={Jay}/>
         </div>
@@ -42,7 +42,6 @@ class CentralBody extends Component {
           to apply my wide range of skills to create and build beautiful and intelligently designed programs that can help
           change and shape the way we think about tomorrow...
         </div>
-        <SideNavbar/>
       </div>
     );
   }

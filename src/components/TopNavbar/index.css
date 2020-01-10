@@ -83,7 +83,7 @@ a:hover{
 }
 .ql-btn{
   width: 25%;
-  color: black;
+  color: seagreen;
   opacity: .55;
   font-size: 75px;
   padding: 1% !important;
@@ -93,7 +93,7 @@ a:hover{
   opacity: 1;
   color: #ffbf00;
   transform: scale(1.05);
-  
+
 }
 
 .close-btn{
@@ -199,7 +199,7 @@ a:hover{
   }
   .quicklinks{
     position: absolute;
-    margin: 54% 0 0 50%;
+    margin: 54% 0 0 45%;
     width: 40%;
     z-index: 100;
     padding: .5%;
@@ -209,9 +209,10 @@ a:hover{
   }
   .ql-btn{
     width: 25%;
-    color: black;
+    color: seagreen;
     opacity: .55;
     font-size: 40px;
+    margin: 1%;
     padding: 1% !important;
     transition: .3s ease-in-out;
   }

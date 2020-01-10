@@ -59,15 +59,12 @@ class SideNavbar extends Component {
   render(){
     return (
       <div>
-        <Draggable>
           <div className='quicklinks'>
             <div title='Highlight Reel' onClick={()=> this.handleReel()} className='ql-btn'>✪</div>
             <div title='Web-Dev Section' onClick={()=> this.handleCode()} className='ql-btn'></div>
             <div title='Art Section' onClick={()=> this.handleArt()} className='ql-btn'>✎</div>
             <div title='Sport Section' onClick={()=> this.handleSports()} className='ql-btn'>♛</div>
-
           </div>
-        </Draggable>
       </div>
     );
   }
