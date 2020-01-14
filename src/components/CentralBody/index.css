@@ -1,6 +1,7 @@
 .bod-section{
-  height: 450px;
+  height: auto;
   display: flex;
+  padding-bottom: 5%;
 }
 .bio-line#first{
   border: 2px solid #ffffff;

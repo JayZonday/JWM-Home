@@ -54,7 +54,9 @@ a:hover, a:active{
   cursor: pointer;
   transition: .35s ease-in-out;
   border: 1px solid transparent;
-  justify-content: center
+  justify-content: center;
+  width: 15%;
+  text-align: center;
 }
 a:hover{
   text-decoration: none !important;
@@ -73,7 +75,7 @@ a:hover{
 }
 .quicklinks{
   position: absolute;
-  margin: 22% 0 0 48%;
+  margin: 17% 0 0 48%;
   width: 40%;
   z-index: 100;
   padding: .5%;
