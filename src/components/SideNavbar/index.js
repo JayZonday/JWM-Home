@@ -14,7 +14,6 @@ class SideNavbar extends Component {
     }else{
       document.querySelector('.dev-section').style.display = 'block'
       document.querySelector('.art-section').style.display = 'none'
-      document.querySelector('.sports-section').style.display = 'none'
       document.querySelector('.carousel-section').style.display = 'none'
       document.querySelector('.dev-section').scrollIntoView({behavior: 'smooth', block: 'center'})
     }
@@ -25,7 +24,6 @@ class SideNavbar extends Component {
     }else{
       document.querySelector('.art-section').style.display = 'block'
       document.querySelector('.dev-section').style.display = 'none'
-      document.querySelector('.sports-section').style.display = 'none'
       document.querySelector('.carousel-section').style.display = 'none'
       document.querySelector('.art-section').scrollIntoView({behavior: 'smooth', block: 'center'})
     }
@@ -36,7 +34,6 @@ class SideNavbar extends Component {
     }else{
       document.querySelector('.carousel-section').style.display = 'block'
       document.querySelector('.art-section').style.display = 'none'
-      document.querySelector('.sports-section').style.display = 'none'
       document.querySelector('.dev-section').style.display = 'none'
       document.querySelector('.carousel-section').scrollIntoView({behavior: 'smooth', block: 'center'})
     }
