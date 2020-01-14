@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CentralHome from './components/CentralHome';
-import FantasyFootball from './components/FantasyFootball';
 import WebDesign from './components/WebDesign';
 import TopNavbar from './components/TopNavbar'
 import CentralFooter from './components/CentralFooter'
@@ -21,7 +20,6 @@ class App extends Component {
       <TopNavbar/>
         <Switch>
           <Route path='/' exact component={ CentralHome } />
-          <Route path='/fantasy-football' exact component={ FantasyFootball } />
           <Route path='/web-designs' exact component={ WebDesign } />
         </Switch>
         <CentralFooter/>
