@@ -115,7 +115,7 @@
   opacity: 1;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 850px) {
   .title#highlights {
     color: seagreen;
     text-align: left;
@@ -135,6 +135,7 @@
   .carousel-control-next-icon, .carousel-control-prev-icon {
     background-color: seagreen !important;;
     padding: 1% !important;
+    display: none!important;
   }
   .carousel-control-next, .carousel-control-prev {
     background: none;
