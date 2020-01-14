@@ -110,7 +110,7 @@ a:hover{
 
 .bet{
   display: none;
-  position: fixed;
+  position: absolute;
   margin: 6.2% 0 0 64%;
   z-index: 5;
   height: 375px;

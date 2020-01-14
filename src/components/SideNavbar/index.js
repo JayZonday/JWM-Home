@@ -30,17 +30,6 @@ class SideNavbar extends Component {
       document.querySelector('.art-section').scrollIntoView({behavior: 'smooth', block: 'center'})
     }
   }
-  handleSports = () => {
-    if(document.querySelector('.sports-section').style.display === 'block'){
-      document.querySelector('.sports-section').style.display = 'none'
-    }else{
-      document.querySelector('.sports-section').style.display = 'block'
-      document.querySelector('.art-section').style.display = 'none'
-      document.querySelector('.dev-section').style.display = 'none'
-      document.querySelector('.carousel-section').style.display = 'none'
-      document.querySelector('.sports-section').scrollIntoView({behavior: 'smooth', block: 'center'})
-    }
-  }
   handleReel = () => {
     if(document.querySelector('.carousel-section').style.display === 'block'){
       document.querySelector('.carousel-section').style.display = 'none'
@@ -63,7 +52,6 @@ class SideNavbar extends Component {
             <div title='Highlight Reel' onClick={()=> this.handleReel()} className='ql-btn'>✪</div>
             <div title='Web-Dev Section' onClick={()=> this.handleCode()} className='ql-btn'></div>
             <div title='Art Section' onClick={()=> this.handleArt()} className='ql-btn'>✎</div>
-            <div title='Sport Section' onClick={()=> this.handleSports()} className='ql-btn'>♛</div>
           </div>
       </div>
     );

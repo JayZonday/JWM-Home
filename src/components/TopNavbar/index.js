@@ -28,7 +28,6 @@ class TopNavbar extends Component {
       <div className='top-nav'>
         <div className='navbar'>
           <a className='nav-btn' target='_blank' href="mailto:JMoloughney25@gmail.com">Contact Me</a>
-          <button className='nav-btn'>Resume</button>
           <a className='nav-btn' href='https://www.linkedin.com/in/josephmoloughney/' target='_blank'>LinkedIn</a>
           <a className='nav-btn' href='https://github.com/JayZonday' target='_blank'>GitHub</a>
           <a className='nav-btn' href='https://www.youtube.com/channel/UCPQZKbLIPNYr36qVVAwkI6Q?view_as=subscriber' target='_blank'>YouTube</a>
