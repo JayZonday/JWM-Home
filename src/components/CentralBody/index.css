@@ -2,6 +2,8 @@
   height: auto;
   display: flex;
   padding-bottom: 5%;
+  font-family: 'Open Sans Condensed', sans-serif;
+
 }
 .bio-line#first{
   border: 2px solid #ffffff;
@@ -91,6 +93,8 @@
     border-left: none;
     width: 55%;
     height: 183px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
   }
   .bio-logo{
     height: 150px;

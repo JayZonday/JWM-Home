@@ -74,11 +74,11 @@ a:hover{
 
 }
 .quicklinks{
-  position: absolute;
-  margin: 17% 0 0 48%;
+  margin-left: 16%;
+  margin-top: -2%;
   width: 40%;
   z-index: 100;
-  padding: .5%;
+  padding-bottom: 5%;
   cursor: pointer;
   opacity: .89;
   display: inline-flex;
@@ -198,25 +198,6 @@ a:hover{
   .navbar{
     height: 60px;
 
-  }
-  .quicklinks{
-    position: absolute;
-    margin: 64% 0 0 45%;
-    width: 40%;
-    z-index: 100;
-    padding: .5%;
-    cursor: pointer;
-    opacity: .89;
-    display: inline-flex;
-  }
-  .ql-btn{
-    width: 25%;
-    color: seagreen;
-    opacity: .55;
-    font-size: 40px;
-    margin: 1%;
-    padding: 1% !important;
-    transition: .3s ease-in-out;
   }
   .quote, .bet{
     display: none;

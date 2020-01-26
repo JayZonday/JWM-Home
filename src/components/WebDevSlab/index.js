@@ -46,7 +46,6 @@ class WebDevSlab extends Component {
           </div>
 
         </div>
-        <NavLink to='/web-designs' className='web-design-btn'><div>Explore Web Designs</div></NavLink>
       </div>
     );
   }

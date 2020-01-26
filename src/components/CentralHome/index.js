@@ -14,8 +14,8 @@ class CentralHome extends Component {
     return (
       <div>
         <CentralHeader/>
-        <SideNavbar/>
         <CentralBody/>
+        <SideNavbar/>
         <CentralCarousel/>
         <WebDevSlab/>
         <ArtSlab/>

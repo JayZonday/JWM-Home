@@ -6,7 +6,7 @@ canvas{
   font-size: 80px;
   font-family: 'Satisfy', sans-serif;
   text-shadow: 0px 1px 2px seagreen;
-  margin-left: -15%;
+  margin-left: -5%;
   font-weight: 900;
   cursor: crosshair;
 }
@@ -45,7 +45,6 @@ canvas{
   clip-path: polygon(50% 0%, 100% 0, 100% 100%, 30% 90%, 0 100%, 0 0);
 }
 .title-box{
-  position: absolute;
   margin-top: 5%;
   margin-left: 16.5%;
 }
@@ -56,6 +55,8 @@ canvas{
   transition: .35s ease-in-out;
   cursor: pointer;
   font-weight: 700;
+  font-family: 'Open Sans Condensed', sans-serif;
+
   text-shadow: 0px 1px 1px transparent;
   color: white;
 }

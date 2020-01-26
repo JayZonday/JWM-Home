@@ -70,55 +70,35 @@ class CentralHeader extends Component {
         <div id='particles'>
           <Particles
             params={{
-            "particles": {
-                "number": {
-                    "value": 160,
-                    "density": {
-                        "enable": false
-                    }
-                },
-                "color": {
-                    "value": '#2E8B57'
-                },
-                "size": {
-                    "value": 8,
-                    "random": true,
-                    "anim": {
-                        "speed": .4,
-                        "size_min": 0.3
-                    }
-                },
-                "line_linked": {
-                    "enable": false
-                },
-                "move": {
-                    "random": true,
-                    "speed": .9,
-                    "direction": "top",
-                    "out_mode": "out"
-                }
-            },
-            "interactivity": {
-                "events": {
-                    "onhover": {
-                        "enable": true,
-                        "mode": "bubble"
-                    },
-                    "onclick": {
-                        "enable": true,
-                        "mode": "repulse"
-                    }
-                },
-                "modes": {
-                    "bubble": {
-                        "distance": 250,
-                        "duration": 2,
-                        "size": 0,
-                        "opacity": 0
-                    },
-                    "repulse": {
-                        "distance": 400,
-                        "duration": 4
+              "particles": {
+ 	        "number": {
+ 	            "value": 180,
+ 	            "density": {
+ 	                "enable": false
+ 	            }
+ 	        },
+ 	        "size": {
+ 	            "value": 4,
+ 	            "random": true
+ 	        },
+ 	        "move": {
+ 	            "direction": "bottom",
+ 	            "out_mode": "out"
+ 	        },
+ 	        "line_linked": {
+ 	            "enable": false
+ 	        }
+ 	    },
+ 	    "interactivity": {
+ 	        "events": {
+ 	            "onclick": {
+ 	                "enable": true,
+ 	                "mode": "remove"
+ 	            }
+ 	        },
+ 	        "modes": {
+ 	            "remove": {
+ 	                "particles_nb": 10
                     }
                 }
             }
