@@ -9,6 +9,8 @@ canvas{
   margin-left: -5%;
   font-weight: 900;
   cursor: crosshair;
+  width: 62%;
+  padding: 2%;
 }
 
 #title-letter{
@@ -17,7 +19,7 @@ canvas{
   color: white;
   letter-spacing: -0.05em;
   transition: 0.25s ease-in-out;
-  text-shadow: 4px 2px 0px black, 9px 8px 0px rgba(0,0,0,0.85);
+    text-shadow: 4px 3px 0px black, 9px 8px 0px rgba(0,0,0);
 }
 #title-letter:hover{
   color: seagreen;

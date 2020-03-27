@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import SideNavbar from '../SideNavbar'
 import Carousel from 'react-bootstrap/Carousel'
 import './index.css';
-import Jay from './jay.png'
+import Jay from './myAvatar.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init({

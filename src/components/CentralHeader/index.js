@@ -40,7 +40,7 @@ class CentralHeader extends Component {
               <span id='title-letter'>e</span>
               <span id='title-letter'>p</span>
               <span id='title-letter'>h</span>
-              <span id='title-dot'> </span>
+
               <span id='title-letter'>W</span>
               <span id='title-letter'>i</span>
               <span id='title-letter'>l</span>
@@ -48,7 +48,7 @@ class CentralHeader extends Component {
               <span id='title-letter'>i</span>
               <span id='title-letter'>a</span>
               <span id='title-letter'>m</span>
-              <span id='title-dot'> </span>
+              
               <span id='title-letter'>M</span>
               <span id='title-letter'>o</span>
               <span id='title-letter'>l</span>
