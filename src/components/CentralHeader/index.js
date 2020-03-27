@@ -60,50 +60,9 @@ class CentralHeader extends Component {
               <span id='title-letter'>e</span>
               <span id='title-letter'>y</span>
             </h2>
-            <div className='title-desc' >
-              <span className='desc-item'>Full Stack Developer</span>
-              <span className='desc-item' id='mid'>Artist</span>
-              <span className='desc-item'>Sport Enthusiast</span>
-            </div>
           </div>
         </div>
-        <div id='particles'>
-          <Particles
-            params={{
-              "particles": {
- 	        "number": {
- 	            "value": 180,
- 	            "density": {
- 	                "enable": false
- 	            }
- 	        },
- 	        "size": {
- 	            "value": 4,
- 	            "random": true
- 	        },
- 	        "move": {
- 	            "direction": "bottom",
- 	            "out_mode": "out"
- 	        },
- 	        "line_linked": {
- 	            "enable": false
- 	        }
- 	    },
- 	    "interactivity": {
- 	        "events": {
- 	            "onclick": {
- 	                "enable": true,
- 	                "mode": "remove"
- 	            }
- 	        },
- 	        "modes": {
- 	            "remove": {
- 	                "particles_nb": 10
-                    }
-                }
-            }
-          }} />
-        </div>
+
       </div>
     );
   }

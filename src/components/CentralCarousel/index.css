@@ -31,7 +31,7 @@
 }
 .carousel-control-next, .carousel-control-prev {
   background: seagreen;
-  width: 10% !important;
+  width: 5% !important;
   height: 30px;
   margin-top: 25%;
 }
