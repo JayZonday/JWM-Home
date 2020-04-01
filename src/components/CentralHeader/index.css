@@ -76,23 +76,14 @@ canvas{
   body{
     overflow-x: hidden;
   }
-  .title-desc{
-    display: grid;
-    text-align: center;
-    position: absolute;
-    margin-left:  -18%;
-    margin-top: 12%;
-    width: 50%;
-    overflow-x: hidden;
-  }
   .desc-item#mid{
     border: none;
   }
   .title-container{
     background-size: 100% 100%;
     background-attachment: inherit;
-    position: absolute;
-    height: 400px;
+    position: relative;
+    height: 150px;
     width: 100%;
     opacity: .64;
     background-image: url('./northern-lights.jpeg');

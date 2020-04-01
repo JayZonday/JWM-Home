@@ -65,23 +65,23 @@ class CentralCarousel extends Component {
               </div>
               </Carousel.Item>
               <Carousel.Item>
-              <div className='project-container'>
-                <div className='project-info'>
-                <div className='project-name'>FlatBall</div>
-                <div className='project-desc'>
-                  <b>A Major League Baseball simulation game</b>
-                  <br/>
-                  <br/>
-                   Built frontend in pure Javascript (Vanilla - OO)
-                   Utilized a Ruby on Rails 5 API backend for the persistence of game data
-                   Created styling and animations through custom-written CSS stylesheets
-                </div>
+                <div className='project-container'>
+                  <div className='project-info'>
+                  <div className='project-name'>FlatBall</div>
+                  <div className='project-desc'>
+                    <b>A Major League Baseball simulation game</b>
+                    <br/>
+                    <br/>
+                     Built frontend in pure Javascript (Vanilla - OO)
+                     Utilized a Ruby on Rails 5 API backend for the persistence of game data
+                     Created styling and animations through custom-written CSS stylesheets
+                  </div>
 
+                  </div>
+                  <a href='https://github.com/JayZonday/flatball' target='_blank'>
+                    <img src={FlatBall} id='project-img'/>
+                  </a>
                 </div>
-                <a href='https://github.com/JayZonday/flatball' target='_blank'>
-                  <img src={FlatBall} id='project-img'/>
-                </a>
-              </div>
               </Carousel.Item>
               <Carousel.Item>
               <div className='project-container'>
@@ -115,7 +115,7 @@ class CentralCarousel extends Component {
 
                 </div>
                 <a href='https://github.com/JayZonday/reddit_app' target='_blank'>
-                  <img src={Safety} id='nypd-img'/>
+                  <img src={Safety} id='project-img'/>
                 </a>
               </div>
               </Carousel.Item>

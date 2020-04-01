@@ -3,126 +3,57 @@
   width: 100%;
   height: auto;
 }
-.title#highlights{
-  position: absolute;
-  color: seagreen;
-  text-align: left;
-  padding-top: 6%;
-  margin-left: 20%;
-  font-weight: bolder;
-  font-family: 'Roboto', sans-serif;
-  font-size: 68px;
-  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+.project-name{
+  font-size: 40px;
+  font-family: 'Satisfy', sans-serif;
+  margin: 5%;;
 }
+.project-desc{
+  width: 50%;
+  margin: 5%;
+}
+#project-img{
+  width: 400px;
+  height: 400px;
+  padding: 7%;
+  margin-left: -30%;
+}
+
 .project-container{
-  display:  flex;
-}
-.project-info{
-  height: 400px;;
-}
-.carousel-indicators li{
-  background-color: seagreen !important;
-  height: 10px !important ;
-  width: 2% !important;
-  padding: .3%;
+  display: flex !important;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
-  background-color: seagreen !important;;
+  background: seagreen !important;
+  border-radius: 100%;
+  margin: 50% auto !important;;
 }
 .carousel-control-next, .carousel-control-prev {
-  background: seagreen;
-  width: 5% !important;
-  height: 30px;
-  margin-top: 25%;
+  top:85% !important;
 }
 
-.project-desc{
-  margin-top: 1%;
-  margin-left: 10%;
-  width: 50%;
-  text-align: left;
-}
+@media only screen and (max-width: 750px) {
+  .project-container{
+    display: block !important;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    top:96% !important;
+  }
+  .project-desc{
+    width: 85%;
+    margin: 5%;
+  }
 
-.project-name{
-  color: #e8b923;
-  text-align: left;
-  text-shadow: ;
-  padding-top: 1%;
-  margin-left: 20%;
-  font-weight: bolder;
-  font-family: 'Bowlby One SC', cursive;
-  letter-spacing: .05em;
-  font-size: 42px;
-  text-shadow: 1px 1px 1px black;
-}
-
-#project-img{
-  width: 60%;
-  height: auto;
-  margin-top: 6%;
-  margin-left: 10%;
-}
-#nypd-img{
-  width: 40%;
-  height: auto;
-  margin-top: 3%;
-  margin-left: 10%;
-}
-@media only screen and (max-width: 850px) {
-  .title#highlights {
-    color: seagreen;
-    text-align: left;
-    padding-top: 15%;
-    margin-left: 18%;
-    font-weight: bolder;
-    font-family: 'Satisfy', sans-serif;
-    font-size: 40px;
-    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  #project-img{
+    width: 400px;
+    height: 400px;
+    padding: 7%;
+    margin-left: 0%;
+  }
+  .carousel-indicators {
+    bottom: -2% !important;
   }
   .carousel-indicators li{
     background-color: seagreen !important;
-    height: 15px !important ;
-    width: 5% !important;
-    padding: .3%;
-  }
-  .carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color: seagreen !important;;
-    padding: 1% !important;
-    display: none!important;
-  }
-  .carousel-control-next, .carousel-control-prev {
-    background: none;
-    width: 10% !important;
-    height: 10px;
-    margin-top: 98% !important;
-  }
 
-  .project-desc{
-    position: absolute;
-    margin-top: 1%;
-    margin-left: 10%;
-    width: 50%;
-    text-align: left;
-    font-size: 14px;
-  }
-  .project-name{
-    font-size: 27px;;
-
-  }
-  #project-img{
-    height: 135px;
-    width: 115px;
-    margin-top: 10%;
-    margin-left: 65%;
-  }
-
-  .carousel-control-next, .carousel-control-prev{
-    margin-top:75%;
-  }
-  .dallas-appreciation-title{
-    font-size: 22px;
-  }
-  .Carousel{
-    height: 300px;
   }
 }

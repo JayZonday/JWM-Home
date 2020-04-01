@@ -74,7 +74,7 @@ a:hover{
 
 }
 .quicklinks{
-  margin-left: 16%;
+  margin-left: 12%;
   margin-top: -2%;
   width: 40%;
   z-index: 100;
@@ -199,20 +199,25 @@ a:hover{
     height: 60px;
 
   }
-  .quote, .bet{
-    display: none;
-    position: fixed;
-    margin: 6.2% 0 0 1%;
-    z-index: 5;
-    height: 375px;
-    width: 50%;;
-    background: white;
+  .quicklinks{
+    margin-left: 20%;
+    margin-top: -20%;
+    width: 40%;
+    z-index: 100;
+    padding-bottom: 5%;
+    cursor: pointer;
     opacity: .89;
-    overflow-y: scroll;
-    box-shadow: 2px 15px 25px black;
-    cursor: grab;
-    overflow-x: hidden;
-}
+    display: inline-flex;
+  }
+  .ql-btn{
+    width: 25%;
+    color: seagreen;
+    opacity: .55;
+    font-size: 75px;
+    padding: 1% !important;
+    transition: .3s ease-in-out;
+    margin: 10%;
+  }
 
 
 }
