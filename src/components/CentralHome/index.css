@@ -3,7 +3,7 @@ body{
   font-family: 'Quicksand', sans-serif;
   overflow-x: hidden;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
    #particles{
     display: none;
   }
