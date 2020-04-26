@@ -4,10 +4,10 @@
   background-attachment: fixed;
   background-image: url('https://images.pexels.com/photos/1901028/pexels-photo-1901028.jpeg');*/
   display: none;
-  background-color: #f7d157;
+  background-color: seagreen;
 }
 .title#art{
-  color: seagreen;
+  color: #f7d157;
   text-align: left;
   padding-top: 1%;
   margin-left: 32%;

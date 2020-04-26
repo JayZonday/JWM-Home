@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CentralHome from './components/CentralHome';
-import WebDesign from './components/WebDesign';
 import TopNavbar from './components/TopNavbar'
 import CentralFooter from './components/CentralFooter'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -20,7 +19,6 @@ class App extends Component {
       <TopNavbar/>
         <Switch>
           <Route path='/' exact component={ CentralHome } />
-          <Route path='/web-designs' exact component={ WebDesign } />
         </Switch>
         <CentralFooter/>
       </Router>
