@@ -14,7 +14,7 @@ class SideNavbar extends Component {
     }else{
       document.querySelector('.dev-section').style.display = 'block'
       document.querySelector('.art-section').style.display = 'none'
-      document.querySelector('.carousel-section').style.display = 'none'
+      document.querySelector('.project-section').style.display = 'none'
       document.querySelector('.dev-section').scrollIntoView({behavior: 'smooth', block: 'center'})
     }
   }
@@ -24,18 +24,18 @@ class SideNavbar extends Component {
     }else{
       document.querySelector('.art-section').style.display = 'block'
       document.querySelector('.dev-section').style.display = 'none'
-      document.querySelector('.carousel-section').style.display = 'none'
+      document.querySelector('.project-section').style.display = 'none'
       document.querySelector('.art-section').scrollIntoView({behavior: 'smooth', block: 'center'})
     }
   }
   handleReel = () => {
-    if(document.querySelector('.carousel-section').style.display === 'block'){
-      document.querySelector('.carousel-section').style.display = 'none'
+    if(document.querySelector('.project-section').style.display === 'block'){
+      document.querySelector('.project-section').style.display = 'none'
     }else{
-      document.querySelector('.carousel-section').style.display = 'block'
+      document.querySelector('.project-section').style.display = 'block'
       document.querySelector('.art-section').style.display = 'none'
       document.querySelector('.dev-section').style.display = 'none'
-      document.querySelector('.carousel-section').scrollIntoView({behavior: 'smooth', block: 'center'})
+      document.querySelector('.project-section').scrollIntoView({behavior: 'smooth', block: 'center'})
     }
   }
   handleTop = () => {

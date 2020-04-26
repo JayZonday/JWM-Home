@@ -1,60 +1,27 @@
-.carousel-section{
-  background: whitesmoke;
-  width: 100%;
-  height: auto;
+.project-section{
+  background: white;
 }
-.project-name{
-  font-size: 40px;
+.project{
+  width: 100%;
+  margin: 5% auto;
+}
+.project-title{
+  text-align: center;
   font-family: 'Satisfy', sans-serif;
-  margin: 5%;;
-  font-weight: 500;
+  font-size: 50px;
+  padding-top: 2%;
 }
 .project-desc{
-  width: 50%;
-  margin: 5%;
+  width: 80%;
+  margin: 2% auto;
+  display: block;
+  font-size: 23px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 #project-img{
-  width: 400px;
-  height: 400px;
-  padding: 7%;
-  margin-left: -30%;
-}
-
-.project-container{
-  display: flex !important;
-}
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  background: seagreen !important;
-  border-radius: 100%;
-  margin: 50% auto !important;;
-}
-.carousel-control-next, .carousel-control-prev {
-  top:85% !important;
-}
-
-@media only screen and (max-width: 850px) {
-  .project-container{
-    display: block !important;
-  }
-  .carousel-control-next, .carousel-control-prev {
-    top:96% !important;
-  }
-  .project-desc{
-    width: 85%;
-    margin: 5%;
-  }
-
-  #project-img{
-    width: 400px;
-    height: 400px;
-    padding: 7%;
-    margin-left: 0%;
-  }
-  .carousel-indicators {
-    bottom: -2% !important;
-  }
-  .carousel-indicators li{
-    background-color: seagreen !important;
-
-  }
+  height: 350px;
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
