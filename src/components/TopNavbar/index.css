@@ -55,7 +55,7 @@ a:hover, a:active{
   transition: .35s ease-in-out;
   border: 1px solid transparent;
   justify-content: center;
-  width: 15%;
+  width: 12%;
   text-align: center;
 }
 a:hover{
